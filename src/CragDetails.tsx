@@ -4,7 +4,12 @@ import { crags } from "./Crags";
 
 const CragDetails = () => {
   const { cragName } = useParams();
-  const [crag, setCrag] = useState({});
+  const [crag, setCrag] = useState({
+    id: 0,
+    name: "",
+    displayName: "",
+    about: "",
+  });
   const [notFound, setNotFound] = useState(false);
 
   useEffect(() => {
@@ -13,11 +18,11 @@ const CragDetails = () => {
 
     if (thisCrag) {
       console.log("Crag found:", thisCrag);
+      setCrag(thisCrag);
     } else {
       console.log("Crag not found.");
       setNotFound(true);
     }
-    setCrag(thisCrag);
   }, []);
 
   if (notFound) {
