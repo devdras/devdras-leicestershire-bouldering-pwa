@@ -1,6 +1,6 @@
 import { useParams } from "react-router";
 import { useEffect, useState } from "react";
-import { crags } from "./Crags";
+import { crags } from "./cragData";
 
 const CragDetails = () => {
   const { cragName } = useParams();
