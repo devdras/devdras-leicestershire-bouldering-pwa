@@ -48,3 +48,18 @@ export default tseslint.config({
   },
 });
 ```
+
+## Planning
+
+The hierachy for bouldering info should be:
+
+- Area
+  - Sectors
+    - Blocks
+      - Sections
+        - Routes
+
+Eg the area would be "Bardon Hill"
+The block would be "The Bay"
+The section would be section 1 which consist of routes 5 and 6
+Section 2 consists of routes 7, 8, 9, 10, 11, 12 and 13
