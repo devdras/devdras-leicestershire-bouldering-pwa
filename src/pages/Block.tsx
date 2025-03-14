@@ -58,7 +58,7 @@ const Block = () => {
             {/* pic goes here */}
             <div className="p-2">
               {section.routes.map((route, index) => (
-                <div className="">
+                <div key={index} className="">
                   <div className="flex justify-between">
                     <p className="font-bold">{`${route.number} ${route.displayName} ${route.grade}`}</p>
                     <TickButton />

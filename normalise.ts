@@ -12,11 +12,13 @@ function normalizeData(data) {
   // Deep clone the data to avoid mutating the original
   const normalizedData = JSON.parse(JSON.stringify(data));
 
-  // Specific fixes for the known missing grades
-  const hobbitAreaFixes = {
-    "hobbits-direct": "f5+",
-    "gimlis-dream": "f4",
-  };
+  // // Specific fixes for the known missing grades
+  // const hobbitAreaFixes = {
+  //   "hobbits-direct": "f5+",
+  //   "gimlis-dream": "f4",
+  // };
+
+  // console.log(hobbitAreaFixes)
 
   // Process each area
   normalizedData.forEach((area) => {
