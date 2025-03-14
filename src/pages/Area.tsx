@@ -20,9 +20,28 @@ const Area = () => {
 
   if (thisArea !== null) {
     return (
-      <div className="">
-        <span className="font-bold">{thisArea.displayName}</span>
-        <AreaComponent key={thisArea.name} area={thisArea} />
+      <div className="p-2">
+        <p className="font-bold text-xl">{thisArea.displayName}</p>
+        <div className="">
+          <p className="font-bold">Overview</p>
+          <p>{thisArea.overview}</p>
+        </div>
+        <div className="">
+          <p className="font-bold">Access</p>
+          <p>{thisArea.access}</p>
+        </div>
+        <div className="">
+          <p className="font-bold">Conditions</p>
+          <p>{thisArea.conditions}</p>
+        </div>
+        <div className="">
+          <p className="font-bold">Approach</p>
+          <p>{thisArea.approach}</p>
+        </div>
+        <div className="">
+          <p className="font-bold">Sectors</p>
+          <AreaComponent key={thisArea.name} area={thisArea} />
+        </div>
       </div>
     );
     //return <div className="">{JSON.stringify(thisArea)}</div>;

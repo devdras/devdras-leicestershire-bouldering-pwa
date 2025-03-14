@@ -11,19 +11,55 @@ export const data = [
   {
     name: `cademan-wood-area`,
     displayName: `Cademan Wood Area`,
-    overview: `Area in Leicestershire.`,
-    conditions: ``,
-    approach: ``,
-    access: ``,
+    overview: `The bouldering in Cademan Woods has been extensively climbed
+and developed over the years. A 1993 guide by Geoff Mason and
+Ken Vickers lists a few routes in the woods which are included in
+this guide. More recently, Clint Maskell and Mike Adams have
+transformed the woods into an extensive bouldering venue. The
+problems from their development notes make up the majority of
+the climbs found here. Clint has also been very generous in
+offering advice and information for the guide. `,
+    conditions: `The rock is well sheltered in light rain and extremely quick
+drying. With a good wind problems can go from gopping to bone
+dry in a couple of hours. Some of the problems may need a good
+brush and some occasional gardening, a pair of secateurs and a
+stiff brush can often come in handy and keep the problems from
+falling into disuse. `,
+    approach: `Finding your way around the woods can be tricky. This guide
+uses a description of the approaches, a map and GPS
+coordinates. The GPS coordinates can be found in the approach
+sections and are formatted so that they can be copied into
+Google to bring up a map. The coordinates for sectors such as
+Cademan West or High Cademan will take you to the main
+parking. The coordinates for individual boulders and areas within
+a sector refer to the areas/boulders themselves.`,
+    access: `Cademan Woods has become increasingly popular with climbers,
+however, this increased traffic is presenting a threat to
+continued access. Please keep an eye on the access advice on
+UKC.com which will be more up to date than this guide. Many of
+the issues that come with increased traffic can be addressed if
+we park sensibly and pick up any litter found. Climbers need to
+show that they are having a positive impact on the local
+environment and community.`,
     sectors: [
       {
         name: `cademan-west`,
         displayName: `Cademan West`,
-        overview: `Area in Leicestershire.`,
+        overview: `West is one of the larger sectors of the Woods. There are over 70 problems with a
+good spread of grades ranging from f3 to f7c. The Hidden Wall area offers a good
+warm-up circuit with a few intermediate problems, while Cavalry Rock and the
+Twenty Steps Area offer lines to challenge your average wad. Area classics include
+Gonzo, Big Flake, and Crack of Wales. `,
         conditions: ``,
-        approach: ``,
+        approach: `If you are heading to Cavalry Rock or Hidden wall there may be parking where
+Turolough Road meets Car Hill Road. However, parking here is limited. Alternatively,
+park on Grace Dieu road and approach as for Grimley’s Rock (page 32). If you know
+the area well it would be best to approach all areas as for Grimley’s to keep the
+parking spaces free for others. Note: Local residents are becoming frustrated with
+people parking on the sides of Turolough Road. Please park as for Grimley’s Rock,
+on Grace Dieu Road, if the parking bays are full. `,
         access: ``,
-        gpsCoordinates: ``,
+        gpsCoordinates: `52.7511, -01.3606`,
         blocks: [
           {
             name: `cavalry-rock`,
@@ -742,14 +778,20 @@ fence line you will see the Pirate Block on your left.
           the prow direct.`,
                     grade: `f5`,
                   },
+                ],
+              },
+              {
+                name: `Side face of The Warthog Boulder`,
+                displayName: `Side face of The Warthog Boulder`,
+                routes: [
                   {
                     number: 4,
                     name: `the-warthog`,
                     displayName: `The Warthog`,
                     description: `Grit style compression up the steep face. Stand start with your
-          right hand around the base of the slopey rib and your left, at a
-          similar height, low on the left arête. Fridge-hug up to a good
-          jug and top-out. Avoid the giant foot ledge.`,
+        right hand around the base of the slopey rib and your left, at a
+        similar height, low on the left arête. Fridge-hug up to a good
+        jug and top-out. Avoid the giant foot ledge.`,
                     grade: `f6b+`,
                   },
                   {
@@ -757,17 +799,12 @@ fence line you will see the Pirate Block on your left.
                     name: `backscratcher`,
                     displayName: `Backscratcher`,
                     description: `The steep face of the Warthog boulder without the left arête.
-          Stand start with your right hand at the base of the slopey rib
-          and left on a good sidepull. Pop to the top of the rib and gain
-          the good jug. Finish as per The Warthog. No foot ledge.`,
+        Stand start with your right hand at the base of the slopey rib
+        and left on a good sidepull. Pop to the top of the rib and gain
+        the good jug. Finish as per The Warthog. No foot ledge.`,
                     grade: `f6c`,
                   },
                 ],
-              },
-              {
-                name: `Side face of The Warthog Boulder`,
-                displayName: `Side face of The Warthog Boulder`,
-                routes: [],
               },
             ],
           },

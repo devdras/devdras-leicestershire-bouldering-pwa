@@ -2,13 +2,13 @@ import { type Block as BlockType } from "../types";
 
 const Block = ({ block }: { block: BlockType }) => {
   return (
-    <div>
+    <div className="border">
       <p className="font-bold">{block.displayName}</p>
       <p>{block.overview}</p>
       <div className="">
         {block.sections.map((section) => (
-          <div className="">
-            <p>{section.displayName}</p>
+          <div className="border">
+            <p>Section: {section.displayName}</p>
             <div className="">
               {section.routes.map((route) => (
                 <div className="">
