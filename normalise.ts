@@ -2,7 +2,7 @@
 import fs from "fs";
 import { fileURLToPath } from "url";
 import path from "path";
-import { data } from "./data.js";
+import { data } from "./src/data";
 
 // Get the equivalent of __dirname in ES modules
 const __filename = fileURLToPath(import.meta.url);
