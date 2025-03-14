@@ -15,8 +15,8 @@ const DisplayCard = ({
   const sortedArray = gradeMap(data);
 
   return (
-    <a href={url} className="flex h-40 gap-x-2">
-      <img src={image} alt="" className="w-40 h-40 rounded flex-shrink-0" />
+    <a href={url} className="flex h-64 gap-x-2">
+      <img src={image} alt="" className="w-48 h-48 rounded flex-shrink-0" />
       <div className="flex flex-col flex-grow overflow-hidden">
         <p className="font-bold">{displayName}</p>
         <div className="overflow-x-auto scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-transparent pb-2 flex-grow">

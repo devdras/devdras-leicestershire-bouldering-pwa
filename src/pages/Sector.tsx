@@ -6,9 +6,7 @@ import InfoPiece from "../components/InfoPiece";
 import DisplayCard from "../components/DisplayCard";
 
 const Sector = () => {
-  const { area, sector } = useParams(); // Get URL param
-  console.log(area);
-  console.log(sector);
+  const { area, sector } = useParams();
   const [thisSector, setThisSector] = useState<SectorType | null>(null);
 
   useEffect(() => {
@@ -16,44 +14,53 @@ const Sector = () => {
       (filteredArea: { name: string; sectors: SectorType[] }) =>
         filteredArea.name === area
     );
-    console.log(foundArea);
     const foundSector = foundArea?.sectors.find(
       (filteredSector: { name: string }) => filteredSector.name === sector
     );
 
-    console.log(foundSector);
     setThisSector(foundSector as SectorType);
-  }, [area]); // Re-run effect when `area` changes
+  }, [area, sector]); // Also listen for `sector` changes
 
   if (!thisSector) {
-    return null;
+    return <div className="text-center text-lg py-4">Sector not found</div>;
   }
 
   return (
-    <div className="p-2 flex flex-col gap-y-2">
-      <div className="flex justify-between items-center">
-        <p className="font-bold text-xl">{thisSector.displayName}</p>
-        <p className="text-sm">{thisSector.gpsCoordinates}</p>
+    <div className="p-4 flex flex-col gap-y-4">
+      {/* Header */}
+      <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center">
+        <p className="font-bold text-2xl sm:text-3xl">
+          {thisSector.displayName}
+        </p>
+        <p className="text-base text-gray-600 truncate max-w-full sm:max-w-xs">
+          {thisSector.gpsCoordinates}
+        </p>
       </div>
 
-      <InfoPiece title={"Overview"} info={thisSector.overview} />
-      <InfoPiece title={"Access"} info={thisSector.access} />
-      <InfoPiece title={"Conditions"} info={thisSector.conditions} />
-      <InfoPiece title={"Approach"} info={thisSector.approach} />
+      {/* Info Sections */}
+      <InfoPiece title="Overview" info={thisSector.overview} />
+      <InfoPiece title="Access" info={thisSector.access} />
+      <InfoPiece title="Conditions" info={thisSector.conditions} />
+      <InfoPiece title="Approach" info={thisSector.approach} />
 
-      <div className="flex flex-col gap-y-2">
-        <p className="font-bold">Blocks</p>
-        {thisSector.blocks.map((block) => (
-          <DisplayCard
-            displayName={block.displayName}
-            image={`/altar-stones-header.png`}
-            url={`/${area}/${sector}/${block.name}`}
-            data={block.sections}
-          />
-        ))}
+      {/* Blocks Section */}
+      <div className="flex flex-col gap-y-3">
+        <p className="font-bold text-lg">Blocks</p>
+        <div className="flex gap-4 overflow-x-auto pb-2">
+          {thisSector.blocks.map((block) => (
+            <DisplayCard
+              key={block.name}
+              displayName={block.displayName}
+              image={`/altar-stones-header.png`}
+              url={`/${area}/${sector}/${block.name}`}
+              data={block.sections}
+              // Ensures proper horizontal scrolling
+            />
+          ))}
+        </div>
       </div>
-      {JSON.stringify(thisSector.blocks) || "No sector found"}
     </div>
   );
 };
+
 export default Sector;
