@@ -1,5 +1,4 @@
 import { data } from "../data";
-import { Settings } from "lucide-react";
 import Area from "../components/Area";
 import { Area as AreaType } from "../types";
 
