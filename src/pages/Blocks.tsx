@@ -48,7 +48,7 @@ const Blocks = () => {
   }
 
   return (
-    <div className="flex flex-col gap-y-2 ">
+    <div className="flex flex-col">
       {/* Breadcrumb navigation */}
       <div className="flex items-center gap-2 text-sm text-gray-500 p-2">
         <a href={`/areas/${areaName}`} className="hover:underline">
@@ -67,7 +67,7 @@ const Blocks = () => {
         </span>
       </div>
 
-      <div className="flex justify-between items-center p-2">
+      <div className="flex justify-between items-center px-2">
         <p className="font-bold text-xl">{thisBlock.displayName}</p>
         <p className="text-sm">{thisBlock.gpsCoordinates}</p>
       </div>
@@ -85,7 +85,11 @@ const Blocks = () => {
             <p className="font-bold bg-gray-200 rounded p-2">
               {section.displayName}
             </p>
-            {/* pic goes here */}
+            <div className="">
+              <img
+                src={`/${areaName}/${sectorName}/${thisBlock.name}/${section.name}/topo.webp`}
+              />
+            </div>
             <div className="p-2">
               {section.routes.map((route, index) => (
                 <div key={index} className="mb-3">

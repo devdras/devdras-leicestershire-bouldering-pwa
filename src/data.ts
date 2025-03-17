@@ -75,8 +75,8 @@ on Grace Dieu Road, if the parking bays are full. `,
             gpsCoordinates: ``,
             sections: [
               {
-                name: `Section 1`,
-                displayName: `section-1`,
+                name: `main-face`,
+                displayName: `Main Face`,
                 routes: [
                   {
                     number: 1,
@@ -115,6 +115,12 @@ on Grace Dieu Road, if the parking bays are full. `,
   `,
                     grade: `f5+`,
                   },
+                ],
+              },
+              {
+                name: `path-facing-side`,
+                displayName: `Path Facing Side`,
+                routes: [
                   {
                     number: 5,
                     name: `whale-fin`,

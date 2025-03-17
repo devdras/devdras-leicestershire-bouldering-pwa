@@ -4,7 +4,7 @@ import DisplayCard from "./DisplayCard";
 const Area = ({ area }: { area: AreaType }) => {
   return (
     <div>
-      <div className="gap-y-1 flex flex-col pb-1 mt-2">
+      <div className="gap-y-2 flex flex-col pb-1 mt-2">
         {area.sectors.map((sector) => (
           <DisplayCard
             displayName={sector.displayName}
