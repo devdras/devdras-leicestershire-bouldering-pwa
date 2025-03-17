@@ -4,6 +4,7 @@ import { data } from "../data";
 import type { Sector as SectorType } from "../types";
 import InfoPiece from "../components/InfoPiece";
 import DisplayCard from "../components/DisplayCard";
+import ConditionalImage from "../components/ConditionalImage";
 
 const Sectors = () => {
   const { areaName, sectorName } = useParams(); // Updated param names
@@ -65,6 +66,11 @@ const Sectors = () => {
       <InfoPiece title={"Access"} info={thisSector.access} />
       <InfoPiece title={"Conditions"} info={thisSector.conditions} />
       <InfoPiece title={"Approach"} info={thisSector.approach} />
+
+      <ConditionalImage
+        src={`/${areaName}/${sectorName}/map.webp`}
+        alt={thisSector.displayName}
+      />
 
       <div className="flex flex-col gap-y-2">
         <p className="font-bold">Blocks</p>

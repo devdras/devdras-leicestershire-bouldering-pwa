@@ -85,7 +85,7 @@ const Blocks = () => {
             <p className="font-bold bg-gray-200 rounded p-2">
               {section.displayName}
             </p>
-            <div className="">
+            <div className="w-full flex justify-center">
               <img
                 src={`/${areaName}/${sectorName}/${thisBlock.name}/${section.name}/topo.webp`}
               />
