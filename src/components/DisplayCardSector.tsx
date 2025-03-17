@@ -22,7 +22,7 @@ const DisplayCardSector = ({
           <img
             src={image}
             alt=""
-            className="w-48 h-48 rounded flex-shrink-0 object-cover"
+            className="w-40 h-40 rounded flex-shrink-0 object-cover"
           />
           <SimpleBarChart data={sortedArray} />
         </div>
