@@ -3,14 +3,13 @@ import DisplayCard from "./DisplayCard";
 
 const Area = ({ area }: { area: AreaType }) => {
   return (
-    <div className="w-full">
-      <div className="gap-y-2 flex flex-col border-b pb-1">
+    <div>
+      <div className="gap-y-1 flex flex-col pb-1 mt-2">
         {area.sectors.map((sector) => (
-          // <Sector key={sector.name} area={area.name} sector={sector} />
           <DisplayCard
             displayName={sector.displayName}
             image={`/altar-stones-header.png`}
-            url={`/${area.name}/${sector.name}`}
+            url={`/areas/${area.name}/${sector.name}`}
             data={sector.blocks}
           />
         ))}

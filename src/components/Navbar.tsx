@@ -1,45 +1,26 @@
 import type React from "react";
-import { useState, useEffect } from "react";
+
+import { useState } from "react";
 import { Menu, X, Mountain, Search } from "lucide-react";
+import { Outlet, useLocation } from "react-router";
 
 interface NavLink {
   name: string;
   path: string;
 }
 
-interface NavbarProps {
-  children: React.ReactNode;
-}
-
-const Navbar = ({ children }: NavbarProps) => {
+const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [currentPath, setCurrentPath] = useState("");
   const [searchQuery, setSearchQuery] = useState("");
+  const location = useLocation();
+  const currentPath = location.pathname;
 
   // Navigation links array
   const navLinks: NavLink[] = [
     { name: "Home", path: "/" },
-    { name: "Areas", path: "/areas" },
-    { name: "Map", path: "/map" },
     { name: "About", path: "/about" },
+    { name: "Data Export", path: "/data-export" },
   ];
-
-  // Update current path when component mounts and when URL changes
-  useEffect(() => {
-    const updateCurrentPath = () => {
-      setCurrentPath(window.location.pathname);
-    };
-
-    // Set initial path
-    updateCurrentPath();
-
-    // Listen for URL changes (for single-page apps)
-    window.addEventListener("popstate", updateCurrentPath);
-
-    return () => {
-      window.removeEventListener("popstate", updateCurrentPath);
-    };
-  }, []);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -47,14 +28,8 @@ const Navbar = ({ children }: NavbarProps) => {
 
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
-    // You can access currentPath here to know which page the search was initiated from
     console.log(`Searching for "${searchQuery}" from page: ${currentPath}`);
-
-    // Implement your search logic here
-    // For example, you could redirect to a search results page:
-    // window.location.href = `/search?q=${encodeURIComponent(searchQuery)}&from=${encodeURIComponent(currentPath)}`;
-
-    // Or you could pass the search query to a parent component via props/context
+    // Implement search logic here
   };
 
   return (
@@ -99,7 +74,8 @@ const Navbar = ({ children }: NavbarProps) => {
                   key={link.path}
                   href={link.path}
                   className={`hover:text-amber-400 transition-colors ${
-                    currentPath === link.path
+                    currentPath === link.path ||
+                    (link.path !== "/" && currentPath.startsWith(link.path))
                       ? "text-amber-400 font-medium"
                       : ""
                   }`}
@@ -165,7 +141,10 @@ const Navbar = ({ children }: NavbarProps) => {
                 key={link.path}
                 href={link.path}
                 className={`px-2 py-1 hover:bg-slate-600 rounded transition-colors ${
-                  currentPath === link.path ? "bg-slate-600 font-medium" : ""
+                  currentPath === link.path ||
+                  (link.path !== "/" && currentPath.startsWith(link.path))
+                    ? "bg-slate-600 font-medium"
+                    : ""
                 }`}
                 onClick={() => setIsMenuOpen(false)}
               >
@@ -177,7 +156,9 @@ const Navbar = ({ children }: NavbarProps) => {
       </header>
 
       {/* Page Content */}
-      <main className="flex-grow">{children}</main>
+      <main className="flex-grow">
+        <Outlet />
+      </main>
 
       {/* Footer */}
       <footer className="bg-slate-800 text-white py-4 text-center text-sm">

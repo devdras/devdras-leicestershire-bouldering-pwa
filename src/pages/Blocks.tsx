@@ -2,41 +2,71 @@ import InfoPiece from "../components/InfoPiece";
 import { useParams } from "react-router";
 import { useEffect, useState } from "react";
 import { data } from "../data";
-import { type Block as BlockType, type Sector as SectorType } from "../types";
+import type { Block as BlockType, Sector as SectorType } from "../types";
 import TickButton from "../components/TickButton";
 
 const Blocks = () => {
-  const { area, sector, block } = useParams(); // Get URL param
-  console.log(area);
-  console.log(sector);
-  console.log(block);
-
+  const { areaName, sectorName, blockName } = useParams(); // Updated param names
   const [thisBlock, setThisBlock] = useState<BlockType | null>(null);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const foundArea = data.find(
       (filteredArea: { name: string; sectors: SectorType[] }) =>
-        filteredArea.name === area
+        filteredArea.name === areaName
     );
-    console.log(foundArea);
+
     const foundSector = foundArea?.sectors.find(
-      (filteredSector: { name: string }) => filteredSector.name === sector
+      (filteredSector: { name: string }) => filteredSector.name === sectorName
     );
 
     const foundBlock = foundSector?.blocks.find(
-      (filteredBlock: { name: string }) => filteredBlock.name === block
+      (filteredBlock: { name: string }) => filteredBlock.name === blockName
     );
 
-    console.log(foundBlock);
     setThisBlock(foundBlock as BlockType);
-  }, [area]); // Re-run effect when `area` changes
+    setLoading(false);
+  }, [areaName, sectorName, blockName]); // Updated dependency array
+
+  if (loading) {
+    return <div className="p-4">Loading...</div>;
+  }
 
   if (!thisBlock) {
-    return null;
+    return (
+      <div className="p-4">
+        <h2 className="text-xl font-bold mb-2">Block not found</h2>
+        <p>The requested block could not be found.</p>
+        <a
+          href={`/areas/${areaName}/${sectorName}`}
+          className="text-blue-500 hover:underline mt-4 inline-block"
+        >
+          Return to sector
+        </a>
+      </div>
+    );
   }
 
   return (
     <div className="flex flex-col gap-y-2 ">
+      {/* Breadcrumb navigation */}
+      <div className="flex items-center gap-2 text-sm text-gray-500 p-2">
+        <a href={`/areas/${areaName}`} className="hover:underline">
+          {areaName}
+        </a>
+        <span>›</span>
+        <a
+          href={`/areas/${areaName}/${sectorName}`}
+          className="hover:underline"
+        >
+          {sectorName}
+        </a>
+        <span>›</span>
+        <span className="font-medium text-gray-700">
+          {thisBlock.displayName}
+        </span>
+      </div>
+
       <div className="flex justify-between items-center p-2">
         <p className="font-bold text-xl">{thisBlock.displayName}</p>
         <p className="text-sm">{thisBlock.gpsCoordinates}</p>
@@ -58,7 +88,7 @@ const Blocks = () => {
             {/* pic goes here */}
             <div className="p-2">
               {section.routes.map((route, index) => (
-                <div key={index} className="">
+                <div key={index} className="mb-3">
                   <div className="flex justify-between">
                     <p className="font-bold">{`${route.number} ${route.displayName} ${route.grade}`}</p>
                     <TickButton />
@@ -74,4 +104,5 @@ const Blocks = () => {
     </div>
   );
 };
+
 export default Blocks;

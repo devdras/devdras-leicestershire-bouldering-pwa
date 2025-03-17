@@ -1,36 +1,61 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router";
 import { data } from "../data";
-import { type Sector as SectorType } from "../types";
+import type { Sector as SectorType } from "../types";
 import InfoPiece from "../components/InfoPiece";
 import DisplayCard from "../components/DisplayCard";
 
 const Sectors = () => {
-  const { area, sector } = useParams(); // Get URL param
-  console.log(area);
-  console.log(sector);
+  const { areaName, sectorName } = useParams(); // Updated param names
   const [thisSector, setThisSector] = useState<SectorType | null>(null);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const foundArea = data.find(
       (filteredArea: { name: string; sectors: SectorType[] }) =>
-        filteredArea.name === area
-    );
-    console.log(foundArea);
-    const foundSector = foundArea?.sectors.find(
-      (filteredSector: { name: string }) => filteredSector.name === sector
+        filteredArea.name === areaName
     );
 
-    console.log(foundSector);
+    const foundSector = foundArea?.sectors.find(
+      (filteredSector: { name: string }) => filteredSector.name === sectorName
+    );
+
     setThisSector(foundSector as SectorType);
-  }, [area]); // Re-run effect when `area` changes
+    setLoading(false);
+  }, [areaName, sectorName]); // Updated dependency array
+
+  if (loading) {
+    return <div className="p-4">Loading...</div>;
+  }
 
   if (!thisSector) {
-    return null;
+    return (
+      <div className="p-4">
+        <h2 className="text-xl font-bold mb-2">Sector not found</h2>
+        <p>The requested sector could not be found.</p>
+        <a
+          href={`/areas/${areaName}`}
+          className="text-blue-500 hover:underline mt-4 inline-block"
+        >
+          Return to area
+        </a>
+      </div>
+    );
   }
 
   return (
     <div className="p-2 flex flex-col gap-y-2">
+      {/* Breadcrumb navigation */}
+      <div className="flex items-center gap-2 text-sm text-gray-500 mb-2">
+        <a href={`/areas/${areaName}`} className="hover:underline">
+          {areaName}
+        </a>
+        <span>›</span>
+        <span className="font-medium text-gray-700">
+          {thisSector.displayName}
+        </span>
+      </div>
+
       <div className="flex justify-between items-center">
         <p className="font-bold text-xl">{thisSector.displayName}</p>
         <p className="text-sm">{thisSector.gpsCoordinates}</p>
@@ -43,11 +68,12 @@ const Sectors = () => {
 
       <div className="flex flex-col gap-y-2">
         <p className="font-bold">Blocks</p>
-        {thisSector.blocks.map((block) => (
+        {thisSector.blocks.map((block, index) => (
           <DisplayCard
+            key={index}
             displayName={block.displayName}
             image={`/altar-stones-header.png`}
-            url={`/${area}/${sector}/${block.name}`}
+            url={`/areas/${areaName}/${sectorName}/${block.name}`}
             data={block.sections}
           />
         ))}
@@ -55,4 +81,5 @@ const Sectors = () => {
     </div>
   );
 };
+
 export default Sectors;

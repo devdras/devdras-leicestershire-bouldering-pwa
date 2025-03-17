@@ -7,7 +7,7 @@ const Areas = () => {
     <div className="p-2 flex flex-col gap-y-2">
       {data.map((area) => (
         <div className="">
-          <a href={`/${area.name}`} className="font-bold">
+          <a href={`/areas/${area.name}`} className="font-bold">
             {area.displayName}
           </a>
           <Area key={area.name} area={area as AreaType} />

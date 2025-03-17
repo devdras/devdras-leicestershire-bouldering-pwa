@@ -1,5 +1,5 @@
 import SimpleBarChart from "./SimpleBarChart";
-import { gradeMap } from "../lib/gradeMap";
+import { gradeMap } from "../utils/gradeMap";
 
 const DisplayCard = ({
   displayName,
