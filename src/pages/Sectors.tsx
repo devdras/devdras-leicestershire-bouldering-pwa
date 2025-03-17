@@ -3,7 +3,7 @@ import { useParams } from "react-router";
 import { data } from "../data";
 import type { Sector as SectorType } from "../types";
 import InfoPiece from "../components/InfoPiece";
-import DisplayCard from "../components/DisplayCard";
+import DisplayCardBlock from "../components/DisplayCardBlock";
 import ConditionalImage from "../components/ConditionalImage";
 
 const Sectors = () => {
@@ -75,12 +75,11 @@ const Sectors = () => {
       <div className="flex flex-col gap-y-2">
         <p className="font-bold">Blocks</p>
         {thisSector.blocks.map((block, index) => (
-          <DisplayCard
+          <DisplayCardBlock
             key={index}
-            displayName={block.displayName}
-            image={`/altar-stones-header.png`}
-            url={`/areas/${areaName}/${sectorName}/${block.name}`}
-            data={block.sections}
+            area={areaName || ""}
+            sector={sectorName || ""}
+            block={block}
           />
         ))}
       </div>
