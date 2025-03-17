@@ -165,8 +165,8 @@ path on the left which takes you to the top of Hidden Wall.
             gpsCoordinates: `52.7505, -01.3586`,
             sections: [
               {
-                name: `Orinoco`,
-                displayName: `orinoco`,
+                name: `orinoco`,
+                displayName: `Orinoco`,
                 routes: [
                   {
                     number: 1,
@@ -179,8 +179,8 @@ path on the left which takes you to the top of Hidden Wall.
                 ],
               },
               {
-                name: `bulgaria`,
-                displayName: `Bulgaria`,
+                name: `bulgaria-1`,
+                displayName: `Bulgaria 1`,
                 routes: [
                   {
                     number: 2,
@@ -213,8 +213,8 @@ path on the left which takes you to the top of Hidden Wall.
                 ],
               },
               {
-                name: `hidden-wall-1`,
-                displayName: `Hidden Wall 1`,
+                name: `bulgaria-2`,
+                displayName: `Bulgaria 2`,
                 routes: [
                   {
                     number: 1,
@@ -265,8 +265,8 @@ path on the left which takes you to the top of Hidden Wall.
                 ],
               },
               {
-                name: `hidden-wall-2`,
-                displayName: `Hidden Wall 2`,
+                name: `hidden-wall`,
+                displayName: `Hidden Wall`,
 
                 routes: [
                   {
@@ -363,8 +363,8 @@ fence line you will see the Pirate Block on your left.
             gpsCoordinates: `52.7497, -01.3590`,
             sections: [
               {
-                name: `Section 1`,
-                displayName: `section-1`,
+                name: `section-1`,
+                displayName: `Section 1`,
                 routes: [
                   {
                     number: 1,
@@ -433,8 +433,8 @@ fence line you will see the Pirate Block on your left.
             gpsCoordinates: `52.7497, -01.3586`,
             sections: [
               {
-                name: `Section 1`,
-                displayName: `section-1`,
+                name: `section-1`,
+                displayName: `Section 1`,
                 routes: [
                   {
                     number: 1,
@@ -531,8 +531,8 @@ fence line you will see the Pirate Block on your left.
             gpsCoordinates: `52.7497, -01.3586`,
             sections: [
               {
-                name: `Section 1`,
-                displayName: `section-1`,
+                name: `section-1`,
+                displayName: `Section 1`,
                 routes: [
                   {
                     number: 1,
@@ -756,7 +756,7 @@ fence line you will see the Pirate Block on your left.
             gpsCoordinates: `52.7496, -01.3569`,
             sections: [
               {
-                name: `Front face of The Warthog Boulder`,
+                name: `front-face-of-the-warthog-boulder`,
                 displayName: `Front face of The Warthog Boulder`,
                 routes: [
                   {
@@ -787,7 +787,7 @@ fence line you will see the Pirate Block on your left.
                 ],
               },
               {
-                name: `Side face of The Warthog Boulder`,
+                name: `side-face-of-the-warthog-boulder`,
                 displayName: `Side face of The Warthog Boulder`,
                 routes: [
                   {
@@ -827,8 +827,8 @@ fence line you will see the Pirate Block on your left.
             gpsCoordinates: `52.7490, -01.3555`,
             sections: [
               {
-                name: `section-1`,
-                displayName: `Section 1`,
+                name: `front-face-of-gonzo`,
+                displayName: `Front Face of Gonzo`,
                 routes: [
                   {
                     number: 1,
@@ -853,6 +853,12 @@ fence line you will see the Pirate Block on your left.
                     description: `Sit-start the right arête using anything in reach.`,
                     grade: `f3`,
                   },
+                ],
+              },
+              {
+                name: `back-face-of-gonzo`,
+                displayName: `Back Face of Gonzo`,
+                routes: [
                   {
                     number: 4,
                     name: `gonzos-back-arete`,
@@ -865,15 +871,21 @@ fence line you will see the Pirate Block on your left.
                     name: `gonzo`,
                     displayName: `Gonzo`,
                     description: `An excellent problem. From a sit-start, climb the back of the
-          hanging arête.`,
+        hanging arête.`,
                     grade: `f5+`,
                   },
+                ],
+              },
+              {
+                name: `rizzo-the-rat`,
+                displayName: `Rizzo the Rat`,
+                routes: [
                   {
                     number: 6,
                     name: `rizzo-the-rat`,
                     displayName: `Rizzo the Rat`,
                     description: `Sit-start/hang the jug and reach the left arête. Finish by mantling
-          the prow straight on. Avoid the detached blocks.`,
+        the prow straight on. Avoid the detached blocks.`,
                     grade: `f5`,
                   },
                   {
@@ -881,8 +893,8 @@ fence line you will see the Pirate Block on your left.
                     name: `swing-the-rat`,
                     displayName: `Swing the Rat`,
                     description: `Sit-start using the right arête and the starting ledge of Rizzo the Rat.
-          Swing onto the jug and finish up Rizzo the Rat. Avoid the detached
-          blocks.`,
+        Swing onto the jug and finish up Rizzo the Rat. Avoid the detached
+        blocks.`,
                     grade: `f6a`,
                   },
                 ],
@@ -900,8 +912,8 @@ fence line you will see the Pirate Block on your left.
             gpsCoordinates: `52.7489, -01.3565`,
             sections: [
               {
-                name: `section-1`,
-                displayName: `Section 1`,
+                name: `side-wall-of-regs-crack-boulder`,
+                displayName: `Side wall of Reg’s Crack Boulder`,
                 routes: [
                   {
                     number: 1,
@@ -918,6 +930,20 @@ fence line you will see the Pirate Block on your left.
           same grade.`,
                     grade: `f3`,
                   },
+                ],
+              },
+              {
+                name: `front-face-of-regs-crack-boulder`,
+                displayName: `Front face of Reg’s Crack Boulder`,
+                routes: [
+                  {
+                    number: 2,
+                    name: `regs-arete`,
+                    displayName: `Reg’s Arête`,
+                    description: `Climb the big arête from standing. Can be climbed on either side at the
+          same grade.`,
+                    grade: `f3`,
+                  },
                   {
                     number: 3,
                     name: `regs-crack`,
@@ -925,6 +951,12 @@ fence line you will see the Pirate Block on your left.
                     description: `The crack from a stand-start.`,
                     grade: `f3+`,
                   },
+                ],
+              },
+              {
+                name: `reg-and-the-bull`,
+                displayName: `Reg and the Bull`,
+                routes: [
                   {
                     number: 4,
                     name: `whirlybird`,
