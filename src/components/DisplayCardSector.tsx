@@ -20,7 +20,7 @@ const DisplayCardSector = ({
       <div className="flex flex-col flex-grow overflow-hidden">
         <p className="font-bold">{displayName}</p>
         <div className="overflow-x-auto scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-transparent pb-2 flex-grow">
-          <div className="scroll-smooth touch-pan-x touch-pan-y overflow-x-auto p-1 h-full">
+          <div className="w-full scroll-smooth touch-pan-x touch-pan-y overflow-x-auto p-1 h-full">
             <SimpleBarChart data={sortedArray} />
           </div>
         </div>
