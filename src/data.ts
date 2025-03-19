@@ -3259,12 +3259,12 @@ Avoiding the left block is f6a+.`,
               },
               {
                 name: `curving-arete`,
-                displayName: `Curving arête`,
+                displayName: `Curving Arête`,
                 routes: [
                   {
                     number: 6,
                     name: `curving-arete`,
-                    displayName: `Curving arête`,
+                    displayName: `Curving Arête`,
                     description: `Sit-start the arête on its right side. Avoid the low blocks (see red line in photo)`,
                     grade: `f6c`,
                   },
@@ -3291,8 +3291,8 @@ Avoiding the left block is f6a+.`,
                 ],
               },
               {
-                name: `sweet-dee-slab`,
-                displayName: `Sweet Dee Slab`,
+                name: `sweet-dees-slab`,
+                displayName: `Sweet Dee's Slab`,
                 routes: [
                   {
                     number: 2,
