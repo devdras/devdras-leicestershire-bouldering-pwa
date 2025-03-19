@@ -1000,8 +1000,8 @@ and park sensibly. `,
             gpsCoordinates: `52.7524, -01.3559`,
             sections: [
               {
-                name: `section-1`,
-                displayName: `Section 1`,
+                name: `the-front-blocks-of-the-pillar-area`,
+                displayName: `The Front Blocks of the Pillar Area`,
                 routes: [
                   {
                     number: 1,
@@ -1015,8 +1015,8 @@ and park sensibly. `,
                     name: `thrilling-traverse`,
                     displayName: `Thrilling Traverse`,
                     description: `Start up Not so Thriller and traverse left,
-          past The Pillar to finish on the left side of
-          the vague arête.`,
+        past The Pillar to finish on the left side of
+        the vague arête.`,
                     grade: `f5`,
                   },
                   {
@@ -1024,7 +1024,7 @@ and park sensibly. `,
                     name: `the-pillar`,
                     displayName: `The Pillar`,
                     description: `Climb direct between the two vague arêtes
-          from a sit-start.`,
+        from a sit-start.`,
                     grade: `f5`,
                   },
                   {
@@ -1032,7 +1032,7 @@ and park sensibly. `,
                     name: `not-so-thriller`,
                     displayName: `Not so Thriller`,
                     description: `Sit start the vague right arête without the
-          low foot blocks.`,
+        low foot blocks.`,
                     grade: `f5`,
                   },
                   {
@@ -1040,8 +1040,8 @@ and park sensibly. `,
                     name: `lowest-of-the-low`,
                     displayName: `Lowest of the Low`,
                     description: `Sit-start as for Lip Up and traverse
-          leftwards across the lip. Mantle to finish on
-          the right side.`,
+        leftwards across the lip. Mantle to finish on
+        the right side.`,
                     grade: `f6a`,
                   },
                   {
@@ -1049,17 +1049,23 @@ and park sensibly. `,
                     name: `lip-up`,
                     displayName: `Lip Up`,
                     description: `A tiny but surprisingly good problem.
-          Sit-start the front of the block and
-          mantle straight over. Good for little
-          ones.`,
+        Sit-start the front of the block and
+        mantle straight over. Good for little
+        ones.`,
                     grade: `f4`,
                   },
+                ],
+              },
+              {
+                name: `the-back-wall-of-the-pillar-area`,
+                displayName: `The Back Wall of the Pillar Area`,
+                routes: [
                   {
                     number: 7,
                     name: `no-thrills`,
                     displayName: `No Thrills`,
                     description: `An awkward sit-start off the right arête
-          and a low left ledge. A poor problem.`,
+        and a low left ledge. A poor problem.`,
                     grade: `f4`,
                   },
                   {
@@ -1067,18 +1073,13 @@ and park sensibly. `,
                     name: `thriller`,
                     displayName: `Thriller`,
                     description: `A good compression problem on the
-          short steep wall. Sit-start the wall using
-          both arêtes and a bad smear. Avoid the
-          foot blocks and anything either side of
-          the two arêtes.`,
+        short steep wall. Sit-start the wall using
+        both arêtes and a bad smear. Avoid the
+        foot blocks and anything either side of
+        the two arêtes.`,
                     grade: `f6a`,
                   },
                 ],
-              },
-              {
-                name: `The front blocks of the Pillar Area`,
-                displayName: `The front blocks of the Pillar Area`,
-                routes: [],
               },
             ],
           },
@@ -1148,8 +1149,8 @@ and park sensibly. `,
             gpsCoordinates: `52.7515, -01.3567`,
             sections: [
               {
-                name: `section-1`,
-                displayName: `Section 1`,
+                name: `tron`,
+                displayName: `Tron`,
                 routes: [
                   {
                     number: 1,
@@ -1177,6 +1178,12 @@ and park sensibly. `,
           blocks.`,
                     grade: `f6b`,
                   },
+                ],
+              },
+              {
+                name: `scrub`,
+                displayName: `scrub`,
+                routes: [
                   {
                     number: 4,
                     name: `strange-brew`,
@@ -1215,9 +1222,23 @@ and park sensibly. `,
             gpsCoordinates: `52.7515, -01.3572`,
             sections: [
               {
-                name: `Gully Block`,
-                displayName: `Gully Block`,
+                name: `the-shield`,
+                displayName: `The Shield`,
                 routes: [
+                  {
+                    number: 1,
+                    name: `diamond-shield`,
+                    displayName: `Diamond Shield`,
+                    description: `Climb the twin arêtes from standing. You
+          can use the foot blocks directly beneath
+          the shield but not the block out left.
+          Diamond Shield and its variants can be
+          started from sitting but it’s awkward and
+          adds nothing to the grades. All of the
+          variants described here use the undercuts
+          beneath the left arête.`,
+                    grade: `f5+`,
+                  },
                   {
                     number: `1a`,
                     name: `diamond-left`,
@@ -1251,26 +1272,6 @@ and park sensibly. `,
                   },
                 ],
               },
-              {
-                name: `section-1`,
-                displayName: `Section 1`,
-                routes: [
-                  {
-                    number: 1,
-                    name: `diamond-shield`,
-                    displayName: `Diamond Shield`,
-                    description: `Climb the twin arêtes from standing. You
-          can use the foot blocks directly beneath
-          the shield but not the block out left.
-          Diamond Shield and its variants can be
-          started from sitting but it’s awkward and
-          adds nothing to the grades. All of the
-          variants described here use the undercuts
-          beneath the left arête.`,
-                    grade: `f5+`,
-                  },
-                ],
-              },
             ],
           },
           {
@@ -1283,8 +1284,8 @@ and park sensibly. `,
             gpsCoordinates: `52.7516, -01.3568`,
             sections: [
               {
-                name: `section-1`,
-                displayName: `Section 1`,
+                name: `front-face-of-the-gully-block`,
+                displayName: `Front face of the Gully Block`,
                 routes: [
                   {
                     number: 3,
@@ -1310,6 +1311,12 @@ and park sensibly. `,
                     description: `The slabby rib from standing. A good problem for kids.`,
                     grade: `f2`,
                   },
+                ],
+              },
+              {
+                name: `back-prow-on-the-gully-block`,
+                displayName: `Back Prow on the Gully Block`,
+                routes: [
                   {
                     number: 6,
                     name: `gully-prow`,
@@ -1725,8 +1732,8 @@ and park sensibly. `,
             gpsCoordinates: `52.7531, -01.3569`,
             sections: [
               {
-                name: `section-1`,
-                displayName: `Section 1`,
+                name: `duplo`,
+                displayName: `Duplo`,
                 routes: [
                   {
                     number: 1,
@@ -1735,6 +1742,12 @@ and park sensibly. `,
                     description: `From the detached block beneath the wall, climb up using the two arêtes and eliminating the two detached blocks on the right (see red line in the image). Eliminating the arêtes of both the main block and the block it sits upon produces a crimpy f6a face climb (harder for the short of arse).`,
                     grade: `f3`,
                   },
+                ],
+              },
+              {
+                name: `hobbit-block-and-gimlis-dream`,
+                displayName: `Hobbit Block and Gimli’s Dream`,
+                routes: [
                   {
                     number: 2,
                     name: `saurons-swing`,
@@ -1770,8 +1783,8 @@ and park sensibly. `,
             gpsCoordinates: `52.7532, -01.3570`,
             sections: [
               {
-                name: `section-1`,
-                displayName: `Section 1`,
+                name: `hobicide-prow`,
+                displayName: `Hobicide Prow`,
                 routes: [
                   {
                     number: 1,
@@ -1794,6 +1807,12 @@ and park sensibly. `,
                     description: `Sit-start the right arête.`,
                     grade: `f4`,
                   },
+                ],
+              },
+              {
+                name: `hobnob-boulder`,
+                displayName: `Hobnob Boulder`,
+                routes: [
                   {
                     number: 4,
                     name: `jug-life`,
@@ -1815,8 +1834,28 @@ and park sensibly. `,
             gpsCoordinates: `52.7532, -01.3573`,
             sections: [
               {
-                name: `section-1`,
-                displayName: `Section 1`,
+                name: `rare-slab`,
+                displayName: `Rare Slab`,
+                routes: [
+                  {
+                    number: 2,
+                    name: `rare-slab`,
+                    displayName: `Rare Slab`,
+                    description: `Start standing to the right of the small block. Climb the slab direct.`,
+                    grade: `f3+`,
+                  },
+                  {
+                    number: 3,
+                    name: `rare-slab-arete`,
+                    displayName: `Rare Slab Arête`,
+                    description: `Climb the right arête from standing. The sit-start is a poor f6b.`,
+                    grade: `f3`,
+                  },
+                ],
+              },
+              {
+                name: `eliminates`,
+                displayName: `Eliminates`,
                 routes: [
                   {
                     number: 1,
@@ -1831,20 +1870,6 @@ and park sensibly. `,
                     displayName: `Hob’s Contrivance`,
                     description: `Climb Hob’s Traverse, with all its dumb rules, further eliminating holds marked A and B in the image to the left.`,
                     grade: `f6a+`,
-                  },
-                  {
-                    number: 2,
-                    name: `rare-slab`,
-                    displayName: `Rare Slab`,
-                    description: `Start standing to the right of the small block. Climb the slab direct.`,
-                    grade: `f3+`,
-                  },
-                  {
-                    number: 3,
-                    name: `rare-slab-arete`,
-                    displayName: `Rare Slab Arête`,
-                    description: `Climb the right arête from standing. The sit-start is a poor f6b.`,
-                    grade: `f3`,
                   },
                 ],
               },
@@ -1923,8 +1948,8 @@ and park sensibly. `,
             gpsCoordinates: `52.7482, -01.3582`,
             sections: [
               {
-                name: `section-1`,
-                displayName: `Section 1`,
+                name: `grimleys-rock-left-side`,
+                displayName: `Grimley's Rock Left Side`,
                 routes: [
                   {
                     number: 1,
@@ -1976,32 +2001,41 @@ and park sensibly. `,
                     grade: `f7b`,
                   },
                 ],
-                linkUps: [
+              },
+              {
+                name: `link-ups`,
+                displayName: `Link-Ups`,
+                routes: [
                   {
-                    name: `a-karma-sutra`,
-                    displayName: `A Karma Sutra`,
+                    number: "A",
+                    name: `karma-sutra`,
+                    displayName: `Karma Sutra`,
                     description: `Sit-start Grimley’s Crack and traverse right to finish up Karma.`,
                     grade: `f7b`,
                   },
                   {
-                    name: `b-karma-sutra-hard`,
-                    displayName: `B Karma Sutra (Hard)`,
+                    number: "B",
+                    name: `karma-sutra-hard`,
+                    displayName: `Karma Sutra (Hard)`,
                     description: `As above, finishing up Hard Karma.`,
                     grade: `f7b+`,
                   },
                   {
+                    number: "C",
                     name: `amrakarma`,
                     displayName: `Amrakarma`,
                     description: `Start up Amrak Eliminate, gain the mid-height flakes of Grimley’s Crack and traverse into the finish of Karma.`,
                     grade: `f7b+`,
                   },
                   {
+                    number: "D",
                     name: `grimleys-traverse`,
                     displayName: `Grimley’s Traverse`,
                     description: `Start as for Hard Karma and traverse left to finish up Amrak Eliminate.`,
                     grade: `f7b`,
                   },
                   {
+                    number: "E",
                     name: `amrakarma-extension`,
                     displayName: `Amrakarma Extension`,
                     description: `Climb Grimley’s Traverse to finish up Amrakarma.`,
@@ -2010,8 +2044,8 @@ and park sensibly. `,
                 ],
               },
               {
-                name: `section-2`,
-                displayName: `Section 2`,
+                name: `grimleys-rock-right-side`,
+                displayName: `Grimley’s Rock Right Side`,
                 routes: [
                   {
                     number: 1,
@@ -2052,8 +2086,8 @@ and park sensibly. `,
             gpsCoordinates: `52.7475, -01.3567`,
             sections: [
               {
-                name: `section-1`,
-                displayName: `Section 1`,
+                name: `sharks-tooth`,
+                displayName: `Shark's Tooth`,
                 routes: [
                   {
                     number: 1,
@@ -2089,6 +2123,40 @@ and park sensibly. `,
                     displayName: `WTF`,
                     description: `Traverse from the arête of EZPZ to finish up Winky Face. Avoid holds above the lip and the foot blocks. Easiest if you lead with your feet to the left arête. Finishing up Shark’s Tooth is the same grade.`,
                     grade: `f6c`,
+                  },
+                  {
+                    number: 6,
+                    name: `jug-haul`,
+                    displayName: `Jug haul`,
+                    description: `Sit-start the jugs and top out on the left side of the block. No foot block.`,
+                    grade: `f4`,
+                  },
+                ],
+              },
+              {
+                name: `grand-horizontal`,
+                displayName: `Grand Horizontal`,
+                routes: [
+                  {
+                    number: 7,
+                    name: `great-central`,
+                    displayName: `Great Central`,
+                    description: `Sit-start the centre of the wall without the arêtes.`,
+                    grade: `f5`,
+                  },
+                  {
+                    number: 8,
+                    name: `grand-horizontal`,
+                    displayName: `Grand Horizontal`,
+                    description: `Sit-start the pointy hold and traverse to finish up Great Central. Avoid the top and arêtes.`,
+                    grade: `f6a`,
+                  },
+                  {
+                    number: 9,
+                    name: `step-arete`,
+                    displayName: `Step Arête`,
+                    description: `The right arête from a sit-start. Follow the arête/lip to the top of the boulder.`,
+                    grade: `f3`,
                   },
                 ],
               },
