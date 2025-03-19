@@ -3217,8 +3217,8 @@ Avoiding the left block is f6a+.`,
             gpsCoordinates: `52.7502, -01.3509`,
             sections: [
               {
-                name: `section-1`,
-                displayName: `Section 1`,
+                name: `jackhammer`,
+                displayName: `Jackhammer`,
                 routes: [
                   {
                     number: 1,
@@ -3255,15 +3255,21 @@ Avoiding the left block is f6a+.`,
                     description: `Sit-start the crack line`,
                     grade: `f4`,
                   },
+                ],
+              },
+              {
+                name: `curving-arete`,
+                displayName: `Curving arête`,
+                routes: [
                   {
-                    number: 5.1,
+                    number: 6,
                     name: `curving-arete`,
                     displayName: `Curving arête`,
                     description: `Sit-start the arête on its right side. Avoid the low blocks (see red line in photo)`,
                     grade: `f6c`,
                   },
                   {
-                    number: 5.2,
+                    number: 7,
                     name: `steep`,
                     displayName: `Steep`,
                     description: `The steep wall from standing. Avoid both arêtes.`,
@@ -3272,8 +3278,8 @@ Avoiding the left block is f6a+.`,
                 ],
               },
               {
-                name: `section-2`,
-                displayName: `Section 2`,
+                name: `i-am-groot`,
+                displayName: `I am Groot`,
                 routes: [
                   {
                     number: 1,
@@ -3282,6 +3288,12 @@ Avoiding the left block is f6a+.`,
                     description: `The mossy face from standing. Probably best to leave the moss in place.`,
                     grade: `f3`,
                   },
+                ],
+              },
+              {
+                name: `sweet-dee-slab`,
+                displayName: `Sweet Dee Slab`,
+                routes: [
                   {
                     number: 2,
                     name: `left-arete`,
@@ -3297,7 +3309,7 @@ Avoiding the left block is f6a+.`,
                     grade: `f4`,
                   },
                   {
-                    number: 3.1,
+                    number: "3a",
                     name: `sweet-dee`,
                     displayName: `Sweet Dee`,
                     description: `Start in the same place as Paw. Climb direct using only the chicken heads for your hands.`,
@@ -3310,6 +3322,12 @@ Avoiding the left block is f6a+.`,
                     description: `The right arête from standing.`,
                     grade: `f4`,
                   },
+                ],
+              },
+              {
+                name: `pinnacle`,
+                displayName: `Pinnacle`,
+                routes: [
                   {
                     number: 5,
                     name: `the-stack`,
@@ -3341,8 +3359,8 @@ Avoiding the left block is f6a+.`,
                 ],
               },
               {
-                name: `section-3`,
-                displayName: `Section 3`,
+                name: `column`,
+                displayName: `Column`,
                 routes: [
                   {
                     number: 1,
@@ -3352,35 +3370,41 @@ Avoiding the left block is f6a+.`,
                     grade: `f5`,
                   },
                   {
-                    number: 1.1,
+                    number: "1a",
                     name: `column-left`,
                     displayName: `Column Left`,
                     description: `Climb Column avoiding the right arête.`,
                     grade: `f6a`,
                   },
                   {
-                    number: 1.2,
+                    number: "1b",
                     name: `tight-slab`,
                     displayName: `Tight Slab`,
                     description: `Climb Column avoiding both arêtes. Surprisingly brilliant.`,
                     grade: `f6b+`,
                   },
                   {
-                    number: 1.3,
+                    number: "1c",
                     name: `column-right`,
                     displayName: `Column Right`,
                     description: `Climb Column avoiding left arête.`,
                     grade: `f5+`,
                   },
+                ],
+              },
+              {
+                name: `dirty`,
+                displayName: `Dirty`,
+                routes: [
                   {
-                    number: 2,
+                    number: 3,
                     name: `dirty-prow`,
                     displayName: `Dirty Prow`,
                     description: `Climb the two arêtes avoiding the large block beneath the main boulder and the block right of the crack.`,
                     grade: `f3`,
                   },
                   {
-                    number: 3,
+                    number: 4,
                     name: `dirty-crack`,
                     displayName: `Dirty Crack`,
                     description: `Climb the crack on its right side from a sit start.`,
