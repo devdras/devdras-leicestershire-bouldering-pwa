@@ -2182,19 +2182,190 @@ and park sensibly. `,
                     description: `Start sat on the back left side of the boulder next to a detached block. Pull on, turn the arête and traverse the lip to top out on the far right side of the block. Can be climbed right to left at the same grade.`,
                     grade: `f5+`,
                   },
+                  {
+                    number: 2,
+                    name: `the-completionist`,
+                    displayName: `The Completionist`,
+                    description: `A low start, sat holding a small crimp beneath the lip of the boulder (A)
+                    and the good edge beneath the dark streak (B). Pull to the top and
+                    mantle out. `,
+                    grade: `f5`,
+                  },
                 ],
               },
             ],
           },
           {
-            name: `rising-ramp`,
-            displayName: `Rising Ramp`,
+            name: `the-egg`,
+            displayName: `The Egg`,
             overview: ``,
             conditions: ``,
-            approach: `From The Egg continue along the main path until you reach a large outcrop. Rising Ramp sits beneath this outcrop next to the path. Alternatively, use the large car park on Swannymote Rd and take the path leading left out of the car park. This path takes you to the same outcrop on its right side. Follow the path beneath the outcrop, Rising Ramp is on its far left.`,
+            approach: `A little further along the main path. `,
             access: ``,
-            gpsCoordinates: `52.7470, -01.3499`,
-            sections: [],
+            gpsCoordinates: `52.7470, -01.3538`,
+            sections: [
+              {
+                name: `back-of-the-egg`,
+                displayName: `Back of the Egg`,
+                routes: [
+                  {
+                    number: 3,
+                    name: `eggy-arete`,
+                    displayName: `Eggy arête`,
+                    description: `Sit-start the back arête on its left side.`,
+                    grade: `f4+`,
+                  },
+                  {
+                    number: 4,
+                    name: `the-egg`,
+                    displayName: `The Egg`,
+                    description: `Sit-start using the arête and the base of the rail. Climb direct avoiding
+                    the foot block. Using the foot block is Soft Boiled f5.`,
+                    grade: `f6b`,
+                  },
+                ],
+              },
+              {
+                name: `front-of-the-egg`,
+                displayName: `Front of the Egg`,
+                routes: [
+                  {
+                    number: 5,
+                    name: `diamond`,
+                    displayName: `Diamond`,
+                    description: `The left side of the right arête from a sit start. A stiff move.`,
+                    grade: `f6c+`,
+                  },
+                  {
+                    number: 6,
+                    name: `juggy`,
+                    displayName: `Juggy`,
+                    description: `Sit-start matched on the jug and climb to the top.`,
+                    grade: `f6b`,
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            name: "toast",
+            displayName: "Toast",
+            overview: "",
+            conditions: "",
+            approach: "A little further up the hill from The Egg.",
+            access: "",
+            gpsCoordinates: "52.7470, -01.3541",
+            sections: [
+              {
+                name: "main-face",
+                displayName: "Main Face",
+                routes: [
+                  {
+                    number: 1,
+                    name: "toast-arete",
+                    displayName: "Toast Arête",
+                    description:
+                      "Sit-start the left arête. Avoid the low thin flake for your feet.",
+                    grade: "f5",
+                  },
+                  {
+                    number: 2,
+                    name: "the-flake",
+                    displayName: "The Flake",
+                    description:
+                      "Sit-start using the good sidepull and climb the wall direct using the good slopey pinch.",
+                    grade: "f6b",
+                  },
+                  {
+                    number: 3,
+                    name: "burnt-out",
+                    displayName: "Burnt Out",
+                    description:
+                      "Sit-start from the good sidepull and traverse left to finish up Toast Arête. Stay below the pig slopey pinch until you’ve reached the arête.",
+                    grade: "f6b+",
+                  },
+                  {
+                    number: 4,
+                    name: "bird-brained",
+                    displayName: "Bird-Brained",
+                    description:
+                      "A good eliminate up the vague ramp line of flakes and chicken heads. Sit-start from a gaston and a sharp blocky undercut. Gain the flake at the base of the ramp and use this and the two chicken heads up and left of this to reach the slopey pinch. Finish as for The Flake. Keep to the handholds next to the topo line.",
+                    grade: "f6a+",
+                  },
+                  {
+                    number: 5,
+                    name: "the-rockover",
+                    displayName: "The Rockover",
+                    description:
+                      "Sit-start as above and gain the holds in the vague crack line up and right to finish at the highest point of the boulder. A good f6a eliminate avoids the crack in favour of poor face holds.",
+                    grade: "f5+",
+                  },
+                  {
+                    number: 6,
+                    name: "crust",
+                    displayName: "Crust",
+                    description: "Sit-start the right arête.",
+                    grade: "f4",
+                  },
+                  {
+                    number: "6a",
+                    name: "toasted-traverse",
+                    displayName: "Toasted Traverse",
+                    description:
+                      "Sit-start as for Crust and traverse the face to finish up the left arête. A low level traverse into the starting sidepull of Burnt Out to finish up this problem is an unpleasant f6c.",
+                    grade: "f6a+",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            name: "rising-ramp",
+            displayName: "Rising Ramp",
+            overview: "",
+            conditions: "",
+            approach:
+              "From The Egg continue along the main path until you reach a large outcrop. Rising Ramp sits beneath this outcrop next to the path. Alternatively, use the large car park on Swannymote Rd and take the path leading left out of the car park. This path takes you to the same outcrop on its right side. Follow the path beneath the outcrop, Rising Ramp is on its far left.",
+            access: "",
+            gpsCoordinates: "52.7470, -01.3499",
+            sections: [
+              {
+                name: "main-face",
+                displayName: "Main Face",
+                routes: [
+                  {
+                    number: 1,
+                    name: "rising-ramp",
+                    displayName: "Rising Ramp",
+                    description:
+                      "Sit-start matched on the jug at the base of the ramp. Follow the line of crimps and edges leftwards to finish on the left side of the left arête. Avoid the top of the boulder until you top out.",
+                    grade: "f5+",
+                  },
+                  {
+                    number: 2,
+                    name: "ramp-up",
+                    displayName: "Ramp-Up",
+                    description:
+                      "Start as above and climb direct to the top. A dyno from the jug to the top is f6a.",
+                    grade: "f3",
+                  },
+                ],
+              },
+              {
+                name: "crag-facing-side",
+                displayName: "Crag Facing Side",
+                routes: [
+                  {
+                    number: 3,
+                    name: "stub",
+                    displayName: "Stub",
+                    description:
+                      "On the crag facing side of this boulder is a little prow. Climb from a sitting with a hand on each arête.",
+                    grade: "f3",
+                  },
+                ],
+              },
+            ],
           },
           {
             name: `7th-wall`,
@@ -2206,8 +2377,8 @@ and park sensibly. `,
             gpsCoordinates: `52.7470, -01.3499`,
             sections: [
               {
-                name: `section-1`,
-                displayName: `Section 1`,
+                name: `side-face`,
+                displayName: `Side Face`,
                 routes: [
                   {
                     number: 1,
@@ -2216,6 +2387,19 @@ and park sensibly. `,
                     description: `Sit-start matched around the middle of the sharp arête. Make a hard pull to the lip and finish above.`,
                     grade: `f5`,
                   },
+                  {
+                    number: 2,
+                    name: `7th-wall`,
+                    displayName: `7th Wall`,
+                    description: `Sit-start using a jug and the short arête. Finish directly.`,
+                    grade: `f4`,
+                  },
+                ],
+              },
+              {
+                name: `front-face`,
+                displayName: `Front Face`,
+                routes: [
                   {
                     number: 2,
                     name: `7th-wall`,
@@ -2373,8 +2557,8 @@ and park sensibly. `,
             ],
           },
           {
-            name: `hobos-palace`,
-            displayName: `Hobo’s Palace`,
+            name: `block-x`,
+            displayName: `Block X`,
             overview: ``,
             conditions: ``,
             approach: `Approach 52.7476, -01.3503`,
@@ -2388,7 +2572,7 @@ and park sensibly. `,
                   {
                     number: 3,
                     name: `knacky-ds`,
-                    displayName: `Knacky Ds`,
+                    displayName: `Knacky D's`,
                     description: `Sit-start from the block on the left, gain the face of the main boulder and traverse to finish up Buns. Avoid the top and left arête of the main boulder until you top out.`,
                     grade: `f6a+`,
                   },
@@ -2399,23 +2583,7 @@ and park sensibly. `,
                     description: `Start with your left hand on the small undercut (A). Gain the pinch above with your right hand and top out. Avoid the large block to the right. Avoiding the ledge on the left and smearing beneath is f6c. A dyno to the top without the ledge out left is Bun Slap f7a.`,
                     grade: `f6b`,
                   },
-                ],
-              },
-            ],
-          },
-          {
-            name: `block-x`,
-            displayName: `Block X`,
-            overview: ``,
-            conditions: ``,
-            approach: `Just before Crocodile on the high path.`,
-            access: ``,
-            gpsCoordinates: `52.7475, -01.3510`,
-            sections: [
-              {
-                name: `section-1`,
-                displayName: `Section 1`,
-                routes: [
+
                   {
                     number: 5,
                     name: `buns`,
@@ -2426,6 +2594,23 @@ up this. Avoid the large block to the right.
 Avoiding the left block is f6a+.`,
                     grade: `f6a`,
                   },
+                ],
+              },
+            ],
+          },
+          {
+            name: `hobos-palace`,
+            displayName: `Hobo’s Palace`,
+            overview: ``,
+            conditions: ``,
+            approach: `Just before Crocodile on the high path.`,
+            access: ``,
+            gpsCoordinates: `52.7475, -01.3510`,
+            sections: [
+              {
+                name: `section-1`,
+                displayName: `Section 1`,
+                routes: [
                   {
                     number: 6,
                     name: `hobos-palace`,
@@ -2501,7 +2686,7 @@ Avoiding the left block is f6a+.`,
                     grade: `f3`,
                   },
                   {
-                    number: 2.1,
+                    number: "2a",
                     name: `black-hawk`,
                     displayName: `Black Hawk`,
                     description: `Climb Mossy slab with feet touching the wall only. You can use the edge on the left arête. Bold last move.`,
@@ -2528,8 +2713,8 @@ Avoiding the left block is f6a+.`,
             gpsCoordinates: `52.7475`,
             sections: [
               {
-                name: `section-1`,
-                displayName: `Section 1`,
+                name: `near-side`,
+                displayName: `Near Side`,
                 routes: [
                   {
                     number: 1,
@@ -2538,6 +2723,26 @@ Avoiding the left block is f6a+.`,
                     description: `Sit-start the steep groove and prow`,
                     grade: `f3`,
                   },
+                  {
+                    number: 2,
+                    name: `awkward-slab`,
+                    displayName: `Awkward Slab`,
+                    description: `Sit-start from a good left sidepull and a crimp rail. Treat the detached block as the floor, i.e. sit on it but don’t use it as a hold.`,
+                    grade: `f6b`,
+                  },
+                  {
+                    number: 3,
+                    name: `crackers`,
+                    displayName: `Crackers`,
+                    description: `Sit-start with both hands near the base of the crack and follow it to the top.`,
+                    grade: `f6a`,
+                  },
+                ],
+              },
+              {
+                name: `far-side`,
+                displayName: `Far Side`,
+                routes: [
                   {
                     number: 2,
                     name: `awkward-slab`,
@@ -2608,8 +2813,8 @@ Avoiding the left block is f6a+.`,
             gpsCoordinates: `52.7475`,
             sections: [
               {
-                name: `section-1`,
-                displayName: `Section 1`,
+                name: `rooftop-boulder`,
+                displayName: `Rooftop Boulder`,
                 routes: [
                   {
                     number: 1,
@@ -2632,6 +2837,12 @@ Avoiding the left block is f6a+.`,
                     description: `Sit-start the sharp arête. A powerful start leads into a delicate finish.`,
                     grade: `f6b`,
                   },
+                ],
+              },
+              {
+                name: `basement-slab`,
+                displayName: `Basement Slab`,
+                routes: [
                   {
                     number: 4,
                     name: `basement-slab`,
@@ -2640,7 +2851,7 @@ Avoiding the left block is f6a+.`,
                     grade: `f2`,
                   },
                   {
-                    number: 4.1,
+                    number: "4a",
                     name: `chopper`,
                     displayName: `Chopper`,
                     description: `Climb basement slab with shoes touching the rock only.`,
