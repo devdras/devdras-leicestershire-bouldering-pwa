@@ -24,8 +24,6 @@ export default tseslint.config(
         { allowConstantExport: true },
       ],
       "@typescript-eslint/no-explicit-any": "off",
-      "@typescript-eslint/no-unused-vars": "off", // Disable TypeScript unused var checking
-      "no-unused-vars": "off",
     },
   }
 );

@@ -4,7 +4,7 @@ import { Link } from "react-router"; // Import Link
 import SimpleBarChart from "./SimpleBarChart";
 import { gradeMap } from "../utils/gradeMap";
 import { countTickedRoutesBySector } from "../db"; // Import sector count function
-import type { Block as BlockType, Route as RouteType } from "../types"; // Import BlockType
+import type { Block as BlockType } from "../types"; // Import BlockType
 
 // Update props to include areaName and type data correctly
 interface DisplayCardSectorProps {

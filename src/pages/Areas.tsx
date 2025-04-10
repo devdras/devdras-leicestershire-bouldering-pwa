@@ -4,12 +4,7 @@ import { Link } from "react-router";
 import { data } from "../data"; // Adjust path
 // Assuming AreaComponent is the renamed SectorListDisplay or similar from previous steps
 import AreaComponent from "../components/Area"; // Adjust path if you renamed the component that lists sectors
-import {
-  Area as AreaType,
-  Sector as SectorType,
-  Block as BlockType,
-  Route as RouteType,
-} from "../types"; // Adjust path
+import { Area as AreaType } from "../types"; // Adjust path
 import { countTickedRoutesByArea } from "../db"; // Adjust path
 
 // Helper component to display Area info and fetch its count

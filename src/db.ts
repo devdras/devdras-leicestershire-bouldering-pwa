@@ -1,5 +1,5 @@
 // src/db.ts
-import { openDB, DBSchema, IDBPDatabase, IDBPTransaction } from "idb";
+import { openDB, DBSchema, IDBPDatabase } from "idb";
 
 // --- Type Definitions ---
 

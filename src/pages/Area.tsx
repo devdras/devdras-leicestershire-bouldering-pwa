@@ -2,12 +2,7 @@
 import React, { useEffect, useState, useMemo } from "react"; // Import React hooks
 import { useParams, Link } from "react-router"; // Import Link
 import { data } from "../data"; // Adjust path
-import type {
-  Area as AreaType,
-  Sector as SectorType,
-  Block as BlockType,
-  Route as RouteType,
-} from "../types"; // Adjust path
+import type { Area as AreaType } from "../types"; // Adjust path
 // *** RENAME this import to match the renamed component file that lists sectors ***
 import SectorListDisplay from "../components/Area"; // Was AreaComponent
 import { countTickedRoutesByArea } from "../db"; // Adjust path

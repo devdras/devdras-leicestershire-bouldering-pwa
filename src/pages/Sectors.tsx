@@ -7,7 +7,6 @@ import type {
   Sector as SectorType,
   Area as AreaType,
   Block as BlockType,
-  Route as RouteType,
 } from "../types";
 import InfoPiece from "../components/InfoPiece";
 import DisplayCardBlock from "../components/DisplayCardBlock";
