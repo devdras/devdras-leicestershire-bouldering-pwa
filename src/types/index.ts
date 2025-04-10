@@ -63,9 +63,9 @@ export interface Area {
   name: string;
   displayName: string;
   overview: string;
-  conditions: string;
-  approach: string;
-  access: string;
+  conditions?: string;
+  approach?: string;
+  access?: string;
   sectors: Sector[];
   blocks?: Block[]; // Still optional as not all areas have direct blocks
   gpsCoordinates?: string; // Still optional as not all areas have GPS coordinates
