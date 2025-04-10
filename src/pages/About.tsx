@@ -1,21 +1,25 @@
 // src/pages/About.tsx (Adjust path as needed)
 import React from "react";
-import { Link } from "react-router"; // Import Link for internal navigation
+// Assuming 'react-router' is correct for your setup, otherwise use 'react-router-dom'
+import { Link } from "react-router";
+// Import the Github icon from lucide-react
+import { Github } from "lucide-react";
 
 const About: React.FC = () => {
+  const githubUrl = "https://github.com/devdras/leicestershire-bouldering-pwa";
+
   return (
     <div className="p-4 max-w-3xl mx-auto">
-      {" "}
-      {/* Basic padding and width constraint */}
       <h2 className="text-2xl font-bold mb-4 border-b pb-2">About This App</h2>
+
+      {/* Increased spacing between main sections */}
       <div className="space-y-6 text-gray-700">
-        {" "}
-        {/* Increased spacing between sections */}
         <p>
           Welcome! This application serves as an unofficial digital companion
           and logbook for the fantastic bouldering guides available for
           Leicestershire.
         </p>
+
         {/* Data Source Section */}
         <div className="p-4 bg-blue-50 border border-blue-200 rounded">
           <h3 className="text-lg font-semibold mb-2 text-blue-800">
@@ -41,6 +45,7 @@ const About: React.FC = () => {
             work!
           </p>
         </div>
+
         {/* Features Section */}
         <div>
           <h3 className="text-lg font-semibold mb-2">Features</h3>
@@ -62,7 +67,7 @@ const About: React.FC = () => {
             <li>
               <strong>Data Management:</strong> Use the{" "}
               <Link
-                to="/data-export"
+                to="/data-export" // Ensure this route is correct
                 className="text-blue-600 hover:underline font-medium"
               >
                 Data Management page
@@ -71,7 +76,8 @@ const About: React.FC = () => {
             </li>
           </ul>
         </div>
-        {/* --- NEW PWA & Local Data Section --- */}
+
+        {/* PWA & Local Data Section */}
         <div className="p-4 bg-green-50 border border-green-200 rounded">
           <h3 className="text-lg font-semibold mb-2 text-green-800">
             Offline Use & Installation (PWA)
@@ -103,28 +109,30 @@ const About: React.FC = () => {
             (Note: Exact steps and appearance may vary slightly depending on
             your device and browser version.)
           </p>
-
           <h4 className="font-semibold mb-1 text-sm">
             Important Note on Data Storage:
           </h4>
           <p className="text-sm">
-            Whether you use the app in your browser or install it as a PWA, your
-            **ticked route data is stored locally on your specific device**
+            Whether you use the app in your browser or install it as a PWA, your{" "}
+            <strong>
+              ticked route data is stored locally on your specific device
+            </strong>{" "}
             within that browser or installed app instance (using IndexedDB).
           </p>
           <p className="text-sm mt-1">
-            This means your ticks **do not automatically sync** between
-            different browsers, devices, or even different browser profiles on
-            the same device. To use your data elsewhere, you must use the{" "}
+            This means your ticks <strong>do not automatically sync</strong>{" "}
+            between different browsers, devices, or even different browser
+            profiles on the same device. To use your data elsewhere, you must
+            use the{" "}
             <Link
-              to="/data-export"
+              to="/data-export" // Ensure this route is correct
               className="text-blue-600 hover:underline font-medium"
             >
               Export
             </Link>{" "}
             feature on one device and the{" "}
             <Link
-              to="/data-export"
+              to="/data-export" // Ensure this route is correct
               className="text-blue-600 hover:underline font-medium"
             >
               Import
@@ -132,7 +140,30 @@ const About: React.FC = () => {
             feature on the other.
           </p>
         </div>
-        {/* --- END NEW PWA & Local Data Section --- */}
+
+        {/* --- NEW Source Code Section --- */}
+        <div>
+          <h3 className="text-lg font-semibold mb-2">Source Code</h3>
+          <p className="text-sm">
+            This project is open source. You can view the code, report issues,
+            or contribute on GitHub:
+          </p>
+          <p className="mt-2">
+            {/* External link using <a> tag */}
+            <a
+              href={githubUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              // Use inline-flex to align icon and text
+              className="inline-flex items-center gap-1 text-blue-600 hover:underline font-medium text-sm"
+            >
+              <Github size={16} strokeWidth={2} /> {/* Lucide icon */}
+              <span>devdras/leicestershire-bouldering-pwa</span>
+            </a>
+          </p>
+        </div>
+        {/* --- END Source Code Section --- */}
+
         {/* Disclaimer Section */}
         <div>
           <h3 className="text-lg font-semibold mb-2">Disclaimer</h3>
