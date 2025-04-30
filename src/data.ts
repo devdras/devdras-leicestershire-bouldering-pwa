@@ -12,52 +12,52 @@ export const data = [
     name: `cademan-wood-area`,
     displayName: `Cademan Wood Area`,
     overview: `The bouldering in Cademan Woods has been extensively climbed
-  and developed over the years. A 1993 guide by Geoff Mason and
-  Ken Vickers lists a few routes in the woods which are included in
-  this guide. More recently, Clint Maskell and Mike Adams have
-  transformed the woods into an extensive bouldering venue. The
-  problems from their development notes make up the majority of
-  the climbs found here. Clint has also been very generous in
-  offering advice and information for the guide. `,
+and developed over the years. A 1993 guide by Geoff Mason and
+Ken Vickers lists a few routes in the woods which are included in
+this guide. More recently, Clint Maskell and Mike Adams have
+transformed the woods into an extensive bouldering venue. The
+problems from their development notes make up the majority of
+the climbs found here. Clint has also been very generous in
+offering advice and information for the guide. `,
     conditions: `The rock is well sheltered in light rain and extremely quick
-  drying. With a good wind problems can go from gopping to bone
-  dry in a couple of hours. Some of the problems may need a good
-  brush and some occasional gardening, a pair of secateurs and a
-  stiff brush can often come in handy and keep the problems from
-  falling into disuse. `,
+drying. With a good wind problems can go from gopping to bone
+dry in a couple of hours. Some of the problems may need a good
+brush and some occasional gardening, a pair of secateurs and a
+stiff brush can often come in handy and keep the problems from
+falling into disuse. `,
     approach: `Finding your way around the woods can be tricky. This guide
-  uses a description of the approaches, a map and GPS
-  coordinates. The GPS coordinates can be found in the approach
-  sections and are formatted so that they can be copied into
-  Google to bring up a map. The coordinates for sectors such as
-  Cademan West or High Cademan will take you to the main
-  parking. The coordinates for individual boulders and areas within
-  a sector refer to the areas/boulders themselves.`,
+uses a description of the approaches, a map and GPS
+coordinates. The GPS coordinates can be found in the approach
+sections and are formatted so that they can be copied into
+Google to bring up a map. The coordinates for sectors such as
+Cademan West or High Cademan will take you to the main
+parking. The coordinates for individual boulders and areas within
+a sector refer to the areas/boulders themselves.`,
     access: `Cademan Woods has become increasingly popular with climbers,
-  however, this increased traffic is presenting a threat to
-  continued access. Please keep an eye on the access advice on
-  UKC.com which will be more up to date than this guide. Many of
-  the issues that come with increased traffic can be addressed if
-  we park sensibly and pick up any litter found. Climbers need to
-  show that they are having a positive impact on the local
-  environment and community.`,
+however, this increased traffic is presenting a threat to
+continued access. Please keep an eye on the access advice on
+UKC.com which will be more up to date than this guide. Many of
+the issues that come with increased traffic can be addressed if
+we park sensibly and pick up any litter found. Climbers need to
+show that they are having a positive impact on the local
+environment and community.`,
     sectors: [
       {
         name: `cademan-west`,
         displayName: `Cademan West`,
         overview: `West is one of the larger sectors of the Woods. There are over 70 problems with a
-  good spread of grades ranging from f3 to f7c. The Hidden Wall area offers a good
-  warm-up circuit with a few intermediate problems, while Cavalry Rock and the
-  Twenty Steps Area offer lines to challenge your average wad. Area classics include
-  Gonzo, Big Flake, and Crack of Wales. `,
+good spread of grades ranging from f3 to f7c. The Hidden Wall area offers a good
+warm-up circuit with a few intermediate problems, while Cavalry Rock and the
+Twenty Steps Area offer lines to challenge your average wad. Area classics include
+Gonzo, Big Flake, and Crack of Wales. `,
         conditions: ``,
         approach: `If you are heading to Cavalry Rock or Hidden wall there may be parking where
-  Turolough Road meets Car Hill Road. However, parking here is limited. Alternatively,
-  park on Grace Dieu road and approach as for Grimley’s Rock (page 32). If you know
-  the area well it would be best to approach all areas as for Grimley’s to keep the
-  parking spaces free for others. Note: Local residents are becoming frustrated with
-  people parking on the sides of Turolough Road. Please park as for Grimley’s Rock,
-  on Grace Dieu Road, if the parking bays are full. `,
+Turolough Road meets Car Hill Road. However, parking here is limited. Alternatively,
+park on Grace Dieu road and approach as for Grimley’s Rock (page 32). If you know
+the area well it would be best to approach all areas as for Grimley’s to keep the
+parking spaces free for others. Note: Local residents are becoming frustrated with
+people parking on the sides of Turolough Road. Please park as for Grimley’s Rock,
+on Grace Dieu Road, if the parking bays are full. `,
         access: ``,
         gpsCoordinates: `52.7511, -01.3606`,
         blocks: [
@@ -67,10 +67,10 @@ export const data = [
             overview: ``,
             conditions: ``,
             approach: `From the parking spot on Turolough Road, walk towards the Roadside Area and
-              take the second path on the right. This runs alongside the road before turning into
-              the woods. Continue into the woods taking the right hand path. Cavalry Rock is a
-              short way ahead on your right. See map on the previous page.
-              `,
+            take the second path on the right. This runs alongside the road before turning into
+            the woods. Continue into the woods taking the right hand path. Cavalry Rock is a
+            short way ahead on your right. See map on the previous page.
+            `,
             access: ``,
             gpsCoordinates: ``,
             sections: [
@@ -83,8 +83,8 @@ export const data = [
                     name: `crack-of-wales`,
                     displayName: `Crack of Wales`,
                     description: `Sit-start beneath the crack by wedging yourself into the gap. Climb directly
-    using only the holds formed by the crack for your hands.
-    `,
+  using only the holds formed by the crack for your hands.
+  `,
                     grade: `f6c+`,
                   },
                   {
@@ -92,9 +92,9 @@ export const data = [
                     name: `the-welshy`,
                     displayName: `The Welshy`,
                     description: `Sit–start right of the crack, eliminating both the crack and the good jug up
-    and right (marked with a red circle in the image). The poor hold above the jug
-    is in.
-    `,
+  and right (marked with a red circle in the image). The poor hold above the jug
+  is in.
+  `,
                     grade: `f7b+`,
                   },
                   {
@@ -102,8 +102,8 @@ export const data = [
                     name: `little-llanberis`,
                     displayName: `Little Llanberis`,
                     description: `Sit-start using the right arête and a good toe hook. Traverse up and left
-    avoiding the top of the boulder before topping out on the far left.
-    `,
+  avoiding the top of the boulder before topping out on the far left.
+  `,
                     grade: `f6b+`,
                   },
                   {
@@ -111,8 +111,8 @@ export const data = [
                     name: `top-traverse`,
                     displayName: `Top Traverse`,
                     description: `Start from standing at the right side of the boulder, traverse the lip and top
-    out as for Little Llanberis.
-    `,
+  out as for Little Llanberis.
+  `,
                     grade: `f5+`,
                   },
                 ],
@@ -133,8 +133,8 @@ export const data = [
                     name: `whale-city`,
                     displayName: `Whale City`,
                     description: `Sit start from the rail and climb up directly avoiding both the large flake on
-    the left and the right arête.
-    `,
+  the left and the right arête.
+  `,
                     grade: `f6b`,
                   },
                   {
@@ -152,15 +152,15 @@ export const data = [
             name: `hidden-wall`,
             displayName: `Hidden Wall`,
             overview: `A fairly extensive area with a large number of warm-ups and
-  low to mid 6s.`,
+low to mid 6s.`,
             conditions: ``,
             approach: `From Cavalry Rock, continue into the woods taking the left
-  track where it forks. A short way on there is a large holly
-  bush on the left. Walking under the fallen tree and into the
-  holly bush takes you to Hidden Wall. Alternatively, continue
-  a little further towards Brap Ya Mum. There will be a vague
-  path on the left which takes you to the top of Hidden Wall.
-              `,
+track where it forks. A short way on there is a large holly
+bush on the left. Walking under the fallen tree and into the
+holly bush takes you to Hidden Wall. Alternatively, continue
+a little further towards Brap Ya Mum. There will be a vague
+path on the left which takes you to the top of Hidden Wall.
+            `,
             access: ``,
             gpsCoordinates: `52.7505, -01.3586`,
             sections: [
@@ -173,7 +173,7 @@ export const data = [
                     name: `orinoco`,
                     displayName: `Orinoco`,
                     description: `A little pillar sat above Hidden Wall. Climb the left arête from sitting. 
-    `,
+  `,
                     grade: `f3+`,
                   },
                 ],
@@ -187,9 +187,9 @@ export const data = [
                     name: `bulgarias-girdle`,
                     displayName: `Bulgaria’s Girdle`,
                     description: `Sit-start from a small edge and traverse right, heading around the arête and continuing
-                    all the way to a large edge right of Bungo and level with the little tree. Finish directly
-                    from here.
-                    `,
+                  all the way to a large edge right of Bungo and level with the little tree. Finish directly
+                  from here.
+                  `,
                     grade: `f4`,
                   },
                   {
@@ -197,8 +197,8 @@ export const data = [
                     name: `short-wall`,
                     displayName: `Short Wall`,
                     description: `Start with a hand on each of the low edges (either side of the topo line) and climb
-                    directly past the thin flake and a pointy jug.
-                    `,
+                  directly past the thin flake and a pointy jug.
+                  `,
                     grade: `f4+`,
                   },
                   {
@@ -206,8 +206,8 @@ export const data = [
                     name: `short-ledge`,
                     displayName: `Short Ledge`,
                     description: `Start sitting with a hand on the large sidepull. Climb to the pointy jug on the last
-                    problem and finish directly from here.
-                    `,
+                  problem and finish directly from here.
+                  `,
                     grade: `f4`,
                   },
                 ],
@@ -221,8 +221,8 @@ export const data = [
                     name: `bulgarete`,
                     displayName: `Bulgarête`,
                     description: `Sit-start using a blocky pinch for the right
-                  hand and a low jug on the left. A few stiff
-                  moves lead to easier ground above.`,
+                hand and a low jug on the left. A few stiff
+                moves lead to easier ground above.`,
                     grade: `f5+`,
                   },
                   {
@@ -230,7 +230,7 @@ export const data = [
                     name: `uncle-bulgaria`,
                     displayName: `Uncle Bulgaria`,
                     description: `The central line of the big slab. Sit-start from
-                  the flakes.`,
+                the flakes.`,
                     grade: `f4`,
                   },
                   {
@@ -238,8 +238,8 @@ export const data = [
                     name: `bulgaright`,
                     displayName: `Bulgaright`,
                     description: `From standing, climb the right side of the
-                  slab. A sit-start from the obvious triangular
-                  sidepull is the same grade.`,
+                slab. A sit-start from the obvious triangular
+                sidepull is the same grade.`,
                     grade: `f4`,
                   },
                   {
@@ -247,8 +247,8 @@ export const data = [
                     name: `bungos-arete`,
                     displayName: `Bungo’s Arête`,
                     description: `Sit-start using the jutting arête for your left
-                  hand and a blocky pinch for the right.
-                  Another hard start into easier ground.`,
+                hand and a blocky pinch for the right.
+                Another hard start into easier ground.`,
                     grade: `f5+`,
                   },
                   {
@@ -256,10 +256,10 @@ export const data = [
                     name: `bungo`,
                     displayName: `Bungo`,
                     description: `Sit-start using the blocky pinch for your left
-                  hand and a low triangular edge for your
-                  right. Make a big move to a slopey edge then
-                  move left to gain, and finish up, the rising
-                  flake line.`,
+                hand and a low triangular edge for your
+                right. Make a big move to a slopey edge then
+                move left to gain, and finish up, the rising
+                flake line.`,
                     grade: `f6a+`,
                   },
                 ],
@@ -274,7 +274,7 @@ export const data = [
                     name: `hidden-arete`,
                     displayName: `Hidden Arête`,
                     description: `Climb up and left, past a small spike, towards
-                  the tree. High with a sketchy landing.`,
+                the tree. High with a sketchy landing.`,
                     grade: `f4+`,
                   },
                   {
@@ -282,7 +282,7 @@ export const data = [
                     name: `high-ledge`,
                     displayName: `High Ledge`,
                     description: `Start as per the last problem but climb
-                  directly up past the large slopey ledge.`,
+                directly up past the large slopey ledge.`,
                     grade: `f4`,
                   },
                   {
@@ -290,9 +290,9 @@ export const data = [
                     name: `covert-crack`,
                     displayName: `Covert Crack`,
                     description: `Start as per Private Pinch then head left to
-                  gain the crack. From the top of the crack, bail
-                  off to the right or finish up High Ledge. No
-                  foot ledges.`,
+                gain the crack. From the top of the crack, bail
+                off to the right or finish up High Ledge. No
+                foot ledges.`,
                     grade: `f6b+`,
                   },
                   {
@@ -300,8 +300,8 @@ export const data = [
                     name: `private-pinch`,
                     displayName: `Private Pinch`,
                     description: `Sit-start right of the ledge using the
-                  break and the short right arête. Climb
-                  direct past the pinch. No foot ledges.`,
+                break and the short right arête. Climb
+                direct past the pinch. No foot ledges.`,
                     grade: `f6b+`,
                   },
                   {
@@ -309,7 +309,7 @@ export const data = [
                     name: `hidden-wall`,
                     displayName: `Hidden Wall`,
                     description: `Sit-start from a slopey pinch and climb
-                  direct to the top. No foot ledges.`,
+                direct to the top. No foot ledges.`,
                     grade: `f6a+`,
                   },
                   {
@@ -317,8 +317,8 @@ export const data = [
                     name: `secret-womble`,
                     displayName: `Secret Womble`,
                     description: `Start as per Hidden Wall and head
-                  right to a jug on the arête. Finish up
-                  the arête. No foot ledges.`,
+                right to a jug on the arête. Finish up
+                the arête. No foot ledges.`,
                     grade: `f6a+`,
                   },
                 ],
@@ -328,14 +328,14 @@ export const data = [
                 displayName: `Brap Ya Mum`,
                 gpsCoordinates: `52.7501, -01.3588`,
                 approach: `Approach as per Hidden Wall, but continue a little further along the main path
-  from Cavalry Rock. Brap your Mum sits immediately left of the path. `,
+from Cavalry Rock. Brap your Mum sits immediately left of the path. `,
                 routes: [
                   {
                     number: 7,
                     name: `brap-ya-mum`,
                     displayName: `Brap Ya Mum`,
                     description: `Climb the short left arête from sitting. Avoid the foot ledge beneath the
-                left arête and the large block on the right.`,
+              left arête and the large block on the right.`,
                     grade: `f5+`,
                   },
                   {
@@ -343,7 +343,7 @@ export const data = [
                     name: `slap-ya-mum`,
                     displayName: `Slap Ya Mum`,
                     description: `A good eliminate. Sit start using the lowest holds of Brap Your Mum
-                (outlined in the above image) and dyno direct to the top.`,
+              (outlined in the above image) and dyno direct to the top.`,
                     grade: `f6a+`,
                   },
                 ],
@@ -356,9 +356,9 @@ export const data = [
             overview: ``,
             conditions: ``,
             approach: `From Brap Ya Mum, continue along the main path. A short distance
-  along, take the light grassy path on your right. Follow this towards the
-  fence line you will see the Pirate Block on your left. 
-              `,
+along, take the light grassy path on your right. Follow this towards the
+fence line you will see the Pirate Block on your left. 
+            `,
             access: ``,
             gpsCoordinates: `52.7497, -01.3590`,
             sections: [
@@ -371,7 +371,7 @@ export const data = [
                     name: `easy-cracks-pirate-block`,
                     displayName: `Easy Cracks Pirate Block`,
                     description: `Sit-start the cracks, keeping on the right side. Head for the rounded
-                  jug above.`,
+                jug above.`,
                     grade: `f3`,
                   },
                   {
@@ -379,7 +379,7 @@ export const data = [
                     name: `pirate-slap`,
                     displayName: `Pirate Slap`,
                     description: `Sit-start from a high sidepull and an undercut. Slap right for the top of
-                  the bulge and mantle to the top. The foot ramp is in at this grade.`,
+                the bulge and mantle to the top. The foot ramp is in at this grade.`,
                     grade: `f5`,
                   },
                   {
@@ -387,9 +387,9 @@ export const data = [
                     name: `greenbeard`,
                     displayName: `Greenbeard`,
                     description: `The direct line up the bulge. Sit start with your left hand on an
-                  undercut and your right hand on the undercut lip. Make a hard pull to
-                  the slopey right arête and finish as per the last problem. Graded using
-                  a knee pad. Morpho.`,
+                undercut and your right hand on the undercut lip. Make a hard pull to
+                the slopey right arête and finish as per the last problem. Graded using
+                a knee pad. Morpho.`,
                     grade: `f7a`,
                   },
                   {
@@ -397,8 +397,8 @@ export const data = [
                     name: `the-ramp`,
                     displayName: `The Ramp`,
                     description: `Sit-start with both hands matched on the ramp. Climb up and left into
-                  the finish of the previous two problems. Avoid all holds right of the
-                  ramp feature.`,
+                the finish of the previous two problems. Avoid all holds right of the
+                ramp feature.`,
                     grade: `f4+`,
                   },
                   {
@@ -406,7 +406,7 @@ export const data = [
                     name: `the-ramp-direct`,
                     displayName: `The Ramp Direct`,
                     description: `Sit start the ramp and climb to the top of the boulder avoiding the
-                  right arête.`,
+                right arête.`,
                     grade: `f3+`,
                   },
                   {
@@ -414,9 +414,9 @@ export const data = [
                     name: `pirate-fever`,
                     displayName: `Pirate Fever`,
                     description: `A little contrived but very good. Start as per The Ramp and climb left
-                  across the bulge to finish up Easy Cracks. Avoid holds along the top of
-                  the bulge (marked off in red on the image), the foot ramp below
-                  Pirate Slap is in at this grade. Easier for the tall.`,
+                across the bulge to finish up Easy Cracks. Avoid holds along the top of
+                the bulge (marked off in red on the image), the foot ramp below
+                Pirate Slap is in at this grade. Easier for the tall.`,
                     grade: `f7a`,
                   },
                 ],
@@ -448,7 +448,7 @@ export const data = [
                     name: `cutaway`,
                     displayName: `Cutaway`,
                     description: `A good wall climb with a bad landing. Sit-start the face of the boulder avoiding
-            both arêtes. There is a blind pocket on the slopey top.`,
+          both arêtes. There is a blind pocket on the slopey top.`,
                     grade: `f6c`,
                   },
                   {
@@ -456,8 +456,8 @@ export const data = [
                     name: `the-ripper`,
                     displayName: `The Ripper`,
                     description: `Sit-start the left arête using a good edge around the arête and a poor sidepull
-            on the face. Avoiding the good edge and keeping the left hand on the arête is
-            f6c.`,
+          on the face. Avoiding the good edge and keeping the left hand on the arête is
+          f6c.`,
                     grade: `f6b+`,
                   },
                   {
@@ -465,7 +465,7 @@ export const data = [
                     name: `big-flake`,
                     displayName: `Big Flake`,
                     description: `Sit-start the flake avoiding both arêtes. An excellent problem up a near
-            perfect feature.`,
+          perfect feature.`,
                     grade: `f6b+`,
                   },
                   {
@@ -473,8 +473,8 @@ export const data = [
                     name: `let-er-rip`,
                     displayName: `Let ‘Er Rip`,
                     description: `Match the flake and dyno to either the break (7a) or the lowest of the three
-            jugs near the top (7b). A dyno to the second highest jug and the top jug are
-            projects.`,
+          jugs near the top (7b). A dyno to the second highest jug and the top jug are
+          projects.`,
                     grade: `f7a`,
                   },
                   {
@@ -489,7 +489,7 @@ export const data = [
                     name: `claustrophobic-slab`,
                     displayName: `Claustrophobic Slab`,
                     description: `Sit-start the big slab at the back of the gap between the Ripper block and the
-            Detached Block.`,
+          Detached Block.`,
                     grade: `f5`,
                   },
                   {
@@ -497,8 +497,8 @@ export const data = [
                     name: `detached-block-left`,
                     displayName: `Detached Block Left`,
                     description: `Sit-start using the large slopey ramp for your right hand and a
-            slopey edge for the left. Make a big move out left to a poor
-            pinch and finish easily above.`,
+          slopey edge for the left. Make a big move out left to a poor
+          pinch and finish easily above.`,
                     grade: `f7a+`,
                   },
                   {
@@ -523,8 +523,8 @@ export const data = [
             name: `twenty-steps`,
             displayName: `Twenty Steps`,
             overview: `The opposite side of the detached block has a range of easy but high problems.
-            Some of these are old trad routes that are generally bouldered; take care.
-            The slabby face of the Detached Block`,
+          Some of these are old trad routes that are generally bouldered; take care.
+          The slabby face of the Detached Block`,
             conditions: ``,
             approach: `Continue along the vague path past Pirate Block towards the large outcrop.`,
             access: ``,
@@ -539,7 +539,7 @@ export const data = [
                     name: `detached-wall-left`,
                     displayName: `Detached Wall Left`,
                     description: `Sit-start the slabby left arête. The
-            stand is f3.`,
+          stand is f3.`,
                     grade: `f6a`,
                   },
                   {
@@ -547,8 +547,8 @@ export const data = [
                     name: `detached-block-wall`,
                     displayName: `Detached Block Wall`,
                     description: `Sit-start the centre of the slab avoiding
-            both arêtes. The stand start earns a
-            severe in the old guide.`,
+          both arêtes. The stand start earns a
+          severe in the old guide.`,
                     grade: `f4`,
                   },
                   {
@@ -570,11 +570,11 @@ export const data = [
                     name: `twentysteps-arete`,
                     displayName: `Twentysteps Arête`,
                     description: `Climb the high arêtes. Be careful on
-            the jugs higher up, the rock does not
-            feel entirely solid. Alternatively,
-            traverse off from the good ledge above
-            the triangular step for a pleasant f3.
-            The sit start from two side pulls is f5`,
+          the jugs higher up, the rock does not
+          feel entirely solid. Alternatively,
+          traverse off from the good ledge above
+          the triangular step for a pleasant f3.
+          The sit start from two side pulls is f5`,
                     grade: `f3`,
                   },
                 ],
@@ -587,7 +587,7 @@ export const data = [
             overview: ``,
             conditions: ``,
             approach: `Continue along the path around the crag. Suicide Prow is
-            just round the corner on the right.`,
+          just round the corner on the right.`,
             access: ``,
             gpsCoordinates: `52.7497, -01.3585`,
             sections: [
@@ -600,9 +600,9 @@ export const data = [
                     name: `suicide-prow`,
                     displayName: `Suicide Prow`,
                     description: `Clamp your way up the prow avoiding the
-            detached boulders clustered around it. Start with
-            your hands just above the overlap. Tiny humans
-            may need to stack pads to reach the start.`,
+          detached boulders clustered around it. Start with
+          your hands just above the overlap. Tiny humans
+          may need to stack pads to reach the start.`,
                     grade: `f7c`,
                   },
                 ],
@@ -616,7 +616,7 @@ export const data = [
                     name: `stretch-left`,
                     displayName: `Stretch Left`,
                     description: `Start sat in the pit, choose between a range of poor crimps and make an
-            improbable stretch to the large flake. Surprisingly good .`,
+          improbable stretch to the large flake. Surprisingly good .`,
                     grade: `f6a+`,
                   },
                   {
@@ -624,7 +624,7 @@ export const data = [
                     name: `green-goddess`,
                     displayName: `Green Goddess`,
                     description: `Get back into the pit, choose your crimps and climb the wall direct past a
-            poor sidepull. Sit-down start.`,
+          poor sidepull. Sit-down start.`,
                     grade: `f6c+`,
                   },
                   {
@@ -632,8 +632,8 @@ export const data = [
                     name: `on-the-edge`,
                     displayName: `On The Edge`,
                     description: `Sit-start, to the right of Green Goddess, with a leg dangling over the edge.
-            Use poor crimps and a good flake to gain the top. A good problem for those
-            who hate their legs and wish them harm.`,
+          Use poor crimps and a good flake to gain the top. A good problem for those
+          who hate their legs and wish them harm.`,
                     grade: `f7a+`,
                   },
                 ],
@@ -646,8 +646,8 @@ export const data = [
             overview: ``,
             conditions: ``,
             approach: `Continue on the vague path between Suicide Prow and Twenty Steps.
-            Turry Tor is the next block on your right. If approaching directly,
-            continue on the main path past Brap Ya Mum, you can’t miss it.`,
+          Turry Tor is the next block on your right. If approaching directly,
+          continue on the main path past Brap Ya Mum, you can’t miss it.`,
             access: ``,
             gpsCoordinates: `52.7497, -01.3579`,
             sections: [
@@ -660,7 +660,7 @@ export const data = [
                     name: `mikes-dyno`,
                     displayName: `Mike’s Dyno`,
                     description: `Use good sidepulls on the left of the arête to dyno straight for the
-            top.`,
+          top.`,
                     grade: `f7a`,
                   },
                   {
@@ -675,7 +675,7 @@ export const data = [
                     name: `turry-right`,
                     displayName: `Turry Right`,
                     description: `From the same start, trend right to finish up the good flakes on the
-            right side of the arête.`,
+          right side of the arête.`,
                     grade: `f5+`,
                   },
                 ],
@@ -688,8 +688,8 @@ export const data = [
             overview: ``,
             conditions: ``,
             approach: `Take the main track past Turry Tor until you reach the end of the outcrop to
-            which it belongs. There is a light path heading right towards the fence and
-            the back of the outcrop. The Tooth is located at the end of this path.`,
+          which it belongs. There is a light path heading right towards the fence and
+          the back of the outcrop. The Tooth is located at the end of this path.`,
             access: ``,
             gpsCoordinates: `52.7492, -01.3583`,
             sections: [
@@ -702,7 +702,7 @@ export const data = [
                     name: `megalomaniac`,
                     displayName: `Megalomaniac`,
                     description: `Sit-start using a pinch and the base of the slopey ramp. Climb
-            awkwardly up the rib.`,
+          awkwardly up the rib.`,
                     grade: `f6a+`,
                   },
                   {
@@ -710,7 +710,7 @@ export const data = [
                     name: `megalodons-tooth`,
                     displayName: `Megalodon’s Tooth`,
                     description: `The left arête from sitting. Start from a right hand pinch and an
-            undercut. The ledge is in at this grade.`,
+          undercut. The ledge is in at this grade.`,
                     grade: `f5`,
                   },
                   {
@@ -725,11 +725,11 @@ export const data = [
                     name: `traversal`,
                     displayName: `Traversal`,
                     description: `Start as for Megaladon’s Tooth and traverse the mid-height line of
-            holds, staying low (see the top red line in the topo photo) until you
-            reach the arête; finish up this. Avoid the foot ledge (see the
-            bottom red line in the topo photo). Reversal climbs the reverse of
-            this line, starting as for Extinct Arête to finish up Megalodon’s
-            Tooth, at the same grade.`,
+          holds, staying low (see the top red line in the topo photo) until you
+          reach the arête; finish up this. Avoid the foot ledge (see the
+          bottom red line in the topo photo). Reversal climbs the reverse of
+          this line, starting as for Extinct Arête to finish up Megalodon’s
+          Tooth, at the same grade.`,
                     grade: `f6b+`,
                   },
                   {
@@ -749,9 +749,9 @@ export const data = [
             overview: ``,
             conditions: ``,
             approach: `Take the main track past Turry Tor until you reach the end of the outcrop
-            to which it belongs. Take the path shooting off left into the trees. Follow
-            this, keeping right where it forks. The Warthog, and a vague path to the
-            blocks, will be visible on your right a short distance from a right turn.`,
+          to which it belongs. Take the path shooting off left into the trees. Follow
+          this, keeping right where it forks. The Warthog, and a vague path to the
+          blocks, will be visible on your right a short distance from a right turn.`,
             access: ``,
             gpsCoordinates: `52.7496, -01.3569`,
             sections: [
@@ -764,7 +764,7 @@ export const data = [
                     name: `little-slab`,
                     displayName: `Little Slab`,
                     description: `Climb the centre of the slab from a sit-start using the good edge on
-            the right side of the face.`,
+          the right side of the face.`,
                     grade: `f3+`,
                   },
                   {
@@ -772,8 +772,8 @@ export const data = [
                     name: `twin-track-groove`,
                     displayName: `Twin Track Groove`,
                     description: `Sit-start the groove. There are many possible methods ranging from
-            enjoyable to deeply upsetting. Sticking to either of the two cracks for
-            your hands offers unpleasant jamming practice at around f5+.`,
+          enjoyable to deeply upsetting. Sticking to either of the two cracks for
+          your hands offers unpleasant jamming practice at around f5+.`,
                     grade: `f4`,
                   },
                   {
@@ -781,7 +781,7 @@ export const data = [
                     name: `little-prow`,
                     displayName: `Little Prow`,
                     description: `Sit-start off the little block using a good left sidepull and climb
-            the prow direct.`,
+          the prow direct.`,
                     grade: `f5`,
                   },
                 ],
@@ -795,9 +795,9 @@ export const data = [
                     name: `the-warthog`,
                     displayName: `The Warthog`,
                     description: `Grit style compression up the steep face. Stand start with your
-          right hand around the base of the slopey rib and your left, at a
-          similar height, low on the left arête. Fridge-hug up to a good
-          jug and top-out. Avoid the giant foot ledge.`,
+        right hand around the base of the slopey rib and your left, at a
+        similar height, low on the left arête. Fridge-hug up to a good
+        jug and top-out. Avoid the giant foot ledge.`,
                     grade: `f6b+`,
                   },
                   {
@@ -805,9 +805,9 @@ export const data = [
                     name: `backscratcher`,
                     displayName: `Backscratcher`,
                     description: `The steep face of the Warthog boulder without the left arête.
-          Stand start with your right hand at the base of the slopey rib
-          and left on a good sidepull. Pop to the top of the rib and gain
-          the good jug. Finish as per The Warthog. No foot ledge.`,
+        Stand start with your right hand at the base of the slopey rib
+        and left on a good sidepull. Pop to the top of the rib and gain
+        the good jug. Finish as per The Warthog. No foot ledge.`,
                     grade: `f6c`,
                   },
                 ],
@@ -820,9 +820,9 @@ export const data = [
             overview: ``,
             conditions: ``,
             approach: `Approach as for The Warthog, taking the path leading left from Turry Tor.
-            Continue along this path as it steepens, shortly after passing the vague
-            track heading up to The Warthog. Rizzo the Rat will become visible as you
-            top the little hill. See the map on the following page.`,
+          Continue along this path as it steepens, shortly after passing the vague
+          track heading up to The Warthog. Rizzo the Rat will become visible as you
+          top the little hill. See the map on the following page.`,
             access: ``,
             gpsCoordinates: `52.7490, -01.3555`,
             sections: [
@@ -835,7 +835,7 @@ export const data = [
                     name: `gonzos-nose`,
                     displayName: `Gonzo’s Nose`,
                     description: `Climb the hanging left arête, making use of the crack, from a sit-start
-            beneath the arête.`,
+          beneath the arête.`,
                     grade: `f6a+`,
                   },
                   {
@@ -843,7 +843,7 @@ export const data = [
                     name: `crack-only`,
                     displayName: `Crack Only`,
                     description: `Sit-start beneath the crack. Climb direct using a good undercut on
-            the right. Avoid the left arête and the jug out right.`,
+          the right. Avoid the left arête and the jug out right.`,
                     grade: `f5+`,
                   },
                   {
@@ -871,7 +871,7 @@ export const data = [
                     name: `gonzo`,
                     displayName: `Gonzo`,
                     description: `An excellent problem. From a sit-start, climb the back of the
-          hanging arête.`,
+        hanging arête.`,
                     grade: `f5+`,
                   },
                 ],
@@ -885,7 +885,7 @@ export const data = [
                     name: `rizzo-the-rat`,
                     displayName: `Rizzo the Rat`,
                     description: `Sit-start/hang the jug and reach the left arête. Finish by mantling
-          the prow straight on. Avoid the detached blocks.`,
+        the prow straight on. Avoid the detached blocks.`,
                     grade: `f5`,
                   },
                   {
@@ -893,8 +893,8 @@ export const data = [
                     name: `swing-the-rat`,
                     displayName: `Swing the Rat`,
                     description: `Sit-start using the right arête and the starting ledge of Rizzo the Rat.
-          Swing onto the jug and finish up Rizzo the Rat. Avoid the detached
-          blocks.`,
+        Swing onto the jug and finish up Rizzo the Rat. Avoid the detached
+        blocks.`,
                     grade: `f6a`,
                   },
                 ],
@@ -907,7 +907,7 @@ export const data = [
             overview: ``,
             conditions: ``,
             approach: `Take the main path past Turry Tor and keep right when the path
-            splits. Reg’s Area will be visible on the left shortly after this split.`,
+          splits. Reg’s Area will be visible on the left shortly after this split.`,
             access: ``,
             gpsCoordinates: `52.7489, -01.3565`,
             sections: [
@@ -927,7 +927,7 @@ export const data = [
                     name: `regs-arete`,
                     displayName: `Reg’s Arête`,
                     description: `Climb the big arête from standing. Can be climbed on either side at the
-            same grade.`,
+          same grade.`,
                     grade: `f3`,
                   },
                 ],
@@ -941,7 +941,7 @@ export const data = [
                     name: `regs-arete`,
                     displayName: `Reg’s Arête`,
                     description: `Climb the big arête from standing. Can be climbed on either side at the
-            same grade.`,
+          same grade.`,
                     grade: `f3`,
                   },
                   {
@@ -962,7 +962,7 @@ export const data = [
                     name: `whirlybird`,
                     displayName: `Whirlybird`,
                     description: `Up and right from Reg’s Crack is a slabby block. Do a Dawes and climb the
-            slab with only shoes touching the rock. No hands, no knees, just shoes. Sta`,
+          slab with only shoes touching the rock. No hands, no knees, just shoes. Sta`,
                     grade: `f6a+`,
                   },
                 ],
@@ -975,15 +975,15 @@ export const data = [
         name: `trilobate-plantation`,
         displayName: `Trilobate Plantation`,
         overview: `A convenient spot with some of the best problems in the woods.
-  Be sure to try Diamond Shield, Addams Family Values and The
-  Power of Juan. `,
+Be sure to try Diamond Shield, Addams Family Values and The
+Power of Juan. `,
         conditions: ``,
         approach: `Park in one of the lay-bys where Warren Lane becomes Turolough
-  Road. Parking is limited, if there are no spaces in the existing
-  laybys Grimley’s may be a better bet. Note: Access issues have
-  arisen due to people jumping the wall and parking outside of
-  designated spaces. Please approach using the gate by Hob’s Hole
-  and park sensibly. `,
+Road. Parking is limited, if there are no spaces in the existing
+laybys Grimley’s may be a better bet. Note: Access issues have
+arisen due to people jumping the wall and parking outside of
+designated spaces. Please approach using the gate by Hob’s Hole
+and park sensibly. `,
         access: ``,
         gpsCoordinates: `52.7514, -01.3579`,
         blocks: [
@@ -991,11 +991,11 @@ export const data = [
             name: `the-pillar-area`,
             displayName: `The Pillar Area`,
             overview: `A mini crag with some good low climbs. The
-            Climbing Station youth team can confirm its
-            suitability for young crushers.`,
+          Climbing Station youth team can confirm its
+          suitability for young crushers.`,
             conditions: ``,
             approach: `This is the first area, visible directly ahead as
-            you pass the gate opposite Hob’s Hole.`,
+          you pass the gate opposite Hob’s Hole.`,
             access: ``,
             gpsCoordinates: `52.7524, -01.3559`,
             sections: [
@@ -1015,8 +1015,8 @@ export const data = [
                     name: `thrilling-traverse`,
                     displayName: `Thrilling Traverse`,
                     description: `Start up Not so Thriller and traverse left,
-          past The Pillar to finish on the left side of
-          the vague arête.`,
+        past The Pillar to finish on the left side of
+        the vague arête.`,
                     grade: `f5`,
                   },
                   {
@@ -1024,7 +1024,7 @@ export const data = [
                     name: `the-pillar`,
                     displayName: `The Pillar`,
                     description: `Climb direct between the two vague arêtes
-          from a sit-start.`,
+        from a sit-start.`,
                     grade: `f5`,
                   },
                   {
@@ -1032,7 +1032,7 @@ export const data = [
                     name: `not-so-thriller`,
                     displayName: `Not so Thriller`,
                     description: `Sit start the vague right arête without the
-          low foot blocks.`,
+        low foot blocks.`,
                     grade: `f5`,
                   },
                   {
@@ -1040,8 +1040,8 @@ export const data = [
                     name: `lowest-of-the-low`,
                     displayName: `Lowest of the Low`,
                     description: `Sit-start as for Lip Up and traverse
-          leftwards across the lip. Mantle to finish on
-          the right side.`,
+        leftwards across the lip. Mantle to finish on
+        the right side.`,
                     grade: `f6a`,
                   },
                   {
@@ -1049,9 +1049,9 @@ export const data = [
                     name: `lip-up`,
                     displayName: `Lip Up`,
                     description: `A tiny but surprisingly good problem.
-          Sit-start the front of the block and
-          mantle straight over. Good for little
-          ones.`,
+        Sit-start the front of the block and
+        mantle straight over. Good for little
+        ones.`,
                     grade: `f4`,
                   },
                 ],
@@ -1065,7 +1065,7 @@ export const data = [
                     name: `no-thrills`,
                     displayName: `No Thrills`,
                     description: `An awkward sit-start off the right arête
-          and a low left ledge. A poor problem.`,
+        and a low left ledge. A poor problem.`,
                     grade: `f4`,
                   },
                   {
@@ -1073,10 +1073,10 @@ export const data = [
                     name: `thriller`,
                     displayName: `Thriller`,
                     description: `A good compression problem on the
-          short steep wall. Sit-start the wall using
-          both arêtes and a bad smear. Avoid the
-          foot blocks and anything either side of
-          the two arêtes.`,
+        short steep wall. Sit-start the wall using
+        both arêtes and a bad smear. Avoid the
+        foot blocks and anything either side of
+        the two arêtes.`,
                     grade: `f6a`,
                   },
                 ],
@@ -1089,8 +1089,8 @@ export const data = [
             overview: `A good block developed by Matt leger in 2015.`,
             conditions: ``,
             approach: `From the gate opposite Hob’s hole, follow the path up heading up
-            and right into the woods. Shortly past the Pillar Area the Star Trek
-            Boulder should be visible off the path on your left.`,
+          and right into the woods. Shortly past the Pillar Area the Star Trek
+          Boulder should be visible off the path on your left.`,
             access: ``,
             gpsCoordinates: `52.7519, -01.3557`,
             sections: [
@@ -1103,10 +1103,10 @@ export const data = [
                     name: `jean-luc`,
                     displayName: `Jean Luc`,
                     description: `Sit-start from poor crimps, place a heel and mantle onto the
-            slab. The right arête is in but the good rising flake line on the
-            left is out of bounds. Variant include starting matched on the
-            big low sidepull and avoiding the arête; all are varying shades
-            of f7a.`,
+          slab. The right arête is in but the good rising flake line on the
+          left is out of bounds. Variant include starting matched on the
+          big low sidepull and avoiding the arête; all are varying shades
+          of f7a.`,
                     grade: `f7a`,
                   },
                   {
@@ -1114,7 +1114,7 @@ export const data = [
                     name: `energise`,
                     displayName: `Energise`,
                     description: `Start as per Warp Drive and traverse leftwards across the lip
-            into the start of Jean Luc to finish up this.`,
+          into the start of Jean Luc to finish up this.`,
                     grade: `f7a+`,
                   },
                   {
@@ -1122,7 +1122,7 @@ export const data = [
                     name: `warp-drive`,
                     displayName: `Warp Drive`,
                     description: `Sit-start the arête on its left side avoiding any foot blocks and
-            good ledges.`,
+          good ledges.`,
                     grade: `f6b`,
                   },
                   {
@@ -1130,7 +1130,7 @@ export const data = [
                     name: `shut-up-wesley`,
                     displayName: `Shut Up Wesley`,
                     description: `The right side of the arête from a sit start. Avoid foot blocks
-            and good ledges.`,
+          and good ledges.`,
                     grade: `f6b`,
                   },
                 ],
@@ -1143,8 +1143,8 @@ export const data = [
             overview: ``,
             conditions: ``,
             approach: `Approach as for the Star Trek Boulder, once level with this
-            boulder take a vague path heading back towards the road. Tron
-            and Scrub are on the left side of this path.`,
+          boulder take a vague path heading back towards the road. Tron
+          and Scrub are on the left side of this path.`,
             access: ``,
             gpsCoordinates: `52.7515, -01.3567`,
             sections: [
@@ -1157,8 +1157,8 @@ export const data = [
                     name: `ram`,
                     displayName: `Ram`,
                     description: `Sit-start with your left hand on a hold by the arête (A) and a good
-            sidepull for the right (B). Climb to the lip and traverse left to
-            finish up the next arête. Avoid the various detached blocks.`,
+          sidepull for the right (B). Climb to the lip and traverse left to
+          finish up the next arête. Avoid the various detached blocks.`,
                     grade: `f6b`,
                   },
                   {
@@ -1166,7 +1166,7 @@ export const data = [
                     name: `tron`,
                     displayName: `Tron`,
                     description: `Start as per Ram but finish direct on reaching the lip. Avoid the
-            detached blocks.`,
+          detached blocks.`,
                     grade: `f6b+`,
                   },
                   {
@@ -1174,8 +1174,8 @@ export const data = [
                     name: `flynn`,
                     displayName: `Flynn`,
                     description: `Start with a left hand on gaston (B) and the right on jug (C). Sit or crouch
-            depending on your reach. Climb over the nose avoiding the detached
-            blocks.`,
+          depending on your reach. Climb over the nose avoiding the detached
+          blocks.`,
                     grade: `f6b`,
                   },
                 ],
@@ -1189,7 +1189,7 @@ export const data = [
                     name: `strange-brew`,
                     displayName: `Strange Brew`,
                     description: `Start up Scrub and traverse left to mantle out on the far side. Can be
-            reversed at the same grade.`,
+          reversed at the same grade.`,
                     grade: `f5+`,
                   },
                   {
@@ -1197,8 +1197,8 @@ export const data = [
                     name: `backwards-roly-poly`,
                     displayName: `Backwards Roly Poly`,
                     description: `From a sit-start off the round hold on top of the prow climb up and left
-            onto the slab. Using only the start hold and the large sloper for your
-            hands is a good 5+.`,
+          onto the slab. Using only the start hold and the large sloper for your
+          hands is a good 5+.`,
                     grade: `f4`,
                   },
                   {
@@ -1230,13 +1230,13 @@ export const data = [
                     name: `diamond-shield`,
                     displayName: `Diamond Shield`,
                     description: `Climb the twin arêtes from standing. You
-            can use the foot blocks directly beneath
-            the shield but not the block out left.
-            Diamond Shield and its variants can be
-            started from sitting but it’s awkward and
-            adds nothing to the grades. All of the
-            variants described here use the undercuts
-            beneath the left arête.`,
+          can use the foot blocks directly beneath
+          the shield but not the block out left.
+          Diamond Shield and its variants can be
+          started from sitting but it’s awkward and
+          adds nothing to the grades. All of the
+          variants described here use the undercuts
+          beneath the left arête.`,
                     grade: `f5+`,
                   },
                   {
@@ -1251,7 +1251,7 @@ export const data = [
                     name: `diamond-face`,
                     displayName: `Diamond Face`,
                     description: `Avoid both arêtes, opting instead for a selection of
-            poor face holds.`,
+          poor face holds.`,
                     grade: `f6b`,
                   },
                   {
@@ -1266,8 +1266,8 @@ export const data = [
                     name: `decrepitation`,
                     displayName: `Decrepitation`,
                     description: `Sit-start the right arête on its right hand side. Start using the
-            arête and a low right sidepull. Avoid the low foot blocks and
-            the large boulder to the right.`,
+          arête and a low right sidepull. Avoid the low foot blocks and
+          the large boulder to the right.`,
                     grade: `f7b`,
                   },
                 ],
@@ -1292,8 +1292,8 @@ export const data = [
                     name: `gullyvers-travels`,
                     displayName: `Gullyver’s Travels`,
                     description: `Sit-start near the base of the lip from holds in the crack.
-            Traverse the lip to finish on the left side of the right arête.
-            Stay off the large foot blocks.`,
+          Traverse the lip to finish on the left side of the right arête.
+          Stay off the large foot blocks.`,
                     grade: `f6a+`,
                   },
                   {
@@ -1301,7 +1301,7 @@ export const data = [
                     name: `gullyvers-excursion`,
                     displayName: `Gullyver’s Excursion`,
                     description: `Sit-start as for Gullyver’s Travels and traverse to the left
-            arête of the big scoop. Finish directly up the wall.`,
+          arête of the big scoop. Finish directly up the wall.`,
                     grade: `f5+`,
                   },
                   {
@@ -1322,7 +1322,7 @@ export const data = [
                     name: `gully-prow`,
                     displayName: `Gully Prow`,
                     description: `Sit-start the prow with feet on the back wall. Climb up
-            Front face of the Gully Block Back prow on the Gully Block and rght. Very good.`,
+          Front face of the Gully Block Back prow on the Gully Block and rght. Very good.`,
                     grade: `f6b`,
                   },
                 ],
@@ -1335,7 +1335,7 @@ export const data = [
             overview: ``,
             conditions: ``,
             approach: `Continue on the main path from Diamond Shield. This
-            boulder is just round the corner on the left.`,
+          boulder is just round the corner on the left.`,
             access: ``,
             gpsCoordinates: `52.7515, -01.3573`,
             sections: [
@@ -1355,8 +1355,8 @@ export const data = [
                     name: `overkill`,
                     displayName: `Overkill`,
                     description: `Make the first big move of Overhanging Arête, traverse right
-            into the good ledge above the start of Addams Family Values
-            and finish up this problem.`,
+          into the good ledge above the start of Addams Family Values
+          and finish up this problem.`,
                     grade: `f7b`,
                   },
                   {
@@ -1364,12 +1364,12 @@ export const data = [
                     name: `doneover`,
                     displayName: `Doneover`,
                     description: `Sit-start with your left hand on a sidepull (A) and your right on a gaston (B).
-            Make a hard move to the sidepull sat just beneath the break and a slopey
-            pinch to its right. Use the higher sidepull/pinch above and the slopey pinch
-            just down and left of this to gain a good hold near the top of the right arête
-            and top out. Avoid both arêtes and the ledge above the starting holds of
-            Addams Family Values. The undercut beneath the gaston (B) is also out at
-            this grade.`,
+          Make a hard move to the sidepull sat just beneath the break and a slopey
+          pinch to its right. Use the higher sidepull/pinch above and the slopey pinch
+          just down and left of this to gain a good hold near the top of the right arête
+          and top out. Avoid both arêtes and the ledge above the starting holds of
+          Addams Family Values. The undercut beneath the gaston (B) is also out at
+          this grade.`,
                     grade: `f7c`,
                   },
                   {
@@ -1377,7 +1377,7 @@ export const data = [
                     name: `overdone`,
                     displayName: `Overdone`,
                     description: `Start as above to the holds by the break then climb left to finish up
-            Overhanging Arête. Stiff for the grade.`,
+          Overhanging Arête. Stiff for the grade.`,
                     grade: `f7b+`,
                   },
                   {
@@ -1385,7 +1385,7 @@ export const data = [
                     name: `crossdresser`,
                     displayName: `Crossdresser`,
                     description: `Sit-start from a sidepull (B) and the sloper to its right. Climb up and left to
-            finish up the left side of the left arête.`,
+          finish up the left side of the left arête.`,
                     grade: `f7a`,
                   },
                   {
@@ -1393,8 +1393,8 @@ export const data = [
                     name: `addams-family-values`,
                     displayName: `Addams Family Values`,
                     description: `From the start of crossdresser, climb the wall direct using the right arête and
-            a high sidepull. The good ledge on the right is in at this grade. A three star
-            mega classic. Eliminating both arêtes is Areteless f7b.`,
+          a high sidepull. The good ledge on the right is in at this grade. A three star
+          mega classic. Eliminating both arêtes is Areteless f7b.`,
                     grade: `f7a+`,
                   },
                   {
@@ -1402,7 +1402,7 @@ export const data = [
                     name: `budgie-project`,
                     displayName: `Budgie Project/f6cish?`,
                     description: `Shoes on the rock only, no hands, no knees, no nothing. Start from the
-            centre of the slab and finish up the left arête.`,
+          centre of the slab and finish up the left arête.`,
                     grade: `f6c`,
                   },
                   {
@@ -1417,7 +1417,7 @@ export const data = [
                     name: `johnnys-little-helicopter`,
                     displayName: `Johnny’s Little Helicopter`,
                     description: `Following the same rules as Wednesday’s Bull, start up the centre of the slab
-            and climb right using a large foothold on the arête.`,
+          and climb right using a large foothold on the arête.`,
                     grade: `f6a+`,
                   },
                 ],
@@ -1442,8 +1442,8 @@ export const data = [
                     name: `the-other-juan`,
                     displayName: `The Other Juan`,
                     description: `Sit-start from the good ledge and climb
-            direct to the top. Avoid the low foot blocks
-            and ledges.`,
+          direct to the top. Avoid the low foot blocks
+          and ledges.`,
                     grade: `f5+`,
                   },
                   {
@@ -1451,11 +1451,11 @@ export const data = [
                     name: `the-power-of-juan`,
                     displayName: `The Power of Juan`,
                     description: `Sit-start with your left hand on a poor
-            sidepull and your right on a slopey undercut.
-            Make a hard move to the right arête and
-            finish with powerful compression moves
-            between the two arêtes. Avoid the foot
-            blocks and ledges. Extremely good.`,
+          sidepull and your right on a slopey undercut.
+          Make a hard move to the right arête and
+          finish with powerful compression moves
+          between the two arêtes. Avoid the foot
+          blocks and ledges. Extremely good.`,
                     grade: `f7a`,
                   },
                   {
@@ -1463,9 +1463,9 @@ export const data = [
                     name: `when-two-become-juan`,
                     displayName: `When Two Become Juan`,
                     description: `Start as for The Power of Juan, once
-            established on the two arêtes throw a heel
-            onto the starting ledge of The Other Juan
-            and rockover to finish up this problem.`,
+          established on the two arêtes throw a heel
+          onto the starting ledge of The Other Juan
+          and rockover to finish up this problem.`,
                     grade: `f6c+`,
                   },
                 ],
@@ -2007,35 +2007,35 @@ export const data = [
                 displayName: `Link-Ups`,
                 routes: [
                   {
-                    number: `A`,
+                    number: "A",
                     name: `karma-sutra`,
                     displayName: `Karma Sutra`,
                     description: `Sit-start Grimley’s Crack and traverse right to finish up Karma.`,
                     grade: `f7b`,
                   },
                   {
-                    number: `B`,
+                    number: "B",
                     name: `karma-sutra-hard`,
                     displayName: `Karma Sutra (Hard)`,
                     description: `As above, finishing up Hard Karma.`,
                     grade: `f7b+`,
                   },
                   {
-                    number: `C`,
+                    number: "C",
                     name: `amrakarma`,
                     displayName: `Amrakarma`,
                     description: `Start up Amrak Eliminate, gain the mid-height flakes of Grimley’s Crack and traverse into the finish of Karma.`,
                     grade: `f7b+`,
                   },
                   {
-                    number: `D`,
+                    number: "D",
                     name: `grimleys-traverse`,
                     displayName: `Grimley’s Traverse`,
                     description: `Start as for Hard Karma and traverse left to finish up Amrak Eliminate.`,
                     grade: `f7b`,
                   },
                   {
-                    number: `E`,
+                    number: "E",
                     name: `amrakarma-extension`,
                     displayName: `Amrakarma Extension`,
                     description: `Climb Grimley’s Traverse to finish up Amrakarma.`,
@@ -2187,8 +2187,8 @@ export const data = [
                     name: `the-completionist`,
                     displayName: `The Completionist`,
                     description: `A low start, sat holding a small crimp beneath the lip of the boulder (A)
-                      and the good edge beneath the dark streak (B). Pull to the top and
-                      mantle out. `,
+                    and the good edge beneath the dark streak (B). Pull to the top and
+                    mantle out. `,
                     grade: `f5`,
                   },
                 ],
@@ -2220,7 +2220,7 @@ export const data = [
                     name: `the-egg`,
                     displayName: `The Egg`,
                     description: `Sit-start using the arête and the base of the rail. Climb direct avoiding
-                      the foot block. Using the foot block is Soft Boiled f5.`,
+                    the foot block. Using the foot block is Soft Boiled f5.`,
                     grade: `f6b`,
                   },
                 ],
@@ -2248,110 +2248,120 @@ export const data = [
             ],
           },
           {
-            name: `toast`,
-            displayName: `Toast`,
-            overview: ``,
-            conditions: ``,
-            approach: `A little further up the hill from The Egg.`,
-            access: ``,
-            gpsCoordinates: `52.7470, -01.3541`,
+            name: "toast",
+            displayName: "Toast",
+            overview: "",
+            conditions: "",
+            approach: "A little further up the hill from The Egg.",
+            access: "",
+            gpsCoordinates: "52.7470, -01.3541",
             sections: [
               {
-                name: `main-face`,
-                displayName: `Main Face`,
+                name: "main-face",
+                displayName: "Main Face",
                 routes: [
                   {
                     number: 1,
-                    name: `toast-arete`,
-                    displayName: `Toast Arête`,
-                    description: `Sit-start the left arête. Avoid the low thin flake for your feet.`,
-                    grade: `f5`,
+                    name: "toast-arete",
+                    displayName: "Toast Arête",
+                    description:
+                      "Sit-start the left arête. Avoid the low thin flake for your feet.",
+                    grade: "f5",
                   },
                   {
                     number: 2,
-                    name: `the-flake`,
-                    displayName: `The Flake`,
-                    description: `Sit-start using the good sidepull and climb the wall direct using the good slopey pinch.`,
-                    grade: `f6b`,
+                    name: "the-flake",
+                    displayName: "The Flake",
+                    description:
+                      "Sit-start using the good sidepull and climb the wall direct using the good slopey pinch.",
+                    grade: "f6b",
                   },
                   {
                     number: 3,
-                    name: `burnt-out`,
-                    displayName: `Burnt Out`,
-                    description: `Sit-start from the good sidepull and traverse left to finish up Toast Arête. Stay below the pig slopey pinch until you’ve reached the arête.`,
-                    grade: `f6b+`,
+                    name: "burnt-out",
+                    displayName: "Burnt Out",
+                    description:
+                      "Sit-start from the good sidepull and traverse left to finish up Toast Arête. Stay below the pig slopey pinch until you’ve reached the arête.",
+                    grade: "f6b+",
                   },
                   {
                     number: 4,
-                    name: `bird-brained`,
-                    displayName: `Bird-Brained`,
-                    description: `A good eliminate up the vague ramp line of flakes and chicken heads. Sit-start from a gaston and a sharp blocky undercut. Gain the flake at the base of the ramp and use this and the two chicken heads up and left of this to reach the slopey pinch. Finish as for The Flake. Keep to the handholds next to the topo line.`,
-                    grade: `f6a+`,
+                    name: "bird-brained",
+                    displayName: "Bird-Brained",
+                    description:
+                      "A good eliminate up the vague ramp line of flakes and chicken heads. Sit-start from a gaston and a sharp blocky undercut. Gain the flake at the base of the ramp and use this and the two chicken heads up and left of this to reach the slopey pinch. Finish as for The Flake. Keep to the handholds next to the topo line.",
+                    grade: "f6a+",
                   },
                   {
                     number: 5,
-                    name: `the-rockover`,
-                    displayName: `The Rockover`,
-                    description: `Sit-start as above and gain the holds in the vague crack line up and right to finish at the highest point of the boulder. A good f6a eliminate avoids the crack in favour of poor face holds.`,
-                    grade: `f5+`,
+                    name: "the-rockover",
+                    displayName: "The Rockover",
+                    description:
+                      "Sit-start as above and gain the holds in the vague crack line up and right to finish at the highest point of the boulder. A good f6a eliminate avoids the crack in favour of poor face holds.",
+                    grade: "f5+",
                   },
                   {
                     number: 6,
-                    name: `crust`,
-                    displayName: `Crust`,
-                    description: `Sit-start the right arête.`,
-                    grade: `f4`,
+                    name: "crust",
+                    displayName: "Crust",
+                    description: "Sit-start the right arête.",
+                    grade: "f4",
                   },
                   {
-                    number: `6a`,
-                    name: `toasted-traverse`,
-                    displayName: `Toasted Traverse`,
-                    description: `Sit-start as for Crust and traverse the face to finish up the left arête. A low level traverse into the starting sidepull of Burnt Out to finish up this problem is an unpleasant f6c.`,
-                    grade: `f6a+`,
+                    number: "6a",
+                    name: "toasted-traverse",
+                    displayName: "Toasted Traverse",
+                    description:
+                      "Sit-start as for Crust and traverse the face to finish up the left arête. A low level traverse into the starting sidepull of Burnt Out to finish up this problem is an unpleasant f6c.",
+                    grade: "f6a+",
                   },
                 ],
               },
             ],
           },
           {
-            name: `rising-ramp`,
-            displayName: `Rising Ramp`,
-            overview: ``,
-            conditions: ``,
-            approach: `From The Egg continue along the main path until you reach a large outcrop. Rising Ramp sits beneath this outcrop next to the path. Alternatively, use the large car park on Swannymote Rd and take the path leading left out of the car park. This path takes you to the same outcrop on its right side. Follow the path beneath the outcrop, Rising Ramp is on its far left.`,
-            access: ``,
-            gpsCoordinates: `52.7470, -01.3499`,
+            name: "rising-ramp",
+            displayName: "Rising Ramp",
+            overview: "",
+            conditions: "",
+            approach:
+              "From The Egg continue along the main path until you reach a large outcrop. Rising Ramp sits beneath this outcrop next to the path. Alternatively, use the large car park on Swannymote Rd and take the path leading left out of the car park. This path takes you to the same outcrop on its right side. Follow the path beneath the outcrop, Rising Ramp is on its far left.",
+            access: "",
+            gpsCoordinates: "52.7470, -01.3499",
             sections: [
               {
-                name: `main-face`,
-                displayName: `Main Face`,
+                name: "main-face",
+                displayName: "Main Face",
                 routes: [
                   {
                     number: 1,
-                    name: `rising-ramp`,
-                    displayName: `Rising Ramp`,
-                    description: `Sit-start matched on the jug at the base of the ramp. Follow the line of crimps and edges leftwards to finish on the left side of the left arête. Avoid the top of the boulder until you top out.`,
-                    grade: `f5+`,
+                    name: "rising-ramp",
+                    displayName: "Rising Ramp",
+                    description:
+                      "Sit-start matched on the jug at the base of the ramp. Follow the line of crimps and edges leftwards to finish on the left side of the left arête. Avoid the top of the boulder until you top out.",
+                    grade: "f5+",
                   },
                   {
                     number: 2,
-                    name: `ramp-up`,
-                    displayName: `Ramp-Up`,
-                    description: `Start as above and climb direct to the top. A dyno from the jug to the top is f6a.`,
-                    grade: `f3`,
+                    name: "ramp-up",
+                    displayName: "Ramp-Up",
+                    description:
+                      "Start as above and climb direct to the top. A dyno from the jug to the top is f6a.",
+                    grade: "f3",
                   },
                 ],
               },
               {
-                name: `crag-facing-side`,
-                displayName: `Crag Facing Side`,
+                name: "crag-facing-side",
+                displayName: "Crag Facing Side",
                 routes: [
                   {
                     number: 3,
-                    name: `stub`,
-                    displayName: `Stub`,
-                    description: `On the crag facing side of this boulder is a little prow. Climb from a sitting with a hand on each arête.`,
-                    grade: `f3`,
+                    name: "stub",
+                    displayName: "Stub",
+                    description:
+                      "On the crag facing side of this boulder is a little prow. Climb from a sitting with a hand on each arête.",
+                    grade: "f3",
                   },
                 ],
               },
@@ -2579,9 +2589,9 @@ export const data = [
                     name: `buns`,
                     displayName: `Buns`,
                     description: `Start with your left hand on the undercut
-  (A), and climb to the right arête and finish
-  up this. Avoid the large block to the right.
-  Avoiding the left block is f6a+.`,
+(A), and climb to the right arête and finish
+up this. Avoid the large block to the right.
+Avoiding the left block is f6a+.`,
                     grade: `f6a`,
                   },
                 ],
@@ -2676,7 +2686,7 @@ export const data = [
                     grade: `f3`,
                   },
                   {
-                    number: `2a`,
+                    number: "2a",
                     name: `black-hawk`,
                     displayName: `Black Hawk`,
                     description: `Climb Mossy slab with feet touching the wall only. You can use the edge on the left arête. Bold last move.`,
@@ -2841,7 +2851,7 @@ export const data = [
                     grade: `f2`,
                   },
                   {
-                    number: `4a`,
+                    number: "4a",
                     name: `chopper`,
                     displayName: `Chopper`,
                     description: `Climb basement slab with shoes touching the rock only.`,
@@ -3299,7 +3309,7 @@ export const data = [
                     grade: `f4`,
                   },
                   {
-                    number: `3a`,
+                    number: "3a",
                     name: `sweet-dee`,
                     displayName: `Sweet Dee`,
                     description: `Start in the same place as Paw. Climb direct using only the chicken heads for your hands.`,
@@ -3360,21 +3370,21 @@ export const data = [
                     grade: `f5`,
                   },
                   {
-                    number: `1a`,
+                    number: "1a",
                     name: `column-left`,
                     displayName: `Column Left`,
                     description: `Climb Column avoiding the right arête.`,
                     grade: `f6a`,
                   },
                   {
-                    number: `1b`,
+                    number: "1b",
                     name: `tight-slab`,
                     displayName: `Tight Slab`,
                     description: `Climb Column avoiding both arêtes. Surprisingly brilliant.`,
                     grade: `f6b+`,
                   },
                   {
-                    number: `1c`,
+                    number: "1c",
                     name: `column-right`,
                     displayName: `Column Right`,
                     description: `Climb Column avoiding left arête.`,
@@ -3399,214 +3409,6 @@ export const data = [
                     displayName: `Dirty Crack`,
                     description: `Climb the crack on its right side from a sit start.`,
                     grade: `f3`,
-                  },
-                ],
-              },
-            ],
-          },
-        ],
-      },
-      {
-        name: `grace-dieu`,
-        displayName: `Grace Dieu`,
-        overview: `Also known as the Viaduct Boulder. The remains of an old quarry, seven meters tall at its highest. Good rambles, a highball arête and some harder eliminates to get stuck into. Sauvastika f7A+ is a great eliminate problem which is a must for those operating at the grade. The boulder is located in Grace Dieu Wood, the other side of Turolough Road from Cademan Wood. This area of the Charnwood Forest has inspired the poetry of both Thomas Bancroft and William Wordsworth.`,
-        conditions: ``,
-        approach: `Approach as for High Cademan and make your way to Chockstone Roof. Level with Chockstone Roof is a path heading right away from the crag. Follow this path, past a waymark, The first boulder is a little way on from the waymark, just past a five-point junction.`,
-        access: `Park in the car park on Melrose Road (52.754230, -1.362953). Walk into the wood.`,
-        gpsCoordinates: ``,
-        blocks: [
-          {
-            name: `grace-dieu-boulder`,
-            displayName: `Grace Dieu Boulder`,
-            overview: ``,
-            conditions: ``,
-            approach: ``,
-            access: ``,
-            gpsCoordinates: ``,
-            sections: [
-              {
-                name: `sauvastika-wall`,
-                displayName: `Sauvastika Wall`,
-                routes: [
-                  {
-                    number: 0,
-                    name: `mono-traverse`,
-                    displayName: `Mono Traverse`,
-                    description: `Start sitting as for Tall Arête and traverse the wall below the lip. Starting up Leaning Wall and reversing this is f6C.`,
-                    grade: `f6C+`,
-                  },
-                  {
-                    number: 1,
-                    name: `tall-arete`,
-                    displayName: `Tall Arête`,
-                    description: `Climb the highball arête on its right from sitting.`,
-                    grade: `f5+`,
-                  },
-                  {
-                    number: 2,
-                    name: `crack-and-mantel`,
-                    displayName: `Crack and Mantel`,
-                    description: `From sitting, climb the crack and make an awkward mantel onto the slab.`,
-                    grade: `f6A`,
-                  },
-                  {
-                    number: `2a`, // Original reference: 2a
-                    name: `sauvastika`,
-                    displayName: `Sauvastika`,
-                    description: `A great eliminate problem. Sit start on two good side pulls, left hand to gaston crimp, right hand to mono, slap left and mantel.`,
-                    grade: `f7A+`,
-                  },
-                  {
-                    number: 3, // Original reference: 3
-                    name: `man-oh-mono`,
-                    displayName: `Man Oh Mono`,
-                    description: `From sitting on the two sidepulls, take the mono with the left hand then go right straight to the jug on the lip.`,
-                    grade: `f6C`,
-                  },
-                  {
-                    number: 4, // Original reference: 4
-                    name: `durex`,
-                    displayName: `Durex`,
-                    description: `Sit start and climb the crack and rib, eliminating the ledge handhold out right.`,
-                    grade: `f6B`,
-                  },
-                  {
-                    number: `4a`, // Original reference: 4a
-                    name: `safe-sex`,
-                    displayName: `Safe Sex`,
-                    description: `As for Durex but eliminating the crack.`,
-                    grade: `f6C`,
-                  },
-                  {
-                    number: 5, // Original reference: 5
-                    name: `leaning-wall`,
-                    displayName: `Leaning Wall`,
-                    description: `From sitting, climb the big ledges in the corner.`,
-                    grade: `f5+`,
-                  },
-                ],
-              },
-              {
-                name: `the-right-arete`,
-                displayName: `The Right Arête`,
-                routes: [
-                  {
-                    number: 6,
-                    name: `right-arete`,
-                    displayName: `Right Arête`,
-                    description: `Climb the right arête from sitting.`,
-                    grade: `f5+`,
-                  },
-                ],
-              },
-              {
-                name: `the-slab-and-arete`,
-                displayName: `The Slab and Arête`,
-                routes: [
-                  {
-                    number: 7,
-                    name: `slab-arete`,
-                    displayName: `Slab Arête`,
-                    description: `Climb the left arête. A hard f7A sit start is also possible climbing the right arête of the groove starting sitting on its left hand side.`,
-                    grade: `f4+`,
-                  },
-                  {
-                    number: 8,
-                    name: `blank-slab`,
-                    displayName: `Blank Slab`,
-                    description: `Climb the centre of the slab direct.`,
-                    grade: `f4+`,
-                  },
-                  {
-                    number: 9,
-                    name: `tall-arete-lh`,
-                    displayName: `Tall Arête LH`,
-                    description: `Climb the highball arête on its left.`,
-                    grade: `f4+`,
-                  },
-                ],
-              },
-            ],
-          },
-        ],
-      },
-      {
-        name: `poachers-rock`,
-        displayName: `Poachers Rock`,
-        overview: `Another small outcrop on private land. A small selection of low grade
-  problems. A few low grade sit start problems and some good smearing and laybacking. On private land but easily accessible. The crag is north facing and well shaded so makes for a good refuge on a hot day.`,
-        conditions: ``,
-        approach: ``,
-        gpsCoordinates: `52.7538, -01.3384 `,
-        blocks: [
-          {
-            name: `poachers-corner`,
-            displayName: `Poachers Corner`,
-            overview: ``,
-            conditions: ``,
-            approach: `Take the turning off Swannymote Road down Warren Lane. There is a small layby just beyond the junction on the right. From the lay-by, continue on foot along
-  Warren Lane; Poacher’s Rock will be visible on the left. Hop over the ditch and
-  over the fence to access the crag (52.7536, -01.3395)`,
-            access: ``,
-            gpsCoordinates: ``,
-            sections: [
-              {
-                name: `poachers-slab`,
-                displayName: `Poacher’s Slab`,
-                routes: [
-                  {
-                    number: 1,
-                    name: `flake-slab-1`,
-                    displayName: `Flake Slab 1`,
-                    description: `Climb the leftmost flake on its right side avoiding the holds on Flake Slab 2.`,
-                    grade: `f3`,
-                  },
-                  {
-                    number: 2,
-                    name: `flake-slab-2`,
-                    displayName: `Flake Slab 2`,
-                    description: `Climb the flake on its right side.`,
-                    grade: `f3`,
-                  },
-                  {
-                    number: 3,
-                    name: `poachers-slab`,
-                    displayName: `Poacher’s Slab`,
-                    description: `Sit-start from the ledge using a left hand crimp. Climb the slab direct.`,
-                    grade: `f6a`,
-                  },
-                ],
-              },
-              {
-                name: `green-wall`,
-                displayName: `Green Wall`,
-                routes: [
-                  {
-                    number: 4,
-                    name: `jug-fest`,
-                    displayName: `Jug Fest`,
-                    description: `Sit-start the juggy wall.`,
-                    grade: `f3`,
-                  },
-                  {
-                    number: 5,
-                    name: `green-wall`,
-                    displayName: `Green Wall`,
-                    description: `Climb the wall direct from a sit-start.`,
-                    grade: `f3`,
-                  },
-                ],
-              },
-              {
-                name: `lees-problem`,
-                displayName: `Lee's Problem`,
-                routes: [
-                  {
-                    number: 6,
-                    name: `lees-problem`,
-                    displayName: `Lee’s Problem`,
-                    description: `Sit start from the big flake.`,
-                    grade: `f4`,
                   },
                 ],
               },
