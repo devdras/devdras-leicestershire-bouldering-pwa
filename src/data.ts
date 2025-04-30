@@ -53,10 +53,10 @@ Gonzo, Big Flake, and Crack of Wales. `,
         conditions: ``,
         approach: `If you are heading to Cavalry Rock or Hidden wall there may be parking where
 Turolough Road meets Car Hill Road. However, parking here is limited. Alternatively,
-park on Grace Dieu road and approach as for Grimley’s Rock (page 32). If you know
-the area well it would be best to approach all areas as for Grimley’s to keep the
+park on Grace Dieu road and approach as for Grimley's Rock (page 32). If you know
+the area well it would be best to approach all areas as for Grimley's to keep the
 parking spaces free for others. Note: Local residents are becoming frustrated with
-people parking on the sides of Turolough Road. Please park as for Grimley’s Rock,
+people parking on the sides of Turolough Road. Please park as for Grimley's Rock,
 on Grace Dieu Road, if the parking bays are full. `,
         access: ``,
         gpsCoordinates: `52.7511, -01.3606`,
@@ -185,7 +185,7 @@ path on the left which takes you to the top of Hidden Wall.
                   {
                     number: 2,
                     name: `bulgarias-girdle`,
-                    displayName: `Bulgaria’s Girdle`,
+                    displayName: `Bulgaria's Girdle`,
                     description: `Sit-start from a small edge and traverse right, heading around the arête and continuing
                   all the way to a large edge right of Bungo and level with the little tree. Finish directly
                   from here.
@@ -245,7 +245,7 @@ path on the left which takes you to the top of Hidden Wall.
                   {
                     number: 4,
                     name: `bungos-arete`,
-                    displayName: `Bungo’s Arête`,
+                    displayName: `Bungo's Arête`,
                     description: `Sit-start using the jutting arête for your left
                 hand and a blocky pinch for the right.
                 Another hard start into easier ground.`,
@@ -647,7 +647,7 @@ fence line you will see the Pirate Block on your left.
             conditions: ``,
             approach: `Continue on the vague path between Suicide Prow and Twenty Steps.
           Turry Tor is the next block on your right. If approaching directly,
-          continue on the main path past Brap Ya Mum, you can’t miss it.`,
+          continue on the main path past Brap Ya Mum, you can't miss it.`,
             access: ``,
             gpsCoordinates: `52.7497, -01.3579`,
             sections: [
@@ -658,7 +658,7 @@ fence line you will see the Pirate Block on your left.
                   {
                     number: 4,
                     name: `mikes-dyno`,
-                    displayName: `Mike’s Dyno`,
+                    displayName: `Mike's Dyno`,
                     description: `Use good sidepulls on the left of the arête to dyno straight for the
           top.`,
                     grade: `f7a`,
@@ -708,7 +708,7 @@ fence line you will see the Pirate Block on your left.
                   {
                     number: 2,
                     name: `megalodons-tooth`,
-                    displayName: `Megalodon’s Tooth`,
+                    displayName: `Megalodon's Tooth`,
                     description: `The left arête from sitting. Start from a right hand pinch and an
           undercut. The ledge is in at this grade.`,
                     grade: `f5`,
@@ -717,18 +717,18 @@ fence line you will see the Pirate Block on your left.
                     number: `2a`,
                     name: `cavity`,
                     displayName: `Cavity`,
-                    description: `Climb Megalodon’s Tooth avoiding both arêtes. Dynamic.`,
+                    description: `Climb Megalodon's Tooth avoiding both arêtes. Dynamic.`,
                     grade: `f5+`,
                   },
                   {
                     number: 3,
                     name: `traversal`,
                     displayName: `Traversal`,
-                    description: `Start as for Megaladon’s Tooth and traverse the mid-height line of
+                    description: `Start as for Megaladon's Tooth and traverse the mid-height line of
           holds, staying low (see the top red line in the topo photo) until you
           reach the arête; finish up this. Avoid the foot ledge (see the
           bottom red line in the topo photo). Reversal climbs the reverse of
-          this line, starting as for Extinct Arête to finish up Megalodon’s
+          this line, starting as for Extinct Arête to finish up Megalodon's
           Tooth, at the same grade.`,
                     grade: `f6b+`,
                   },
@@ -833,7 +833,7 @@ fence line you will see the Pirate Block on your left.
                   {
                     number: 1,
                     name: `gonzos-nose`,
-                    displayName: `Gonzo’s Nose`,
+                    displayName: `Gonzo's Nose`,
                     description: `Climb the hanging left arête, making use of the crack, from a sit-start
           beneath the arête.`,
                     grade: `f6a+`,
@@ -849,7 +849,7 @@ fence line you will see the Pirate Block on your left.
                   {
                     number: 3,
                     name: `gonzos-arete`,
-                    displayName: `Gonzo’s Arête`,
+                    displayName: `Gonzo's Arête`,
                     description: `Sit-start the right arête using anything in reach.`,
                     grade: `f3`,
                   },
@@ -862,8 +862,8 @@ fence line you will see the Pirate Block on your left.
                   {
                     number: 4,
                     name: `gonzos-back-arete`,
-                    displayName: `Gonzo’s Back Arête`,
-                    description: `Climb the arête on it’s right from a sit-start off the block.`,
+                    displayName: `Gonzo's Back Arête`,
+                    description: `Climb the arête on it's right from a sit-start off the block.`,
                     grade: `f3`,
                   },
                   {
@@ -903,17 +903,17 @@ fence line you will see the Pirate Block on your left.
           },
           {
             name: `regs-area`,
-            displayName: `Reg’s Area`,
+            displayName: `Reg's Area`,
             overview: ``,
             conditions: ``,
             approach: `Take the main path past Turry Tor and keep right when the path
-          splits. Reg’s Area will be visible on the left shortly after this split.`,
+          splits. Reg's Area will be visible on the left shortly after this split.`,
             access: ``,
             gpsCoordinates: `52.7489, -01.3565`,
             sections: [
               {
                 name: `side-wall-of-regs-crack-boulder`,
-                displayName: `Side wall of Reg’s Crack Boulder`,
+                displayName: `Side wall of Reg's Crack Boulder`,
                 routes: [
                   {
                     number: 1,
@@ -925,7 +925,7 @@ fence line you will see the Pirate Block on your left.
                   {
                     number: 2,
                     name: `regs-arete`,
-                    displayName: `Reg’s Arête`,
+                    displayName: `Reg's Arête`,
                     description: `Climb the big arête from standing. Can be climbed on either side at the
           same grade.`,
                     grade: `f3`,
@@ -934,12 +934,12 @@ fence line you will see the Pirate Block on your left.
               },
               {
                 name: `front-face-of-regs-crack-boulder`,
-                displayName: `Front face of Reg’s Crack Boulder`,
+                displayName: `Front face of Reg's Crack Boulder`,
                 routes: [
                   {
                     number: 2,
                     name: `regs-arete`,
-                    displayName: `Reg’s Arête`,
+                    displayName: `Reg's Arête`,
                     description: `Climb the big arête from standing. Can be climbed on either side at the
           same grade.`,
                     grade: `f3`,
@@ -947,7 +947,7 @@ fence line you will see the Pirate Block on your left.
                   {
                     number: 3,
                     name: `regs-crack`,
-                    displayName: `Reg’s Crack`,
+                    displayName: `Reg's Crack`,
                     description: `The crack from a stand-start.`,
                     grade: `f3+`,
                   },
@@ -961,7 +961,7 @@ fence line you will see the Pirate Block on your left.
                     number: 4,
                     name: `whirlybird`,
                     displayName: `Whirlybird`,
-                    description: `Up and right from Reg’s Crack is a slabby block. Do a Dawes and climb the
+                    description: `Up and right from Reg's Crack is a slabby block. Do a Dawes and climb the
           slab with only shoes touching the rock. No hands, no knees, just shoes. Sta`,
                     grade: `f6a+`,
                   },
@@ -980,9 +980,9 @@ Power of Juan. `,
         conditions: ``,
         approach: `Park in one of the lay-bys where Warren Lane becomes Turolough
 Road. Parking is limited, if there are no spaces in the existing
-laybys Grimley’s may be a better bet. Note: Access issues have
+laybys Grimley's may be a better bet. Note: Access issues have
 arisen due to people jumping the wall and parking outside of
-designated spaces. Please approach using the gate by Hob’s Hole
+designated spaces. Please approach using the gate by Hob's Hole
 and park sensibly. `,
         access: ``,
         gpsCoordinates: `52.7514, -01.3579`,
@@ -995,7 +995,7 @@ and park sensibly. `,
           suitability for young crushers.`,
             conditions: ``,
             approach: `This is the first area, visible directly ahead as
-          you pass the gate opposite Hob’s Hole.`,
+          you pass the gate opposite Hob's Hole.`,
             access: ``,
             gpsCoordinates: `52.7524, -01.3559`,
             sections: [
@@ -1088,7 +1088,7 @@ and park sensibly. `,
             displayName: `Star Trek Boulder`,
             overview: `A good block developed by Matt leger in 2015.`,
             conditions: ``,
-            approach: `From the gate opposite Hob’s hole, follow the path up heading up
+            approach: `From the gate opposite Hob's hole, follow the path up heading up
           and right into the woods. Shortly past the Pillar Area the Star Trek
           Boulder should be visible off the path on your left.`,
             access: ``,
@@ -1233,7 +1233,7 @@ and park sensibly. `,
           can use the foot blocks directly beneath
           the shield but not the block out left.
           Diamond Shield and its variants can be
-          started from sitting but it’s awkward and
+          started from sitting but it's awkward and
           adds nothing to the grades. All of the
           variants described here use the undercuts
           beneath the left arête.`,
@@ -1290,7 +1290,7 @@ and park sensibly. `,
                   {
                     number: 3,
                     name: `gullyvers-travels`,
-                    displayName: `Gullyver’s Travels`,
+                    displayName: `Gullyver's Travels`,
                     description: `Sit-start near the base of the lip from holds in the crack.
           Traverse the lip to finish on the left side of the right arête.
           Stay off the large foot blocks.`,
@@ -1299,8 +1299,8 @@ and park sensibly. `,
                   {
                     number: 4,
                     name: `gullyvers-excursion`,
-                    displayName: `Gullyver’s Excursion`,
-                    description: `Sit-start as for Gullyver’s Travels and traverse to the left
+                    displayName: `Gullyver's Excursion`,
+                    description: `Sit-start as for Gullyver's Travels and traverse to the left
           arête of the big scoop. Finish directly up the wall.`,
                     grade: `f5+`,
                   },
@@ -1408,15 +1408,15 @@ and park sensibly. `,
                   {
                     number: 6,
                     name: `festers-slab`,
-                    displayName: `Fester’s Slab`,
-                    description: `A good kids’ route up the centre of the slab.`,
+                    displayName: `Fester's Slab`,
+                    description: `A good kids' route up the centre of the slab.`,
                     grade: `f2`,
                   },
                   {
                     number: 7,
                     name: `johnnys-little-helicopter`,
-                    displayName: `Johnny’s Little Helicopter`,
-                    description: `Following the same rules as Wednesday’s Bull, start up the centre of the slab
+                    displayName: `Johnny's Little Helicopter`,
+                    description: `Following the same rules as Wednesday's Bull, start up the centre of the slab
           and climb right using a large foothold on the arête.`,
                     grade: `f6a+`,
                   },
@@ -1474,7 +1474,7 @@ and park sensibly. `,
           },
           {
             name: `dans-arete`,
-            displayName: `Dan’s Arête`,
+            displayName: `Dan's Arête`,
             overview: ``,
             conditions: ``,
             approach: `The cracked boulder up and right of Juan Block.`,
@@ -1488,7 +1488,7 @@ and park sensibly. `,
                   {
                     number: 4,
                     name: `dans-arete`,
-                    displayName: `Dan’s Arête`,
+                    displayName: `Dan's Arête`,
                     description: `Sit-start with your left hand on the arête formed by the crack and your right on a crimp. Stand-up to gain the ledge and an easy finish.`,
                     grade: `f4`,
                   },
@@ -1498,10 +1498,10 @@ and park sensibly. `,
           },
           {
             name: `mikes-little-boulder`,
-            displayName: `Mike’s Little Boulder`,
+            displayName: `Mike's Little Boulder`,
             overview: ``,
             conditions: ``,
-            approach: `Approach as for Dan’s Arête. This boulder is just up and left as you face the road.`,
+            approach: `Approach as for Dan's Arête. This boulder is just up and left as you face the road.`,
             access: ``,
             gpsCoordinates: `52.7510, -01.3567`,
             sections: [
@@ -1526,7 +1526,7 @@ and park sensibly. `,
                   {
                     number: 3,
                     name: `mikes-seams`,
-                    displayName: `Mike’s Seams`,
+                    displayName: `Mike's Seams`,
                     description: `From a sit-start climb directly up on small flakes. Avoid the large flakes on Flake Pop and Big Flake. The foot block is also out of bounds.`,
                     grade: `f6a`,
                   },
@@ -1541,7 +1541,7 @@ and park sensibly. `,
                     number: 5,
                     name: `penny-pincher`,
                     displayName: `Penny Pincher`,
-                    description: `Sit-start the little prow right of Mike’s Little Boulder. Awkward in the best possible way.`,
+                    description: `Sit-start the little prow right of Mike's Little Boulder. Awkward in the best possible way.`,
                     grade: `f6a`,
                   },
                 ],
@@ -1555,7 +1555,7 @@ and park sensibly. `,
         displayName: `Hob's Hole`,
         overview: `A small crag with a large number of climbs in the f3-f6c range with a single f7b. When the motocross riders are about it can be a little noisy, but it is generally fairly secluded. Be sure to try Hob Pocket, Hobbledehoys, and Hobgoblin.`,
         conditions: ``,
-        approach: `Hob’s Hole is located in Grace Dieu woods opposite Trilobate Plantation. Where Warren Lane joins Turolough Road there are two large gates either side of the road. Park in the layby on the Grace Dieu Woods side of the road. Once you know the area there is alternative parking on Melrose Road (52.754222, -1.362917). Parking here will limit the impact of climbers parking on Turolough road`,
+        approach: `Hob's Hole is located in Grace Dieu woods opposite Trilobate Plantation. Where Warren Lane joins Turolough Road there are two large gates either side of the road. Park in the layby on the Grace Dieu Woods side of the road. Once you know the area there is alternative parking on Melrose Road (52.754222, -1.362917). Parking here will limit the impact of climbers parking on Turolough road`,
         access: ``,
         gpsCoordinates: `52.7526, -01.3564`,
         blocks: [
@@ -1575,7 +1575,7 @@ and park sensibly. `,
                   {
                     number: 1,
                     name: `hobs-big-pinch`,
-                    displayName: `Hob’s Big Pinch`,
+                    displayName: `Hob's Big Pinch`,
                     description: `Sit-start with both hands on the large fin. Finish directly.`,
                     grade: `f6c+`,
                   },
@@ -1654,7 +1654,7 @@ and park sensibly. `,
             displayName: `Hob's Wall`,
             overview: `A large block with a good collection of climbs across the grades.`,
             conditions: ``,
-            approach: `Walk past the front of Hobgoblin and drop down to Hob’s Wall.`,
+            approach: `Walk past the front of Hobgoblin and drop down to Hob's Wall.`,
             access: ``,
             gpsCoordinates: `52.7530, -01.3572`,
             sections: [
@@ -1665,21 +1665,21 @@ and park sensibly. `,
                   {
                     number: 1,
                     name: `hobs-crack-and-arete`,
-                    displayName: `Hob’s Crack and Arête`,
+                    displayName: `Hob's Crack and Arête`,
                     description: `Sit-start the left arête and crack. The foot ledge is in at this grade.`,
                     grade: `f5+`,
                   },
                   {
                     number: `1a`,
                     name: `mikes-move`,
-                    displayName: `Mike’s Move`,
+                    displayName: `Mike's Move`,
                     description: `The original line, climbed by Mike Adams, avoids the foot ledge.`,
                     grade: `f6c`,
                   },
                   {
                     number: 2,
                     name: `hobs-crack`,
-                    displayName: `Hob’s Crack`,
+                    displayName: `Hob's Crack`,
                     description: `Sit-start the crack on its right side. The foot ledge and crack/arête out right are in at this grade.`,
                     grade: `f5+`,
                   },
@@ -1694,7 +1694,7 @@ and park sensibly. `,
                     number: 3,
                     name: `hob-along`,
                     displayName: `Hob Along`,
-                    description: `Sit-start from the base of the ramp and traverse, avoiding holds above the lip, to the left arête. Finish up Hob’s Crack and Arête.`,
+                    description: `Sit-start from the base of the ramp and traverse, avoiding holds above the lip, to the left arête. Finish up Hob's Crack and Arête.`,
                     grade: `f6c`,
                   },
                   {
@@ -1746,26 +1746,26 @@ and park sensibly. `,
               },
               {
                 name: `hobbit-block-and-gimlis-dream`,
-                displayName: `Hobbit Block and Gimli’s Dream`,
+                displayName: `Hobbit Block and Gimli's Dream`,
                 routes: [
                   {
                     number: 2,
                     name: `saurons-swing`,
-                    displayName: `Sauron’s Swing`,
+                    displayName: `Sauron's Swing`,
                     description: `Sit start with your left hand on the arête and your right on an undercut sidepull. Stand up and swing round the arête to finish up its left side.`,
                     grade: `f5+`,
                   },
                   {
                     number: 3,
                     name: `hobbits-direct`,
-                    displayName: `Hobbit’s Direct`,
-                    description: `Start as per Sauron’s Swing and finish directly, staying on the right side of the arête.`,
+                    displayName: `Hobbit's Direct`,
+                    description: `Start as per Sauron's Swing and finish directly, staying on the right side of the arête.`,
                     grade: `f5+`,
                   },
                   {
                     number: 4,
                     name: `gimlis-dream`,
-                    displayName: `Gimli’s Dream`,
+                    displayName: `Gimli's Dream`,
                     description: `Climb the two arêtes from an awkward sit-start.`,
                     grade: `f4`,
                   },
@@ -1860,15 +1860,15 @@ and park sensibly. `,
                   {
                     number: 1,
                     name: `hobs-traverse`,
-                    displayName: `Hob’s Traverse`,
+                    displayName: `Hob's Traverse`,
                     description: `Traverse from the left to the right arête, avoiding the good holds along the top of the block, the large edge labelled C in the image to the left and the footholds around the right arête. Finish up the arête or hop off. The right to left traverse is slightly easier and uses the foothold on the right arête .`,
                     grade: `f5`,
                   },
                   {
                     number: `1a`,
                     name: `hobs-contrivance`,
-                    displayName: `Hob’s Contrivance`,
-                    description: `Climb Hob’s Traverse, with all its dumb rules, further eliminating holds marked A and B in the image to the left.`,
+                    displayName: `Hob's Contrivance`,
+                    description: `Climb Hob's Traverse, with all its dumb rules, further eliminating holds marked A and B in the image to the left.`,
                     grade: `f6a+`,
                   },
                 ],
@@ -1899,7 +1899,7 @@ and park sensibly. `,
                     number: 2,
                     name: `white-powder`,
                     displayName: `White Powder`,
-                    description: `From the start of Winter Sessions gain the good hold on the left arête. Finish on, but don’t necessarily stick to, the right side of the arête.`,
+                    description: `From the start of Winter Sessions gain the good hold on the left arête. Finish on, but don't necessarily stick to, the right side of the arête.`,
                     grade: `f5+`,
                   },
                   {
@@ -1934,7 +1934,7 @@ and park sensibly. `,
         displayName: `Grimley's Rock`,
         overview: `A small quarried wall with a bunch of classics including Karma, one of the best problems in the woods.`,
         conditions: ``,
-        approach: `Park on Grace Dieu Road between where it meets with Loughborough Rd and where it intersects with Car Hill Rd. There is a good public footpath leading into the woods on the left side of some allotments. When the footpath meets the tree line and bears right, take a vague path heading directly into the woods. Ignore the first path heading left along the fence and continue up the hill. Take the next little path on the left which will take you down to Grimley’s rock.`,
+        approach: `Park on Grace Dieu Road between where it meets with Loughborough Rd and where it intersects with Car Hill Rd. There is a good public footpath leading into the woods on the left side of some allotments. When the footpath meets the tree line and bears right, take a vague path heading directly into the woods. Ignore the first path heading left along the fence and continue up the hill. Take the next little path on the left which will take you down to Grimley's rock.`,
         access: ``,
         gpsCoordinates: `52.7473, -01.3600`,
         blocks: [
@@ -1954,7 +1954,7 @@ and park sensibly. `,
                   {
                     number: 1,
                     name: `grimleys-groove`,
-                    displayName: `Grimley’s Groove`,
+                    displayName: `Grimley's Groove`,
                     description: `Pull into the groove from a stand-start.`,
                     grade: `f3+`,
                   },
@@ -1975,15 +1975,15 @@ and park sensibly. `,
                   {
                     number: 4,
                     name: `grimleys-crack`,
-                    displayName: `Grimley’s Crack`,
-                    description: `Sit-start the centre of the wall up the flakes and crack. Don’t pull too hard, they’re snappy. The stand start is 6a+.`,
+                    displayName: `Grimley's Crack`,
+                    description: `Sit-start the centre of the wall up the flakes and crack. Don't pull too hard, they're snappy. The stand start is 6a+.`,
                     grade: `f5+`,
                   },
                   {
                     number: 5,
                     name: `grimleys-crack-left-hand`,
-                    displayName: `Grimley’s Crack Left hand`,
-                    description: `Start as for Grimley’s Crack and head left at mid height past the large undercut flake. The stand start is 6a+.`,
+                    displayName: `Grimley's Crack Left hand`,
+                    description: `Start as for Grimley's Crack and head left at mid height past the large undercut flake. The stand start is 6a+.`,
                     grade: `f6a`,
                   },
                   {
@@ -2010,7 +2010,7 @@ and park sensibly. `,
                     number: "A",
                     name: `karma-sutra`,
                     displayName: `Karma Sutra`,
-                    description: `Sit-start Grimley’s Crack and traverse right to finish up Karma.`,
+                    description: `Sit-start Grimley's Crack and traverse right to finish up Karma.`,
                     grade: `f7b`,
                   },
                   {
@@ -2024,13 +2024,13 @@ and park sensibly. `,
                     number: "C",
                     name: `amrakarma`,
                     displayName: `Amrakarma`,
-                    description: `Start up Amrak Eliminate, gain the mid-height flakes of Grimley’s Crack and traverse into the finish of Karma.`,
+                    description: `Start up Amrak Eliminate, gain the mid-height flakes of Grimley's Crack and traverse into the finish of Karma.`,
                     grade: `f7b+`,
                   },
                   {
                     number: "D",
                     name: `grimleys-traverse`,
-                    displayName: `Grimley’s Traverse`,
+                    displayName: `Grimley's Traverse`,
                     description: `Start as for Hard Karma and traverse left to finish up Amrak Eliminate.`,
                     grade: `f7b`,
                   },
@@ -2038,26 +2038,26 @@ and park sensibly. `,
                     number: "E",
                     name: `amrakarma-extension`,
                     displayName: `Amrakarma Extension`,
-                    description: `Climb Grimley’s Traverse to finish up Amrakarma.`,
+                    description: `Climb Grimley's Traverse to finish up Amrakarma.`,
                     grade: `7b+`,
                   },
                 ],
               },
               {
                 name: `grimleys-rock-right-side`,
-                displayName: `Grimley’s Rock Right Side`,
+                displayName: `Grimley's Rock Right Side`,
                 routes: [
                   {
                     number: 1,
                     name: `grimleys-dream`,
-                    displayName: `Grimley’s Dream`,
+                    displayName: `Grimley's Dream`,
                     description: `From standing, avoiding the low shelf, climb up through the overlap and finish on edges above. A sit-start without the low shelf is 7c.`,
                     grade: `f7b+`,
                   },
                   {
                     number: 2,
                     name: `clints-arete`,
-                    displayName: `Clint’s Arête`,
+                    displayName: `Clint's Arête`,
                     description: `Climb the right arête from a sit-start.`,
                     grade: `f6b`,
                   },
@@ -2072,13 +2072,13 @@ and park sensibly. `,
         displayName: `The Allotments`,
         overview: `A spread out collection of boulders on the south side of the woods. The better problems include The Rockover, WTF, and Seventh Arête.`,
         conditions: ``,
-        approach: `There is a good path running beneath the boulders in this area which can be accessed from a number of different points: For the Shark’s Tooth Area, park as for Grimley’s Rock (52.7473, -01.3600). Take the public foot path and follow it as it bears right along the base of the woods. A little further on is a path heading down and right, take this and Shark’s Tooth will become visible within the woods. Alternatively, park on Loughborough Rd (52.7475, -01.3510) between where it intersects with Cademan Street and Temple Hill. Take the path into the woods. Where the path splits head left for Shark’s Tooth Area or right for the other blocks in this area. Finally, you can use the large car park on Swannymote Road (52.7476, -01.3447). Take the path on the left of the car park. This will take you past a large outcrop where the rightmost problems in this area can be found. A map of the right hand side of this area, including this car park, is on page 36.`,
+        approach: `There is a good path running beneath the boulders in this area which can be accessed from a number of different points: For the Shark's Tooth Area, park as for Grimley's Rock (52.7473, -01.3600). Take the public foot path and follow it as it bears right along the base of the woods. A little further on is a path heading down and right, take this and Shark's Tooth will become visible within the woods. Alternatively, park on Loughborough Rd (52.7475, -01.3510) between where it intersects with Cademan Street and Temple Hill. Take the path into the woods. Where the path splits head left for Shark's Tooth Area or right for the other blocks in this area. Finally, you can use the large car park on Swannymote Road (52.7476, -01.3447). Take the path on the left of the car park. This will take you past a large outcrop where the rightmost problems in this area can be found. A map of the right hand side of this area, including this car park, is on page 36.`,
         access: ``,
         gpsCoordinates: ``,
         blocks: [
           {
             name: `sharks-tooth`,
-            displayName: `Shark’s Tooth`,
+            displayName: `Shark's Tooth`,
             overview: ``,
             conditions: ``,
             approach: `See approach notes on the previous page.`,
@@ -2092,7 +2092,7 @@ and park sensibly. `,
                   {
                     number: 1,
                     name: `sharks-tooth`,
-                    displayName: `Shark’s Tooth`,
+                    displayName: `Shark's Tooth`,
                     description: `Sit-start beneath the hanging arête to mantle out on the right side of the arête. No foot blocks.`,
                     grade: `f6b`,
                   },
@@ -2100,7 +2100,7 @@ and park sensibly. `,
                     number: 2,
                     name: `winky-face`,
                     displayName: `Winky Face`,
-                    description: `Start as for Shark’s Tooth and traverse the lip of the boulder up and left to top out round the back of the block.`,
+                    description: `Start as for Shark's Tooth and traverse the lip of the boulder up and left to top out round the back of the block.`,
                     grade: `f5+`,
                   },
                   {
@@ -2121,7 +2121,7 @@ and park sensibly. `,
                     number: 5,
                     name: `wtf`,
                     displayName: `WTF`,
-                    description: `Traverse from the arête of EZPZ to finish up Winky Face. Avoid holds above the lip and the foot blocks. Easiest if you lead with your feet to the left arête. Finishing up Shark’s Tooth is the same grade.`,
+                    description: `Traverse from the arête of EZPZ to finish up Winky Face. Avoid holds above the lip and the foot blocks. Easiest if you lead with your feet to the left arête. Finishing up Shark's Tooth is the same grade.`,
                     grade: `f6c`,
                   },
                   {
@@ -2167,7 +2167,7 @@ and park sensibly. `,
             displayName: `Completionist Block`,
             overview: ``,
             conditions: ``,
-            approach: `From Shark’s Tooth, continue along the main path. Where it forks, stay left (the right path heads down to Loughborough Rd). The Completionist block is a little further along, up and left of the path.`,
+            approach: `From Shark's Tooth, continue along the main path. Where it forks, stay left (the right path heads down to Loughborough Rd). The Completionist block is a little further along, up and left of the path.`,
             access: ``,
             gpsCoordinates: `52.7466, -01.3543`,
             sections: [
@@ -2281,7 +2281,7 @@ and park sensibly. `,
                     name: "burnt-out",
                     displayName: "Burnt Out",
                     description:
-                      "Sit-start from the good sidepull and traverse left to finish up Toast Arête. Stay below the pig slopey pinch until you’ve reached the arête.",
+                      "Sit-start from the good sidepull and traverse left to finish up Toast Arête. Stay below the pig slopey pinch until you've reached the arête.",
                     grade: "f6b+",
                   },
                   {
@@ -2600,7 +2600,7 @@ Avoiding the left block is f6a+.`,
           },
           {
             name: `hobos-palace`,
-            displayName: `Hobo’s Palace`,
+            displayName: `Hobo's Palace`,
             overview: ``,
             conditions: ``,
             approach: `Just before Crocodile on the high path.`,
@@ -2614,7 +2614,7 @@ Avoiding the left block is f6a+.`,
                   {
                     number: 6,
                     name: `hobos-palace`,
-                    displayName: `Hobo’s Palace`,
+                    displayName: `Hobo's Palace`,
                     description: `Sit-start from a good sidepull. Avoid the ledge out right.`,
                     grade: `f3`,
                   },
@@ -2727,7 +2727,7 @@ Avoiding the left block is f6a+.`,
                     number: 2,
                     name: `awkward-slab`,
                     displayName: `Awkward Slab`,
-                    description: `Sit-start from a good left sidepull and a crimp rail. Treat the detached block as the floor, i.e. sit on it but don’t use it as a hold.`,
+                    description: `Sit-start from a good left sidepull and a crimp rail. Treat the detached block as the floor, i.e. sit on it but don't use it as a hold.`,
                     grade: `f6b`,
                   },
                   {
@@ -2747,7 +2747,7 @@ Avoiding the left block is f6a+.`,
                     number: 2,
                     name: `awkward-slab`,
                     displayName: `Awkward Slab`,
-                    description: `Sit-start from a good left sidepull and a crimp rail. Treat the detached block as the floor, i.e. sit on it but don’t use it as a hold.`,
+                    description: `Sit-start from a good left sidepull and a crimp rail. Treat the detached block as the floor, i.e. sit on it but don't use it as a hold.`,
                     grade: `f6b`,
                   },
                   {
@@ -2922,7 +2922,7 @@ Avoiding the left block is f6a+.`,
                   {
                     number: 4.1,
                     name: `clints-clipity-clop`,
-                    displayName: `Clint’s Clipity Clop`,
+                    displayName: `Clint's Clipity Clop`,
                     description: `An eliminate variation of Prowed. From the wobble block keep hands to the arête to the top.`,
                     grade: `f6c+`,
                   },
@@ -3409,187 +3409,6 @@ Avoiding the left block is f6a+.`,
                     displayName: `Dirty Crack`,
                     description: `Climb the crack on its right side from a sit start.`,
                     grade: `f3`,
-                  },
-                ],
-              },
-            ],
-          },
-        ],
-      },
-      {
-        name: `swannymote-rock`,
-        displayName: `Swannymote Rock`,
-        overview: `A good set of problems in the f3-f6A range, plus a mega f7C dyno. Swannymote Rock is one of the most beautiful spots in the Cademan area; unfortunately it is on private land and accessing it requires crossing several fences. As a result Swannymote Rock is under-visited given its quality and outlook.`,
-        conditions: ``,
-        approach: `Park in the layby on Swannymote Road or the car park to the south. Head north along Swannymote Road. When you see the crag head straight towards it, carefully crossing any fences encountered.`,
-        gpsCoordinates: `52.7492, -01.3431 `,
-        blocks: [
-          {
-            name: `swannymote-rock`,
-            displayName: `Swannymote Rock`,
-            overview: `This small outcrop is located on private land and there is no general access.
-  Permission may be granted if you contact the landowner.
-  There are a few good problems here, most are around f3-6a with a single
-  f7c.`,
-            conditions: ``,
-            approach: `As you head towards Whitwick on Swannymote Road there is a lay by on the right
-  shortly after passing the junction with Warren lane. If you find yourself at the large car
-  park for High Cademan you’ve overshot it.
-  There are no public footpaths leading to Swannymote Rock. The quickest approach is
-  to walk alongside the road towards Warren Lane, when you see the crag on your left
-  head directly to it (involves hopping fences). The First face is visible on the approach.
-  For the back face head clockwise round
-  the outcrop. Continue clockwise round the outcrop for Green Face and Quick Fix.`,
-            access: ``,
-            gpsCoordinates: `52.7509, -01.3424`,
-            sections: [
-              {
-                name: `first-face`,
-                displayName: `First Face`,
-                routes: [
-                  {
-                    number: 1,
-                    name: `avin-it`,
-                    displayName: `Avin’ It`,
-                    description: `Sit start with your right hand on the arête and the left on a good flake. Slap up using the arête and thin crack line to gain the jug and top out.`,
-                    grade: `f5`,
-                  },
-                  {
-                    number: 2,
-                    name: `swanson`,
-                    displayName: `Swanson`,
-                    description: `From a low jug, just right of Avin’ It, use a good right sidepull and the large jug to top out.`,
-                    grade: `f4+`,
-                  },
-                  {
-                    number: 3,
-                    name: `be-gentle-direct`,
-                    displayName: `Be Gentle (Direct)`,
-                    description: `Sit-start from two small crimps and a good foot. Gain the fragile flakes above and finish past the juggy flakes above.`,
-                    grade: `f5`,
-                  },
-                  {
-                    number: 4,
-                    name: `juggy-arete`,
-                    displayName: `Juggy Arête`,
-                    description: `Sit-start the right arête on its left side.`,
-                    grade: `f4`,
-                  },
-                  {
-                    number: `4a`,
-                    name: `be-gentle`,
-                    displayName: `Be Gentle`,
-                    description: `Start as for Juggy Arête and traverse left to the fragile flakes to finish up Be Gentle (Direct).`,
-                    grade: `f4+`,
-                  },
-                  {
-                    number: `4b`,
-                    name: `swan-around`,
-                    displayName: `Swan Around`,
-                    description: `Mid-height traverse from Juggy arête to gain the finger crack and arête of Avin’ It. Stay beneath the jugs and good flakes (see the red line in the photo). The reverse of this line, from Avin’ It to Juggy Arête is a similar grade.`,
-                    grade: `f6a`,
-                  },
-                ],
-              },
-              {
-                name: `back-face`,
-                displayName: `Back Face`,
-                routes: [
-                  {
-                    number: 5,
-                    name: `cygnet`,
-                    displayName: `Cygnet`,
-                    description: `Sit-start the short arête on its left side.`,
-                    grade: `f3+`,
-                  },
-                  {
-                    number: 6,
-                    name: `ledges`,
-                    displayName: `Ledges`,
-                    description: `Sit-start the line of good holds on the left of the block. Finish on the left side of the arête.`,
-                    grade: `f3+`,
-                  },
-                  {
-                    number: 7,
-                    name: `swannymote-arete`,
-                    displayName: `Swannymote Arête`,
-                    description: `Sit-start the two arêtes.`,
-                    grade: `f5`,
-                  },
-                  {
-                    number: 8,
-                    name: `mute`,
-                    displayName: `Mute`,
-                    description: `Sit-start the right arête. Avoiding good holds round the arête is f5+.`,
-                    grade: `f5`,
-                  },
-                  {
-                    number: `8a`,
-                    name: `cowabunga`,
-                    displayName: `Cowabunga`,
-                    description: `Dyno from the good edge straight to the top.`,
-                    grade: `f7c`,
-                  },
-                  {
-                    number: `9`,
-                    name: `the-boss`,
-                    displayName: `The Boss`,
-                    description: `Start as for Mute to the good edge, then head right to the boss and top out.`,
-                    grade: `f5`,
-                  },
-                ],
-              },
-              {
-                name: `green-face`,
-                displayName: `Green Face`,
-                routes: [
-                  {
-                    number: 1,
-                    name: `the-debaser`,
-                    displayName: `The Debaser`,
-                    description: `Squirm to the back of the chimney, back and step out right as far as the arête then chimney to the top. Fun.`,
-                    grade: `f5`,
-                  },
-                  {
-                    number: 2,
-                    name: `big-arete`,
-                    displayName: `Big Arête`,
-                    description: `The arête above a poor landing.`,
-                    grade: `f2`,
-                  },
-                  {
-                    number: 3,
-                    name: `swan-song`,
-                    displayName: `Swan Song`,
-                    description: `The centre of the wall. Bad landing.`,
-                    grade: `f3`,
-                  },
-                  {
-                    number: 4,
-                    name: `swan-song-right`,
-                    displayName: `Swan Song Right`,
-                    description: `Start as for Swan Song, use the big right side pull to roll over and gain a good crimp with your left hand. Use this to head right and finish up good ledges.`,
-                    grade: `f4`,
-                  },
-                ],
-              },
-              {
-                name: `quick-fix`,
-                displayName: `Quick Fix`,
-                routes: [
-                  {
-                    number: 5,
-                    name: `quick-fix`,
-                    displayName: `Quick Fix`,
-                    description: `A small arête a little further round the outcrop. Sit start the arête with your left hand low on the arête (A) and your right on an undercut (B).`,
-                    grade: `f5+`,
-                  },
-                  {
-                    number: 6,
-                    name: `getafix`,
-                    displayName: `Getafix`,
-                    description: `Sit start from a crimp (B) and slopey pinch (C), throw left to the arête and top out. A little contrived as it ignores the ledge above the slopey pinch.`,
-                    grade: `f6a`,
                   },
                 ],
               },
