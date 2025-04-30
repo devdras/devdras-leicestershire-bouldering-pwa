@@ -4,6 +4,7 @@ export const data = {
   overview: `A good set of problems in the f3-f6A range, plus a mega f7C dyno. Swannymote Rock is one of the most beautiful spots in the Cademan area; unfortunately it is on private land and accessing it requires crossing several fences. As a result Swannymote Rock is under-visited given its quality and outlook.`,
   conditions: ``,
   approach: `Park in the layby on Swannymote Road or the car park to the south. Head north along Swannymote Road. When you see the crag head straight towards it, carefully crossing any fences encountered.`,
+  access: ``,
   gpsCoordinates: `52.7492, -01.3431 `,
   blocks: [
     {
