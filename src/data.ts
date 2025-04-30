@@ -3414,6 +3414,652 @@ Avoiding the left block is f6a+.`,
               },
             ],
           },
+          {
+            name: `grace-dieu`,
+            displayName: `Grace Dieu `,
+            overview: `The remains of an old quarry, seven meters tall at its highest. Good rambles, a highball arête and some harder eliminates to get stuck into. Sauvastika f7A+ is a great eliminate problem which is a must for those operating at the grade. The boulder is located in Grace Dieu Wood, the other side of Turolough Road from Cademan Wood. This area of the Charnwood Forest has inspired the poetry of both Thomas Bancroft and William Wordsworth.`,
+            conditions: ``,
+            approach: `Park in the car park on Melrose Road (52.754230, -1.362953). Walk into the wood.`,
+            access: ``,
+            gpsCoordinates: `52.7502, -01.3509`,
+            sections: [
+              {
+                name: "grace-dieu-block",
+                displayName: "Grace Dieu Block",
+                routes: [
+                  {
+                    number: 0,
+                    name: "mono-traverse",
+                    displayName: "Mono Traverse",
+                    description:
+                      "Start sitting as for Tall Arête and traverse the wall below the lip. Starting up Leaning Wall and reversing this is f6C.",
+                    grade: "f6C+",
+                  },
+                  {
+                    number: 1,
+                    name: "tall-arete",
+                    displayName: "Tall Arête",
+                    description:
+                      "Climb the highball arête on its right from sitting.",
+                    grade: "f5+",
+                  },
+                  {
+                    number: 2,
+                    name: "crack-and-mantel",
+                    displayName: "Crack and Mantel",
+                    description:
+                      "From sitting, climb the crack and make an awkward mantel onto the slab.",
+                    grade: "f6A",
+                  },
+                  {
+                    number: "2a", // Original reference: 2a
+                    name: "sauvastika",
+                    displayName: "Sauvastika",
+                    description:
+                      "A great eliminate problem. Sit start on two good side pulls, left hand to gaston crimp, right hand to mono, slap left and mantel.",
+                    grade: "f7A+",
+                  },
+                  {
+                    number: 3, // Original reference: 3
+                    name: "man-oh-mono",
+                    displayName: "Man Oh Mono",
+                    description:
+                      "From sitting on the two sidepulls, take the mono with the left hand then go right straight to the jug on the lip.",
+                    grade: "f6C",
+                  },
+                  {
+                    number: 4, // Original reference: 4
+                    name: "durex",
+                    displayName: "Durex",
+                    description:
+                      "Sit start and climb the crack and rib, eliminating the ledge handhold out right.",
+                    grade: "f6B",
+                  },
+                  {
+                    number: "4a", // Original reference: 4a
+                    name: "safe-sex",
+                    displayName: "Safe Sex",
+                    description: "As for Durex but eliminating the crack.",
+                    grade: "f6C",
+                  },
+                  {
+                    number: 5, // Original reference: 5
+                    name: "leaning-wall",
+                    displayName: "Leaning Wall",
+                    description:
+                      "From sitting, climb the big ledges in the corner.",
+                    grade: "f5+",
+                  },
+                ],
+              },
+              {
+                name: `curving-arete`,
+                displayName: `Curving Arête`,
+                routes: [
+                  {
+                    number: 6,
+                    name: `curving-arete`,
+                    displayName: `Curving Arête`,
+                    description: `Sit-start the arête on its right side. Avoid the low blocks (see red line in photo)`,
+                    grade: `f6c`,
+                  },
+                  {
+                    number: 7,
+                    name: `steep`,
+                    displayName: `Steep`,
+                    description: `The steep wall from standing. Avoid both arêtes.`,
+                    grade: `f6b`,
+                  },
+                ],
+              },
+              {
+                name: `i-am-groot`,
+                displayName: `I am Groot`,
+                routes: [
+                  {
+                    number: 1,
+                    name: `i-am-groot`,
+                    displayName: `I am Groot`,
+                    description: `The mossy face from standing. Probably best to leave the moss in place.`,
+                    grade: `f3`,
+                  },
+                ],
+              },
+              {
+                name: `sweet-dees-slab`,
+                displayName: `Sweet Dee's Slab`,
+                routes: [
+                  {
+                    number: 2,
+                    name: `left-arete`,
+                    displayName: `Left Arête`,
+                    description: `The left arête of the slab.`,
+                    grade: `f4`,
+                  },
+                  {
+                    number: 3,
+                    name: `paw`,
+                    displayName: `Paw`,
+                    description: `Start on the right side of the slab with the paw hold for your right hand. Climb up and left to finish up the big flake. Avoiding the flake is the same grade but a little more sustained.`,
+                    grade: `f4`,
+                  },
+                  {
+                    number: "3a",
+                    name: `sweet-dee`,
+                    displayName: `Sweet Dee`,
+                    description: `Start in the same place as Paw. Climb direct using only the chicken heads for your hands.`,
+                    grade: `f5`,
+                  },
+                  {
+                    number: 4,
+                    name: `right-arete`,
+                    displayName: `Right Arête`,
+                    description: `The right arête from standing.`,
+                    grade: `f4`,
+                  },
+                ],
+              },
+              {
+                name: `pinnacle`,
+                displayName: `Pinnacle`,
+                routes: [
+                  {
+                    number: 5,
+                    name: `the-stack`,
+                    displayName: `The Stack`,
+                    description: `Sit-start the arête on its right side.`,
+                    grade: `f5+`,
+                  },
+                  {
+                    number: 6,
+                    name: `pufin`,
+                    displayName: `Pufin`,
+                    description: `From sitting, climb the face without the arêtes.`,
+                    grade: `f6a`,
+                  },
+                  {
+                    number: 7,
+                    name: `pinnacle-arete`,
+                    displayName: `Pinnacle Arete`,
+                    description: `Sit-start the arête on its left side. Very good.`,
+                    grade: `f5+`,
+                  },
+                  {
+                    number: 8,
+                    name: `hemmed-in`,
+                    displayName: `Hemmed In`,
+                    description: `Sit-start the sharp arête on its right side. Avoid the foot ledge at the base and the right arête. Claustrophobic and hard not to dab the slab. Using the foot ledge and both arêtes is f5.`,
+                    grade: `f7a`,
+                  },
+                ],
+              },
+              {
+                name: `column`,
+                displayName: `Column`,
+                routes: [
+                  {
+                    number: 1,
+                    name: `column`,
+                    displayName: `Column`,
+                    description: `Climb both arêtes from a sit-start`,
+                    grade: `f5`,
+                  },
+                  {
+                    number: "1a",
+                    name: `column-left`,
+                    displayName: `Column Left`,
+                    description: `Climb Column avoiding the right arête.`,
+                    grade: `f6a`,
+                  },
+                  {
+                    number: "1b",
+                    name: `tight-slab`,
+                    displayName: `Tight Slab`,
+                    description: `Climb Column avoiding both arêtes. Surprisingly brilliant.`,
+                    grade: `f6b+`,
+                  },
+                  {
+                    number: "1c",
+                    name: `column-right`,
+                    displayName: `Column Right`,
+                    description: `Climb Column avoiding left arête.`,
+                    grade: `f5+`,
+                  },
+                ],
+              },
+              {
+                name: `dirty`,
+                displayName: `Dirty`,
+                routes: [
+                  {
+                    number: 3,
+                    name: `dirty-prow`,
+                    displayName: `Dirty Prow`,
+                    description: `Climb the two arêtes avoiding the large block beneath the main boulder and the block right of the crack.`,
+                    grade: `f3`,
+                  },
+                  {
+                    number: 4,
+                    name: `dirty-crack`,
+                    displayName: `Dirty Crack`,
+                    description: `Climb the crack on its right side from a sit start.`,
+                    grade: `f3`,
+                  },
+                ],
+              },
+            ],
+          },
+        ],
+      },
+      {
+        name: `grace-dieu`,
+        displayName: `Grace Dieu`,
+        overview: `Also known as the Viaduct Boulder. The remains of an old quarry, seven meters tall at its highest. Good rambles, a highball arête and some harder eliminates to get stuck into. Sauvastika f7A+ is a great eliminate problem which is a must for those operating at the grade. The boulder is located in Grace Dieu Wood, the other side of Turolough Road from Cademan Wood. This area of the Charnwood Forest has inspired the poetry of both Thomas Bancroft and William Wordsworth.`,
+        conditions: ``,
+        approach: `Approach as for High Cademan and make your way to Chockstone Roof. Level with Chockstone Roof is a path heading right away from the crag. Follow this path, past a waymark, The first boulder is a little way on from the waymark, just past a five-point junction.`,
+        access: `Park in the car park on Melrose Road (52.754230, -1.362953). Walk into the wood.`,
+        gpsCoordinates: ``,
+        blocks: [
+          {
+            name: `grace-dieu-boulder`,
+            displayName: `Grace Dieu Boulder`,
+            overview: ``,
+            conditions: ``,
+            approach: ``,
+            access: ``,
+            gpsCoordinates: ``,
+            sections: [
+              {
+                name: "sauvastika-wall",
+                displayName: "Sauvastika Wall",
+                routes: [
+                  {
+                    number: 0,
+                    name: "mono-traverse",
+                    displayName: "Mono Traverse",
+                    description:
+                      "Start sitting as for Tall Arête and traverse the wall below the lip. Starting up Leaning Wall and reversing this is f6C.",
+                    grade: "f6C+",
+                  },
+                  {
+                    number: 1,
+                    name: "tall-arete",
+                    displayName: "Tall Arête",
+                    description:
+                      "Climb the highball arête on its right from sitting.",
+                    grade: "f5+",
+                  },
+                  {
+                    number: 2,
+                    name: "crack-and-mantel",
+                    displayName: "Crack and Mantel",
+                    description:
+                      "From sitting, climb the crack and make an awkward mantel onto the slab.",
+                    grade: "f6A",
+                  },
+                  {
+                    number: "2a", // Original reference: 2a
+                    name: "sauvastika",
+                    displayName: "Sauvastika",
+                    description:
+                      "A great eliminate problem. Sit start on two good side pulls, left hand to gaston crimp, right hand to mono, slap left and mantel.",
+                    grade: "f7A+",
+                  },
+                  {
+                    number: 3, // Original reference: 3
+                    name: "man-oh-mono",
+                    displayName: "Man Oh Mono",
+                    description:
+                      "From sitting on the two sidepulls, take the mono with the left hand then go right straight to the jug on the lip.",
+                    grade: "f6C",
+                  },
+                  {
+                    number: 4, // Original reference: 4
+                    name: "durex",
+                    displayName: "Durex",
+                    description:
+                      "Sit start and climb the crack and rib, eliminating the ledge handhold out right.",
+                    grade: "f6B",
+                  },
+                  {
+                    number: "4a", // Original reference: 4a
+                    name: "safe-sex",
+                    displayName: "Safe Sex",
+                    description: "As for Durex but eliminating the crack.",
+                    grade: "f6C",
+                  },
+                  {
+                    number: 5, // Original reference: 5
+                    name: "leaning-wall",
+                    displayName: "Leaning Wall",
+                    description:
+                      "From sitting, climb the big ledges in the corner.",
+                    grade: "f5+",
+                  },
+                ],
+              },
+              {
+                name: "the-right-arete",
+                displayName: "The Right Arête",
+                routes: [
+                  {
+                    number: 6,
+                    name: "right-arete",
+                    displayName: "Right Arête",
+                    description: "Climb the right arête from sitting.",
+                    grade: "f5+",
+                  },
+                ],
+              },
+              {
+                name: "the-slab-and-arete",
+                displayName: "The Slab and Arête",
+                routes: [
+                  {
+                    number: 7,
+                    name: "slab-arete",
+                    displayName: "Slab Arête",
+                    description:
+                      "Climb the left arête. A hard f7A sit start is also possible climbing the right arête of the groove starting sitting on its left hand side.",
+                    grade: "f4+",
+                  },
+                  {
+                    number: 8,
+                    name: "blank-slab",
+                    displayName: "Blank Slab",
+                    description: "Climb the centre of the slab direct.",
+                    grade: "f4+",
+                  },
+                  {
+                    number: 9,
+                    name: "tall-arete-lh",
+                    displayName: "Tall Arête LH",
+                    description: "Climb the highball arête on its left.",
+                    grade: "f4+",
+                  },
+                ],
+              },
+            ],
+          },
+        ],
+      },
+      {
+        name: `poachers-rock`,
+        displayName: `Poachers Rock`,
+        overview: `Another small outcrop on private land. A small selection of low grade
+problems. A few low grade sit start problems and some good smearing and laybacking. On private land but easily accessible. The crag is north facing and well shaded so makes for a good refuge on a hot day.`,
+        conditions: ``,
+        approach: ``,
+        gpsCoordinates: `52.7538, -01.3384 `,
+        blocks: [
+          {
+            name: `poachers-corner`,
+            displayName: `Poachers Corner`,
+            overview: ``,
+            conditions: ``,
+            approach: `Take the turning off Swannymote Road down Warren Lane. There is a small layby just beyond the junction on the right. From the lay-by, continue on foot along
+Warren Lane; Poacher’s Rock will be visible on the left. Hop over the ditch and
+over the fence to access the crag (52.7536, -01.3395)`,
+            access: ``,
+            gpsCoordinates: ``,
+            sections: [
+              {
+                name: "poachers-slab",
+                displayName: "Poacher’s Slab",
+                routes: [
+                  {
+                    number: 1,
+                    name: "flake-slab-1",
+                    displayName: "Flake Slab 1",
+                    description:
+                      "Climb the leftmost flake on its right side avoiding the holds on Flake Slab 2.",
+                    grade: "f3",
+                  },
+                  {
+                    number: 2,
+                    name: "flake-slab-2",
+                    displayName: "Flake Slab 2",
+                    description: "Climb the flake on its right side.",
+                    grade: "f3",
+                  },
+                  {
+                    number: 3,
+                    name: "poachers-slab",
+                    displayName: "Poacher’s Slab",
+                    description:
+                      "Sit-start from the ledge using a left hand crimp. Climb the slab direct.",
+                    grade: "f6a",
+                  },
+                ],
+              },
+              {
+                name: "green-wall",
+                displayName: "Green Wall",
+                routes: [
+                  {
+                    number: 4,
+                    name: "jug-fest",
+                    displayName: "Jug Fest",
+                    description: "Sit-start the juggy wall.",
+                    grade: "f3",
+                  },
+                  {
+                    number: 5,
+                    name: "green-wall",
+                    displayName: "Green Wall",
+                    description: "Climb the wall direct from a sit-start.",
+                    grade: "f3",
+                  },
+                ],
+              },
+              {
+                name: "lees-problem",
+                displayName: "Lee's Problem",
+                routes: [
+                  {
+                    number: 6,
+                    name: "lees-problem",
+                    displayName: "Lee’s Problem",
+                    description: "Sit start from the big flake.",
+                    grade: "f4",
+                  },
+                ],
+              },
+            ],
+          },
+        ],
+      },
+      {
+        name: `swannymote-rock`,
+        displayName: `Swannymote Rock`,
+        overview: `A good set of problems in the f3-f6A range, plus a mega f7C dyno. Swannymote Rock is one of the most beautiful spots in the Cademan area; unfortunately it is on private land and accessing it requires crossing several fences. As a result Swannymote Rock is under-visited given its quality and outlook.`,
+        conditions: ``,
+        approach: `Park in the layby on Swannymote Road or the car park to the south. Head north along Swannymote Road. When you see the crag head straight towards it, carefully crossing any fences encountered.`,
+        gpsCoordinates: `52.7492, -01.3431 `,
+        blocks: [
+          {
+            name: `swannymote-rock`,
+            displayName: `Swannymote Rock`,
+            overview: `This small outcrop is located on private land and there is no general access.
+Permission may be granted if you contact the landowner.
+There are a few good problems here, most are around f3-6a with a single
+f7c.`,
+            conditions: ``,
+            approach: `As you head towards Whitwick on Swannymote Road there is a lay by on the right
+shortly after passing the junction with Warren lane. If you find yourself at the large car
+park for High Cademan you’ve overshot it.
+There are no public footpaths leading to Swannymote Rock. The quickest approach is
+to walk alongside the road towards Warren Lane, when you see the crag on your left
+head directly to it (involves hopping fences). The First face is visible on the approach.
+For the back face head clockwise round
+the outcrop. Continue clockwise round the outcrop for Green Face and Quick Fix.`,
+            access: ``,
+            gpsCoordinates: `52.7509, -01.3424`,
+            sections: [
+              {
+                name: "first-face",
+                displayName: "First Face",
+                routes: [
+                  {
+                    number: 1,
+                    name: "avin-it",
+                    displayName: "Avin’ It",
+                    description:
+                      "Sit start with your right hand on the arête and the left on a good flake. Slap up using the arête and thin crack line to gain the jug and top out.",
+                    grade: "f5",
+                  },
+                  {
+                    number: 2,
+                    name: "swanson",
+                    displayName: "Swanson",
+                    description:
+                      "From a low jug, just right of Avin’ It, use a good right sidepull and the large jug to top out.",
+                    grade: "f4+",
+                  },
+                  {
+                    number: 3,
+                    name: "be-gentle-direct",
+                    displayName: "Be Gentle (Direct)",
+                    description:
+                      "Sit-start from two small crimps and a good foot. Gain the fragile flakes above and finish past the juggy flakes above.",
+                    grade: "f5",
+                  },
+                  {
+                    number: 4,
+                    name: "juggy-arete",
+                    displayName: "Juggy Arête",
+                    description: "Sit-start the right arête on its left side.",
+                    grade: "f4",
+                  },
+                  {
+                    number: "4a",
+                    name: "be-gentle",
+                    displayName: "Be Gentle",
+                    description:
+                      "Start as for Juggy Arête and traverse left to the fragile flakes to finish up Be Gentle (Direct).",
+                    grade: "f4+",
+                  },
+                  {
+                    number: "4b",
+                    name: "swan-around",
+                    displayName: "Swan Around",
+                    description:
+                      "Mid-height traverse from Juggy arête to gain the finger crack and arête of Avin’ It. Stay beneath the jugs and good flakes (see the red line in the photo). The reverse of this line, from Avin’ It to Juggy Arête is a similar grade.",
+                    grade: "f6a",
+                  },
+                ],
+              },
+              {
+                name: "back-face",
+                displayName: "Back Face",
+                routes: [
+                  {
+                    number: 5,
+                    name: "cygnet",
+                    displayName: "Cygnet",
+                    description: "Sit-start the short arête on its left side.",
+                    grade: "f3+",
+                  },
+                  {
+                    number: 6,
+                    name: "ledges",
+                    displayName: "Ledges",
+                    description:
+                      "Sit-start the line of good holds on the left of the block. Finish on the left side of the arête.",
+                    grade: "f3+",
+                  },
+                  {
+                    number: 7,
+                    name: "swannymote-arete",
+                    displayName: "Swannymote Arête",
+                    description: "Sit-start the two arêtes.",
+                    grade: "f5",
+                  },
+                  {
+                    number: 8,
+                    name: "mute",
+                    displayName: "Mute",
+                    description:
+                      "Sit-start the right arête. Avoiding good holds round the arête is f5+.",
+                    grade: "f5",
+                  },
+                  {
+                    number: "8a",
+                    name: "cowabunga",
+                    displayName: "Cowabunga",
+                    description: "Dyno from the good edge straight to the top.",
+                    grade: "f7c",
+                  },
+                  {
+                    number: "9",
+                    name: "the-boss",
+                    displayName: "The Boss",
+                    description:
+                      "Start as for Mute to the good edge, then head right to the boss and top out.",
+                    grade: "f5",
+                  },
+                ],
+              },
+              {
+                name: "green-face",
+                displayName: "Green Face",
+                routes: [
+                  {
+                    number: 1,
+                    name: "the-debaser",
+                    displayName: "The Debaser",
+                    description:
+                      "Squirm to the back of the chimney, back and step out right as far as the arête then chimney to the top. Fun.",
+                    grade: "f5",
+                  },
+                  {
+                    number: 2,
+                    name: "big-arete",
+                    displayName: "Big Arête",
+                    description: "The arête above a poor landing.",
+                    grade: "f2",
+                  },
+                  {
+                    number: 3,
+                    name: "swan-song",
+                    displayName: "Swan Song",
+                    description: "The centre of the wall. Bad landing.",
+                    grade: "f3",
+                  },
+                  {
+                    number: 4,
+                    name: "swan-song-right",
+                    displayName: "Swan Song Right",
+                    description:
+                      "Start as for Swan Song, use the big right side pull to roll over and gain a good crimp with your left hand. Use this to head right and finish up good ledges.",
+                    grade: "f4",
+                  },
+                ],
+              },
+              {
+                name: "quick-fix",
+                displayName: "Quick Fix",
+                routes: [
+                  {
+                    number: 5,
+                    name: "quick-fix",
+                    displayName: "Quick Fix",
+                    description:
+                      "A small arête a little further round the outcrop. Sit start the arête with your left hand low on the arête (A) and your right on an undercut (B).",
+                    grade: "f5+",
+                  },
+                  {
+                    number: 6,
+                    name: "getafix",
+                    displayName: "Getafix",
+                    description:
+                      "Sit start from a crimp (B) and slopey pinch (C), throw left to the arête and top out. A little contrived as it ignores the ledge above the slopey pinch.",
+                    grade: "f6a",
+                  },
+                ],
+              },
+            ],
+          },
         ],
       },
     ],
