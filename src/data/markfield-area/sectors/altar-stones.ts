@@ -1,4 +1,4 @@
-export const altarStonesAreaData = {
+export const altarStonesData = {
   name: `altar-stones-area`,
   displayName: `Altar Stones Area`,
   overview: `A little bouldering and a good dyno a short distance outside Markfield and a couple of minutes drive from the M1 (J22). A nice place to stop and break up a journey, or somewhere to pop into after a trip to Forest Rock or Markfield Quarry. The Altar Stones are a biological SSSI so please do not remove lichen from the rocks.`,
@@ -21,29 +21,31 @@ export const altarStonesAreaData = {
           displayName: `Front Side`,
           routes: [
             {
+              number: 1,
               name: "eucharist",
               displayName: "Eucharist",
-              grade: "f6c+",
               description:
                 "Starting on the right-hand block, dyno past the obvious blank projecting wall to the lip (video). Yellow dots on picture.",
+              grade: "f6c+",
             },
             {
+              number: 1,
               name: "new-kids-on-the-block",
               displayName: "New Kids on the Block",
-              grade: "f7a",
               description:
                 "As for Eucharist but starting on the left-hand block. Red dots on picture.",
+              grade: "f7a",
             },
             {
+              number: 1,
               name: "pop-culture",
               displayName: "Pop Culture",
-              grade: "f6a",
               description:
                 "From the left hand block climb to the top avoiding the big holds round the back of the left arête.​ Blue dots on picture.",
+              grade: "f6a",
             },
           ],
         },
-        ,
       ],
     },
     {
@@ -60,21 +62,22 @@ export const altarStonesAreaData = {
           displayName: `Front Side`,
           routes: [
             {
+              number: 1,
               name: "holly-wall",
               displayName: "Holly Wall",
-              grade: "f4",
               description: "Climb the left hand wall.",
+              grade: "f4",
             },
             {
+              number: 1,
               name: "holly-problem-6a",
               displayName: "Holly Problem 6A",
-              grade: "f6A",
               description:
                 "Sit start the overhanging featured wall under the holly. Eliminate the arête for bonus points (video).",
+              grade: "f6A",
             },
           ],
         },
-        ,
       ],
     },
   ],

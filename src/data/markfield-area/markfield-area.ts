@@ -1,5 +1,5 @@
-import { altarStonesAreaData } from "./sectors/altar-stones";
-import { markfieldQuarryAreaData } from "./sectors/markfield-quarry";
+import { altarStonesData } from "./sectors/altar-stones";
+import { markfieldQuarryData } from "./sectors/markfield-quarry";
 
 export const markfieldAreaData = {
   name: `markfield-area`,
@@ -8,5 +8,5 @@ export const markfieldAreaData = {
   conditions: ``,
   approach: ``,
   access: ``,
-  sectors: [altarStonesAreaData, markfieldQuarryAreaData],
+  sectors: [altarStonesData, markfieldQuarryData],
 };

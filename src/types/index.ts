@@ -39,10 +39,10 @@ export interface Block {
   name: string;
   displayName: string;
   overview: string;
-  conditions?: string;
-  approach?: string;
-  access?: string;
-  gpsCoordinates?: string;
+  conditions: string;
+  approach: string;
+  access: string;
+  gpsCoordinates: string;
   sections: Section[];
 }
 
@@ -51,10 +51,10 @@ export interface Sector {
   name: string;
   displayName: string;
   overview: string;
-  conditions?: string;
-  approach?: string;
-  access?: string;
-  gpsCoordinates?: string; // Now always present after normalization
+  conditions: string;
+  approach: string;
+  access: string;
+  gpsCoordinates: string; // Now always present after normalization
   blocks: Block[];
 }
 
