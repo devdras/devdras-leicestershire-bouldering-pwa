@@ -1,4 +1,4 @@
-import { bradgateParkData } from "./bradgate-park/bradgate-park";
+import { bradgateParkAreaData } from "./bradgate-park/bradgate-park-area";
 import { cademanWoodAreaData } from "./cademan-wood-area/cademan-wood-area";
 import { markfieldAreaData } from "./markfield-area/markfield-area";
 import { mountsorrelAreaData } from "./mountsorrel-area/mountsorrel-area";
@@ -8,7 +8,7 @@ import { whitwickAreaData } from "./whitwick-area/whitwick-area";
 import { woodhouseEavesAreaData } from "./woodhouse-eaves-area/woodhouse-eaves-area";
 
 export const data = [
-  bradgateParkData,
+  bradgateParkAreaData,
   cademanWoodAreaData,
   markfieldAreaData,
   mountsorrelAreaData,

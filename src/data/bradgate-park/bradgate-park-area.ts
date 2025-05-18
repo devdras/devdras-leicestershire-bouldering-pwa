@@ -1,6 +1,6 @@
-import { bradgateParkAreaData } from "./sectors/bradgate-park-area";
+import { bradgateParkData } from "./sectors/bradgate-park";
 
-export const bradgateParkData = {
+export const bradgateParkAreaData = {
   name: `bradgate-park`,
   displayName: `Bradgate Park`,
   overview: `Area in Leicestershire.`,
@@ -11,5 +11,5 @@ The ruins of Bradgate House and Old John tower are the two non-climbing landmark
 Parking is pay and display £3 for all day on week days and £4 on weekends and bank holidays. Entry is free. Expect to get asked what your bouldering pads are by the curious walkers. There are two cafes, one at the south east corner and one in the south west, but these are quite expensive. Toilets are located in each of the car parks.`,
   approach: ``,
   access: ``,
-  sectors: [bradgateParkAreaData],
+  sectors: [bradgateParkData],
 };

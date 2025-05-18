@@ -1,4 +1,4 @@
-export const bradgateParkAreaData = {
+export const bradgateParkData = {
   name: `bradgate-park-area`,
   displayName: `Bradgate Park Area`,
   overview: `This is STABLE PIT named after the stable block which was demolished in the 1850's, OS
